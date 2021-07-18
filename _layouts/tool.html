@@ -1,0 +1,17 @@
+---
+layout: page
+---
+
+<h1>{{ page.name }}</h1>
+
+<section class="tool-summary">
+    <h2>Tool Summary</h2>
+    {% include gp_table.html %}
+    {% include hardware_table.html %}
+    {% include interaction_table.html %}
+</section>
+
+<section class="description">
+    <h2>Additional Information</h2>
+    {{ content }}
+</section>
