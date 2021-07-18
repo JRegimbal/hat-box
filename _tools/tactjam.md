@@ -1,6 +1,6 @@
 ---
 layout: tool
-name: TactJam
+title: TactJam
 year: 2021
 platform: Electron
 availability: Open Source (MIT, CC-BY-4.0)

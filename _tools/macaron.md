@@ -1,6 +1,6 @@
 ---
 layout: tool
-name: Macaron
+title: Macaron
 year: 2016
 platform: Web
 availability: Source Available, Ambiguous License
