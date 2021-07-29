@@ -12,5 +12,6 @@ media_support: None
 iterative_playback: Yes
 design_approaches: DPC, Sequencing
 interaction_metaphors: Demonstration
+image: /assets/tools/tactjam.png
 ---
 For more information about TactJam, consult the [TEI'21 abstract](https://doi.org/10.1145/3430524.3442699).
