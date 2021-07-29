@@ -1,7 +1,7 @@
 ---
 layout: tool
 title: D-Box SDK
-year: nan
+year: '2008'
 platform: Windows
 availability: Proprietary
 haptic_category: Force Feedback
@@ -9,8 +9,8 @@ hardware_abstraction: Consumer (D-Box)
 driving_feature: Action
 effect_localization: Location-aware
 media_support: None
-iterative_playback: nan
+iterative_playback: 'nan'
 design_approaches: DPC, Process
-interaction_metaphors: DPC, Process
+interaction_metaphors: nan
 ---
 nan
