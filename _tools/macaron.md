@@ -9,7 +9,7 @@ hardware_abstraction: Class (Audio-driven)
 driving_feature: Time
 effect_localization: Device-centric
 media_support: None
-iterative_playback: Yes
+iterative_playback: 'Yes'
 design_approaches: DPC, Process, Sequencing, Library
 interaction_metaphors: Track, Keyframe
 image: /assets/tools/macaron.png
