@@ -9,8 +9,8 @@ hardware_abstraction: Consumer (Android Devices)
 driving_feature: Time
 effect_localization: Device-centric
 media_support: None
-iterative_playback: 'nan'
+iterative_playback: 'N/A'
 design_approaches: DPC, Process, Sequencing, Library
-interaction_metaphors: nan
+interaction_metaphors: 'N/A'
 ---
 For more information, consult the [Android API documentation](https://source.android.com/devices/input/haptics/haptics-implement) and [Android Open Source Project (AOSP)](https://source.android.com/).
