@@ -12,5 +12,6 @@ media_support: Audio, Visual
 iterative_playback: 'Yes'
 design_approaches: DPC, Process, Sequencing
 interaction_metaphors: Track, Demonstration
+image: /assets/tools/hfx-studio.png
 ---
-10.1145/3281505.3281518
+For more information, consult the [VRST'18 paper](https://doi.org/10.1145/3281505.3281518).

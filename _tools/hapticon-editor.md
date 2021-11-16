@@ -12,5 +12,6 @@ media_support: None
 iterative_playback: 'Yes'
 design_approaches: DPC, Process, Sequencing
 interaction_metaphors: Track, Keyframe, Demonstration
+image: /assets/tools/hapticon.jpg
 ---
-10.1109/HAPTIC.2003.1191310
+For more information, consult the [2003 Haptics Symposium paper](https://doi.org/10.1109/HAPTIC.2003.1191310).

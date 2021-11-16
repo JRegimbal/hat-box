@@ -12,5 +12,6 @@ media_support: None
 iterative_playback: 'Yes'
 design_approaches: DPC, Process, Sequencing, Library
 interaction_metaphors: Track, Keyframe
+image: /assets/tools/posVibEditor.png
 ---
-10.1109/HAVE.2008.4685310
+For more information, consult the [2008 Workshop on Haptic Audio Visual Environments and Games paper](https://doi.org/10.1109/HAVE.2008.4685310).

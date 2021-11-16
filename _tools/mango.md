@@ -12,5 +12,6 @@ media_support: None
 iterative_playback: 'Yes'
 design_approaches: DPC, Process, Sequencing
 interaction_metaphors: Track, Keyframe, Demonstration
+image: /assets/tools/mango.png
 ---
-10.1145/2807442.2807470
+For more information, consult the [UIST'15 paper](https://doi.org/10.1145/2807442.2807470).

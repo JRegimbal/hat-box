@@ -12,5 +12,7 @@ media_support: None
 iterative_playback: 'Yes'
 design_approaches: Process
 interaction_metaphors: Demonstration
+image: /assets/tools/voodle.png
 ---
-10.1145/3064663.3064668
+For more information, consult the [DIS'17 paper](https://doi.org/10.1145/3064663.3064668)
+and [the Git repository](https://github.com/ubcspin/Voodle).

@@ -12,5 +12,6 @@ media_support: Audio, Visual
 iterative_playback: 'Yes'
 design_approaches: DPC, Library
 interaction_metaphors: Generic Menu
+image: /assets/tools/seeinghaptics.png
 ---
-10.1145/3338286.3340112
+For more information, consult the [MobileHCI'19 paper](https://doi.org/10.1145/3338286.3340112).

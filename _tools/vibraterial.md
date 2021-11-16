@@ -12,5 +12,6 @@ media_support: None
 iterative_playback: 'Sonification only'
 design_approaches: DPC, Process, Library
 interaction_metaphors: Keyframe
+image: /assets/tools/vibraterial.png
 ---
-10.1145/3379337.3415828
+For more information on this or bARefoot, consult the [UIST'20 paper](https://doi.org/10.1145/3379337.3415828).

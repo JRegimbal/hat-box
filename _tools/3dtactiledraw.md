@@ -12,5 +12,6 @@ media_support: None
 iterative_playback: 'Yes'
 design_approaches: DPC, Process
 interaction_metaphors: Keyframe, Demonstration
+image: /assets/tools/3dtactiledraw.jpg
 ---
-10.1145/3290607.3313030
+For more information about 3DTactileDraw, consult the [CHI 2019 paper](https://doi.org/10.1145/3290607.3313030).

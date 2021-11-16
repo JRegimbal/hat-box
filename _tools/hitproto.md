@@ -12,5 +12,6 @@ media_support: None
 iterative_playback: 'Yes'
 design_approaches: DPC, Process, Sequencing
 interaction_metaphors: Dataflow
+image: /assets/tools/hitproto.png
 ---
-10.1109/HAPTIC.2010.5444647
+For more information, consult the [2010 Haptics Symposium paper](https://doi.org/10.1109/HAPTIC.2010.5444647).

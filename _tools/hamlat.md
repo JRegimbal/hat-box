@@ -12,5 +12,6 @@ media_support: Visual
 iterative_playback: 'Yes'
 design_approaches: DPC
 interaction_metaphors: Generic Menu
+image: /assets/tools/hamlat.png
 ---
-10.1007/978-3-540-69057-3_108
+For more information, consult the [EuroHaptics 2008 paper](https://doi.org/10.1007/978-3-540-69057-3_108).

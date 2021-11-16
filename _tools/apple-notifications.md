@@ -13,4 +13,4 @@ iterative_playback: 'Yes'
 design_approaches: Process
 interaction_metaphors: Demonstration
 ---
-https://support.apple.com/en-ca/guide/iphone/iph07c867f28/12.0/ios/12.0
+For more information, consult [the Apple Support page](https://support.apple.com/en-ca/guide/iphone/iph07c867f28/12.0/ios/12.0).

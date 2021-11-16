@@ -12,5 +12,6 @@ media_support: Audio, Visual
 iterative_playback: 'Yes'
 design_approaches: Process, Sequencing
 interaction_metaphors: Track, Demonstration
+image: /assets/tools/tactile-glove.png
 ---
-10.1109/MMUL.2010.5692181
+For more information, consult the [2010 IEEE MultiMedia paper](https://doi.org/10.1109/MMUL.2010.5692181).

@@ -12,5 +12,6 @@ media_support: None
 iterative_playback: 'Unknown'
 design_approaches: Process
 interaction_metaphors: Demonstration
+image: /assets/tools/techtile.jpg
 ---
-10.1145/2331714.2331745
+For more information, consult the [VRIC'12 article](https://doi.org/10.1145/2331714.2331745).

@@ -1,6 +1,6 @@
 ---
 layout: tool
-title: Pebble
+title: Pebble/Rebble
 year: '2012'
 platform: Pebble
 availability: Open Source (MIT)
@@ -13,4 +13,4 @@ iterative_playback: 'nan'
 design_approaches: DPC, Sequencing
 interaction_metaphors: nan
 ---
-nan
+For more information, consult the [Rebble project site](https://rebble.io).

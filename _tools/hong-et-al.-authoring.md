@@ -12,5 +12,6 @@ media_support: None
 iterative_playback: 'No'
 design_approaches: Process
 interaction_metaphors: Demonstration
+image: /assets/tools/hong-et-al.jpg
 ---
-10.1145/2460625.2460660
+For more information, consul the [TEI'13 paper](https://doi.org/10.1145/2460625.2460660).

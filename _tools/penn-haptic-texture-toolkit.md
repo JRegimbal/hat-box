@@ -12,5 +12,6 @@ media_support: None
 iterative_playback: 'nan'
 design_approaches: Library
 interaction_metaphors: nan
+image: /assets/tools/penn.jpg
 ---
-10.1109/HAPTICS.2014.6775475
+For more information, consult the [2014 Haptics Symposium paper](https://doi.org/10.1109/HAPTICS.2014.6775475).

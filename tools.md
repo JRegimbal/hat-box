@@ -2,6 +2,7 @@
 layout: page
 title: Tools
 permalink: /tools/
+nav_order: 2
 ---
 The following is a list of tools added to the site:
 

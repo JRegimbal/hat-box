@@ -12,5 +12,6 @@ media_support: Audio
 iterative_playback: 'Yes'
 design_approaches: DPC, Process, Library
 interaction_metaphors: Dataflow
+image: /assets/tools/actronika-effects-player.png
 ---
-nan
+For more information, consult the [Actronika website](https://www.actronika.com/).

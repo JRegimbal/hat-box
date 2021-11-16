@@ -12,5 +12,6 @@ media_support: None
 iterative_playback: 'nan'
 design_approaches: Process
 interaction_metaphors: nan
+image: /assets/tools/hybrid.jpg
 ---
-10.1109/ACCESS.2020.3015861
+For more information, consult the [2020 IEEE Acess paper](https://doi.org/10.1109/ACCESS.2020.3015861).

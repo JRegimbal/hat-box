@@ -12,5 +12,6 @@ media_support: None
 iterative_playback: 'nan'
 design_approaches: Process
 interaction_metaphors: nan
+image: /assets/tools/tactile-brush.jpg
 ---
-10.1145/1978942.1979235
+For more information, consult the [CHI'11 paper](https://doi.org/10.1145/1978942.1979235).

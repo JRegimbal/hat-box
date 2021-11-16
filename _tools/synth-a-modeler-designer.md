@@ -12,5 +12,6 @@ media_support: Audio
 iterative_playback: 'No'
 design_approaches: Process
 interaction_metaphors: Dataflow
+image: /assets/tools/synth-a-modeler.jpg
 ---
-https://hal.archives-ouvertes.fr/hal-03162970
+For more information, consult the [2012 Linux Audio Conference paper](https://hal.archives-ouvertes.fr/hal-03162970) and the [2016 Conference on Human Haptic Sensing and Touch Enabled Computer Applications paper](https://doi.org/10.1007/978-3-319-42324-1_48).

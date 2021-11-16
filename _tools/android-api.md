@@ -13,4 +13,4 @@ iterative_playback: 'nan'
 design_approaches: DPC, Process, Sequencing, Library
 interaction_metaphors: nan
 ---
-https://source.android.com/devices/input/haptics/haptics-implement
+For more information, consult the [Android API documentation](https://source.android.com/devices/input/haptics/haptics-implement) and [Android Open Source Project (AOSP)](https://source.android.com/).

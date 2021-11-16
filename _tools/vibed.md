@@ -12,5 +12,6 @@ media_support: None
 iterative_playback: 'Yes'
 design_approaches: DPC, Process
 interaction_metaphors: Keyframe
+image: /assets/tools/vibed.png
 ---
-http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-126658
+For more information, consult the [iConference 2016 paper](http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-126658).

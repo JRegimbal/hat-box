@@ -12,5 +12,6 @@ media_support: None
 iterative_playback: 'Yes'
 design_approaches: DPC, Process, Sequencing, Library
 interaction_metaphors: Track, Keyframe
+image: /assets/tools/vitaki.jpg
 ---
-10.1080/10447318.2014.941272
+For more information, consult the [2014 Journal of Human-Computer Interaction article](https://doi.org/10.1080/10447318.2014.941272).

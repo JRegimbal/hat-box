@@ -13,4 +13,4 @@ iterative_playback: 'nan'
 design_approaches: DPC, Process
 interaction_metaphors: nan
 ---
-https://neosensory.com/blog/neosensory-sdk-android/
+For more information, consult the [Neoseonsory SDK documentation](https://neosensory.com/blog/neosensory-sdk-android/).

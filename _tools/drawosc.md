@@ -12,5 +12,6 @@ media_support: None
 iterative_playback: 'Yes'
 design_approaches: DPC, Process
 interaction_metaphors: Demonstration
+image: /assets/tools/DrawOSC.png
 ---
-http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.702.2949&rep=rep1&type=pdf
+For more information about DrawOSC, consult the ICMC 2015 paper titled ["Composition Techniques for the Ilinx Vibrotactile Garment"](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.702.2949&rep=rep1&type=pdf).

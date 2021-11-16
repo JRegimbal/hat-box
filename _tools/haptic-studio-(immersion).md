@@ -12,5 +12,6 @@ media_support: Audio
 iterative_playback: 'Yes'
 design_approaches: DPC, Process, Sequencing
 interaction_metaphors: Track, Keyframe
+image: /assets/tools/haptic-studio.png
 ---
-https://www.immersion.com/
+For more information, consult the [Immersion website](https://www.immersion.com/).

@@ -12,5 +12,6 @@ media_support: None
 iterative_playback: 'Yes'
 design_approaches: DPC, Process, Sequencing, Library
 interaction_metaphors: Track, Keyframe, Demonstration
+image: /assets/tools/bhaptics.png
 ---
-https://designer.bhaptics.com/
+For more information, consult the [bHaptics Designer website](https://designer.bhaptics.com/).

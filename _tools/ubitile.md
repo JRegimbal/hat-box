@@ -12,5 +12,6 @@ media_support: None
 iterative_playback: 'Yes'
 design_approaches: Process
 interaction_metaphors: Demonstration
+image: /assets/tools/ubitile.png
 ---
-10.1145/2971485.2996721
+For more information, consult the [2016 Nordic Conference on Human-Computer Interaction paper](https://doi.org/10.1145/2971485.2996721).

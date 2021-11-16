@@ -9,8 +9,8 @@ hardware_abstraction: Consumer (D-Box)
 driving_feature: Action
 effect_localization: Location-aware
 media_support: None
-iterative_playback: 'nan'
+iterative_playback: 'N/A'
 design_approaches: DPC, Process
-interaction_metaphors: nan
+interaction_metaphors: 'N/A'
 ---
-nan
+For more information, consult the [D-Box website](https://www.d-box.com/).

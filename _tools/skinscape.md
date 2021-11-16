@@ -12,5 +12,6 @@ media_support: Audio
 iterative_playback: 'Unknown'
 design_approaches: DPC, Sequencing
 interaction_metaphors: Track
+image: /assets/tools/skinscape.png
 ---
-http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.833.3460&rep=rep1&type=pdf
+For more information, consult [Eric Gunther's Masters Thesis](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.833.3460&rep=rep1&type=pdf).

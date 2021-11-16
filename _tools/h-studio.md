@@ -12,5 +12,6 @@ media_support: Audio, Visual
 iterative_playback: 'Yes'
 design_approaches: DPC, Process, Sequencing
 interaction_metaphors: Track, Keyframe, Demonstration
+image: /assets/tools/hstudio.png
 ---
-10.1145/2508468.2514721
+For more information, consult the [UIST'13 poster](https://doi.org/10.1145/2508468.2514721).

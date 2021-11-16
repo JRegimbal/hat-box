@@ -12,5 +12,6 @@ media_support: Audio
 iterative_playback: 'Yes'
 design_approaches: DPC, Process, Sequencing
 interaction_metaphors: Keyframe, Demonstration
+image: /assets/tools/lofelt.png
 ---
-https://lofelt.com
+For more information, consult the [Lofelt website](https://lofelt.com).

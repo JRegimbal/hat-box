@@ -12,5 +12,6 @@ media_support: None
 iterative_playback: 'Yes'
 design_approaches: DPC, Sequencing
 interaction_metaphors: Track
+image: /assets/tools/tactile-editor.jpg
 ---
-https://core.ac.uk/download/pdf/36415797.pdf
+For more information, consult [Markus Jonas's Masters Thesis](https://core.ac.uk/download/pdf/36415797.pdf).
