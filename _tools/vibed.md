@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: VibEd
 year: '2016'

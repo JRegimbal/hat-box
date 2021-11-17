@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: HAMLAT
 year: '2008'

@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: vibrAteRial
 year: '2020'

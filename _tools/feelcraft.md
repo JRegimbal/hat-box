@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: FeelCraft
 year: '2014'

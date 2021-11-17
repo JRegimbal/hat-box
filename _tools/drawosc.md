@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: DrawOsc
 year: '2015'

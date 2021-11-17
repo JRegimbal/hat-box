@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: VibViz
 year: '2015'

@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: Hapticon Editor
 year: '2003'

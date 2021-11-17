@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: HITPROTO
 year: '2010'

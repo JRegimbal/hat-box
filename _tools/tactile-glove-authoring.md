@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: Tactile Glove Authoring
 year: '2010'

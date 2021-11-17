@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: Synth-A-Modeler Designer
 year: '2012'

@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: Tactile Brush
 year: '2011'

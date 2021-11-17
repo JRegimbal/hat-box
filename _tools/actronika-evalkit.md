@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: Actronika EvalKit
 year: '2020'

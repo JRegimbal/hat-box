@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: Apple Notifications
 year: '2013'

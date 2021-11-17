@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: Pebble/Rebble
 year: '2012'

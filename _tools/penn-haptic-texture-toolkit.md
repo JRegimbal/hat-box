@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: Penn Haptic Texture Toolkit
 year: '2014'

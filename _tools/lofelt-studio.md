@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: Lofelt Studio
 year: '2020'

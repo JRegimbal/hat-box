@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: Mango
 year: '2015'

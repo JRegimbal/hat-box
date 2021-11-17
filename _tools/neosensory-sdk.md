@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: Neosensory SDK
 year: '2020'

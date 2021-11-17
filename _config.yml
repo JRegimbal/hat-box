@@ -27,8 +27,21 @@ plugins:
   - jekyll-remote-theme
 
 collections:
-  tools:
+  docs:
     output: true
+  tools:
+    permalink: "/:collection/:path/"
+    output: true
+
+footer_content: "Available under <a href='https://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA 4.0</a> license."
+
+just_the_docs:
+  collections:
+    docs:
+      name: Documentation
+      search_exclude: true
+    tools:
+      name: Tools
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

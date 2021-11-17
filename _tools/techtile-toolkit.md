@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: TECHTILE Toolkit
 year: '2012'

@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: Syntacts (Standalone)
 year: '2020'

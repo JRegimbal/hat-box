@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: Hong et al. Authoring
 year: '2013'

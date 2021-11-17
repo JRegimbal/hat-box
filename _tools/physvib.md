@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: PhysVib
 year: '2016'

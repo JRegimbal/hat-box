@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: Voodle
 year: '2017'

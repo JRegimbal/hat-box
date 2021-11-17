@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: VibScoreEditor
 year: '2009'

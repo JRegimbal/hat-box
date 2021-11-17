@@ -1,8 +1,11 @@
 ---
 layout: page
 title: Tools
-permalink: /tools/
 nav_order: 2
+has_children: true
+permalink: /tools/
+nav_exclude: false
+has_toc: false
 ---
 The following is a list of tools added to the site:
 

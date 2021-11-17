@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: HFX Studio
 year: '2018'

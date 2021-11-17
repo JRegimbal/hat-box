@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: 3DTactileDraw
 year: '2019'

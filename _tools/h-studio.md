@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: H-Studio
 year: '2013'

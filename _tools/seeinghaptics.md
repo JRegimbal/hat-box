@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: SeeingHaptics
 year: '2019'

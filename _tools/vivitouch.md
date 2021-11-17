@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: ViviTouch
 year: '2014'

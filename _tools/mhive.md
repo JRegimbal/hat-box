@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: mHIVE
 year: '2014'

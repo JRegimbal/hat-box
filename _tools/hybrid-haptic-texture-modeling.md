@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: Hybrid Haptic Texture Modeling
 year: '2020'

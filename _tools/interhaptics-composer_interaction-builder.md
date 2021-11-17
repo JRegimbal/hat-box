@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: Interhaptics Composer/Interaction Builder
 year: '2020'

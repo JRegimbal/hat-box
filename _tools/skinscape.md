@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: Skinscape
 year: '2001'

@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: Haptic Studio (Immersion)
 year: '2003'

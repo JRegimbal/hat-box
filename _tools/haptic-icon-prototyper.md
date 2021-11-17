@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: Haptic Icon Prototyper
 year: '2006'

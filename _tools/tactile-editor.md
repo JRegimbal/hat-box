@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: Tactile Editor
 year: '2008'

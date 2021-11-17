@@ -1,4 +1,5 @@
 ---
+parent: Tools
 layout: tool
 title: Macaron
 year: 2016
