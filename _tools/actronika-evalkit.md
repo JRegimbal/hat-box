@@ -3,16 +3,26 @@ parent: Tools
 layout: tool
 title: Actronika EvalKit
 year: '2020'
-platform: Windows, macOS, Linux
+platform:
+    - Windows
+    - macOS
+    - Linux
 availability: Open Source (GPL 3)
-haptic_category: Vibrotactile
+haptic_category:
+    - Vibrotactile
 hardware_abstraction: Consumer (Actronika Unitouch)
-driving_feature: Time
+driving_feature:
+    - Time
 effect_localization: Device-centric
-media_support: Audio
+media_support:
+    - Audio
 iterative_playback: 'Yes'
-design_approaches: DPC, Process, Library
-interaction_metaphors: Dataflow
+design_approaches:
+    - DPC
+    - Process
+    - Library
+interaction_metaphors:
+    - Dataflow
 image: /assets/tools/actronika-effects-player.png
 ---
 For more information, consult the [Actronika website](https://www.actronika.com/).

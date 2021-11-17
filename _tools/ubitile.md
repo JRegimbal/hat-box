@@ -3,16 +3,22 @@ parent: Tools
 layout: tool
 title: Ubitile
 year: '2016'
-platform: Unknown
+platform:
+    - Unknown
 availability: Unavailable
-haptic_category: Vibrotactile
+haptic_category:
+    - Vibrotactile
 hardware_abstraction: Bespoke (Ubitile)
-driving_feature: Time
+driving_feature:
+    - Time
 effect_localization: Device-centric
-media_support: None
+media_support:
+    - None
 iterative_playback: 'Yes'
-design_approaches: Process
-interaction_metaphors: Demonstration
+design_approaches:
+    - Process
+interaction_metaphors:
+    - Demonstration
 image: /assets/tools/ubitile.png
 ---
 For more information, consult the [2016 Nordic Conference on Human-Computer Interaction paper](https://doi.org/10.1145/2971485.2996721).

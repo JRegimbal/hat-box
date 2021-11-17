@@ -3,15 +3,22 @@ parent: Tools
 layout: tool
 title: Neosensory SDK
 year: '2020'
-platform: Android
+platform:
+    - Android
 availability: Open Source (Apache 2.0)
-haptic_category: Vibrotactile
+haptic_category:
+    - Vibrotactile
 hardware_abstraction: Consumer (Neosensory Buzz)
-driving_feature: Time
+driving_feature:
+    - Time
 effect_localization: Device-centric
-media_support: Audio
+media_support:
+    - Audio
 iterative_playback: 'N/A'
-design_approaches: DPC, Process
-interaction_metaphors: 'N/A'
+design_approaches:
+    - DPC
+    - Process
+interaction_metaphors:
+    - 'N/A'
 ---
 For more information, consult the [Neoseonsory SDK documentation](https://neosensory.com/blog/neosensory-sdk-android/).

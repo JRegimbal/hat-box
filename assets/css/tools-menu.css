@@ -15,6 +15,10 @@
     border: 0.1em solid mediumpurple;
 }
 
+.hidden {
+    display: none;
+}
+
 .tools-top-div a {
     display: flex;
     flex-direction: column;

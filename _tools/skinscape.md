@@ -3,16 +3,23 @@ parent: Tools
 layout: tool
 title: Skinscape
 year: '2001'
-platform: Unknown
+platform:
+    - Unknown
 availability: Unavailable
-haptic_category: Vibrotactile
+haptic_category:
+    - Vibrotactile
 hardware_abstraction: Consumer (6 V1220 transducers, 1 Aura Systems Interactor Cushion)
-driving_feature: Time
+driving_feature:
+    - Time
 effect_localization: Device-centric
-media_support: Audio
+media_support:
+    - Audio
 iterative_playback: 'Unknown'
-design_approaches: DPC, Sequencing
-interaction_metaphors: Track
+design_approaches:
+    - DPC
+    - Sequencing
+interaction_metaphors:
+    - Track
 image: /assets/tools/skinscape.png
 ---
 For more information, consult [Eric Gunther's Masters Thesis](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.833.3460&rep=rep1&type=pdf).

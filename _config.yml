@@ -30,7 +30,7 @@ collections:
   docs:
     output: true
   tools:
-    permalink: "/:collection/:path/"
+    permalink: "/:collection/:title/"
     output: true
 
 just_the_docs:

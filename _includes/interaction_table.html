@@ -7,7 +7,7 @@
     <tbody>
         <tr>
             <th>Driving Feature</th>
-            <td>{{ page.driving_feature }}</td>
+            <td>{{ page.driving_feature | join: ", " }}</td>
         </tr>
         <tr>
             <th>Effect Localization</th>
@@ -15,7 +15,7 @@
         </tr>
         <tr>
             <th>Media Support</th>
-            <td>{{ page.media_support }}</td>
+            <td>{{ page.media_support | join: ", " }}</td>
         </tr>
         <tr>
             <th>Iterative Playback</th>
@@ -23,11 +23,11 @@
         </tr>
         <tr>
             <th>Design Approaches</th>
-            <td>{{ page.design_approaches }}</td>
+            <td>{{ page.design_approaches | join: ", " }}</td>
         </tr>
         <tr>
             <th>Interaction Metaphors</th>
-            <td>{{ page.interaction_metaphors }}</td>
+            <td>{{ page.interaction_metaphors | join: ", " }}</td>
         </tr>
     </tbody>
 </table>
