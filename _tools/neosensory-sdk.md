@@ -9,8 +9,8 @@ hardware_abstraction: Consumer (Neosensory Buzz)
 driving_feature: Time
 effect_localization: Device-centric
 media_support: Audio
-iterative_playback: 'nan'
+iterative_playback: 'N/A'
 design_approaches: DPC, Process
-interaction_metaphors: nan
+interaction_metaphors: 'N/A'
 ---
 For more information, consult the [Neoseonsory SDK documentation](https://neosensory.com/blog/neosensory-sdk-android/).

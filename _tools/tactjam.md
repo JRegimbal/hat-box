@@ -9,7 +9,7 @@ hardware_abstraction: Bespoke (TactJam Device)
 driving_feature: Time
 effect_localization: Location-aware
 media_support: None
-iterative_playback: Yes
+iterative_playback: 'Yes'
 design_approaches: DPC, Sequencing
 interaction_metaphors: Demonstration
 image: /assets/tools/tactjam.png
