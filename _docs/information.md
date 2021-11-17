@@ -1,10 +1,10 @@
 ---
 layout: home
-title: Information
-nav_order: 3
+title: Tool Information
+nav_order: 1
 ---
 
-# Tool Information
+# {{ page.title }}
 
 Each tool has information in three different categories: General Purpose, Hardware Control, and Interaction and Interface.
 

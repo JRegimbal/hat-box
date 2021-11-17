@@ -4,13 +4,14 @@ title: Home
 nav_order: 1
 ---
 
-## What is this?
+# Welcome to a collection of haptic authoring tools
 
 This site contains information on a variety of different haptic authoring tools with a focus on vibrotactile tools.
 Along with these vibrotactile tools, force feedback and temperature control are features of some tools as well.
+This was created to serve the dual purpose of helping people looking for a suitable existing authoring tool to find one, and of helping people aiming to create an authoring tool to understand the current landscape before starting.
 
-Go to the "Tools" page to get started or search for a specific tool.
+To understand the information recorded for each tool in this collection, please consult the [Tool Information page]({{ site.baseurl }}/docs/information).
 
-## I noticed something wrong or missing! What should I do?
+To see the list of tools, go to the [Tools page]({{ site.baseurl }}/tools/) or search for a particular tool in the search bar.
 
-In the future, this site will be a GitHub repository and it will be possible to file an issue or propose a specific change or addition.
+Information about this project itself can be found on the [FAQ page]({{ site.baseurl }}/docs/faq).
