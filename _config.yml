@@ -33,8 +33,6 @@ collections:
     permalink: "/:collection/:path/"
     output: true
 
-footer_content: "Available under <a href='https://creativecommons.org/licenses/by-sa/4.0/'>CC BY-SA 4.0</a> license."
-
 just_the_docs:
   collections:
     docs:
