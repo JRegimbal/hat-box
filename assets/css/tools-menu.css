@@ -1,0 +1,29 @@
+.list-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tools-top-div {
+    max-width: 12em;
+    flex-basis: 100;
+}
+
+.tools-img-div img {
+    margin: auto;
+    padding: 1em;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.tools-label-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tools-label-div h3 {
+    text-align: center;
+    word-wrap: anywhere;
+    white-space: normal;
+}
