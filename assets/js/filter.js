@@ -169,6 +169,30 @@ function updateToolFilter(evt) {
             }
         }
     }
+
+    // Interaction Metaphors (OR)
+    const imsFilter = [];
+    const imInputs = Array.from(document.getElementsByClassName("filter-input-im"));
+    for (const input of imInputs) {
+        if (input.checked) {
+            imsFilter.push(input.value);
+        }
+    }
+    if (imsFilter.length !== 0) {
+        for (const tool of tools) {
+            if (tool.classList.contains("hidden")) continue;
+            let hide = true;
+            for (const filter of imsFilter) {
+                if (tool.classList.contains(filter)) {
+                    hide = false;
+                    break;
+                }
+            }
+            if (hide) {
+                tool.classList.add("hidden");
+            }
+        }
+    }
 }
 
 Array.from(document.getElementsByClassName("filter-input")).forEach(input => { input.addEventListener("change", updateToolFilter); });

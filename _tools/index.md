@@ -34,7 +34,7 @@ has_toc: false
         {% assign mss = mss | concat: tool.media_support | uniq %}
         {% assign ips = ips | push: tool.iterative_playback | uniq %}
         {% assign das = das | concat: tool.design_approaches | uniq %}
-        {% assign ims = ims | concat: tool.interaction_metaphors | uniq %}
+        {% assign ims = ims | concat: tool.interaction_metaphors | uniq | sort %}
     {% endif %}
 {% endfor %}
 
@@ -107,6 +107,16 @@ has_toc: false
             <div>
                 <input class="filter-input filter-input-da" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
                 <label for="{{ tmp }}">{{ da }}</label>
+            </div>
+        {% endfor %}
+    </fieldset>
+    <fieldset>
+        <legend>Interaction Metaphors</legend>
+        {% for im in ims %}
+            {% assign tmp = im | downcase | prepend: "im:" %}
+            <div>
+                <input class="filter-input filter-input-im" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                <label for="{{ tmp }}">{{ im }}</label>
             </div>
         {% endfor %}
     </fieldset>
