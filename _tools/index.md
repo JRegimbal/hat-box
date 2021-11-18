@@ -100,6 +100,16 @@ has_toc: false
             </div>
         {% endfor %}
     </fieldset>
+    <fieldset>
+        <legend>Design Approaches</legend>
+        {% for da in das %}
+            {% assign tmp = da | downcase | prepend: "da:" %}
+            <div>
+                <input class="filter-input filter-input-da" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                <label for="{{ tmp }}">{{ da }}</label>
+            </div>
+        {% endfor %}
+    </fieldset>
     <script type="text/javascript" src="{{ site.baseurl }}/assets/js/filter.js"></script>
 </section>
 

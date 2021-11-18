@@ -145,6 +145,30 @@ function updateToolFilter(evt) {
             }
         }
     }
+
+    // Design Approaches (OR)
+    const dasFilter = [];
+    const daInputs = Array.from(document.getElementsByClassName("filter-input-da"));
+    for (const input of daInputs) {
+        if (input.checked) {
+            dasFilter.push(input.value);
+        }
+    }
+    if (dasFilter.length !== 0) {
+        for (const tool of tools) {
+            if (tool.classList.contains("hidden")) continue;
+            let hide = true;
+            for (const filter of dasFilter) {
+                if (tool.classList.contains(filter)) {
+                    hide = false;
+                    break;
+                }
+            }
+            if (hide) {
+                tool.classList.add("hidden");
+            }
+        }
+    }
 }
 
 Array.from(document.getElementsByClassName("filter-input")).forEach(input => { input.addEventListener("change", updateToolFilter); });
