@@ -11,6 +11,7 @@ has_toc: false
 
 {% assign yrs = "" | split: "," %}
 {% assign pls = "" | split: "," %}
+{% assign avs = "" | split: "," %}
 {% assign hcs = "" | split: "," %}
 {% assign dfs = "" | split: "," %}
 {% assign els = "" | split: "," %}
@@ -22,6 +23,8 @@ has_toc: false
     {% if tool.title != "Tools" %}
         {% assign yrs = yrs | push: tool.year | uniq | sort %}
         {% assign pls = pls | concat: tool.platform | uniq %}
+        {% assign av = tool.availability | split: "(" | first | trim %}
+        {% assign avs = avs | push: av | uniq %}
         {% assign hcs = hcs | concat: tool.haptic_category | uniq %}
         {% assign dfs = dfs | concat: tool.design_approaches | uniq %}
         {% assign els = els | push: tool.effect_localization | uniq %}
@@ -35,12 +38,52 @@ has_toc: false
 <section class="filter-section">
     <h2>Filters</h2>
     <fieldset>
-        <legend>Haptic Category</legend>
+        <legend>Platform (&&)</legend>
+        {% for pl in pls %}
+            {% assign tmp = pl | downcase | split: " " | join: "-" | prepend: "pl:" %}
+            <div>
+                <input class="filter-input filter-input-pl" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                <label for="{{ tmp }}">{{ pl }}</label>
+            </div>
+        {% endfor %}
+    </fieldset>
+    <fieldset>
+        <legend>Availability (||)</legend>
+        {% for av in avs %}
+            {% assign tmp = av | split: " " | join: "-" | downcase  | prepend: "av:" %}
+            <div>
+                <input class="filter-input filter-input-av" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                <label for="{{ tmp }}">{{ av }}</label>
+            </div>
+        {% endfor %}
+    </fieldset>
+    <fieldset>
+        <legend>Haptic Category (||)</legend>
         {% for hc in hcs %}
             {% assign tmp = hc | replace: "Vibrotactile", "vt" | replace: "Force Feedback", "ff" | replace: "Temperature", "temp" | prepend: "hc:" %}
             <div>
                 <input class="filter-input filter-input-hc" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
                 <label for="{{ tmp }}">{{ hc }}</label>
+            </div>
+        {% endfor %}
+    </fieldset>
+    <fieldset>
+        <legend>Effect Localization (||)</legend>
+        {% for el in els %}
+            {% assign tmp = el | downcase | prepend: "el:" %}
+            <div>
+                <input class="filter-input filter-input-el" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                <label for="{{ tmp }}">{{ el }}</label>
+            </div>
+        {% endfor %}
+    </fieldset>
+    <fieldset>
+        <legend>Media Support</legend>
+        {% for ms in mss %}
+            {% assign tmp = ms | downcase | prepend: "ms:" %}
+            <div>
+                <input class="filter-input filter-input-ms" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                <label for="{{ tmp }}">{{ ms }}</label>
             </div>
         {% endfor %}
     </fieldset>
@@ -55,6 +98,7 @@ has_toc: false
     <div class="tools-top-div
             year:{{ tool.year }}
             {% for pl in tool.platform %}pl:{{ pl | downcase | split: " " | join: "-" }} {% endfor %}
+            av:{{ tool.availability | split: "(" | first | trim | split: " " | join: "-" | downcase }}
             {% for hc in tool.haptic_category %}hc:{{ hc | replace: "Vibrotactile", "vt" | replace: "Force Feedback", "ff" | replace: "Temperature", "temp" }} {% endfor %}
             {% for df in tool.driving_feature %}df:{{ df | downcase }} {% endfor %}
             el:{{ tool.effect_localization | downcase }}
