@@ -13,6 +13,7 @@ has_toc: false
 {% assign pls = "" | split: "," %}
 {% assign avs = "" | split: "," %}
 {% assign hcs = "" | split: "," %}
+{% assign has = "" | split: "," %}
 {% assign dfs = "" | split: "," %}
 {% assign els = "" | split: "," %}
 {% assign mss = "" | split: "," %}
@@ -26,6 +27,8 @@ has_toc: false
         {% assign av = tool.availability | split: "(" | first | trim %}
         {% assign avs = avs | push: av | uniq %}
         {% assign hcs = hcs | concat: tool.haptic_category | uniq %}
+        {% assign ha = tool.hardware_abstraction | split: " (" | first | trim %}
+        {% assign has = has | push: ha | uniq %}
         {% assign dfs = dfs | concat: tool.design_approaches | uniq %}
         {% assign els = els | push: tool.effect_localization | uniq %}
         {% assign mss = mss | concat: tool.media_support | uniq %}
@@ -68,6 +71,16 @@ has_toc: false
         {% endfor %}
     </fieldset>
     <fieldset>
+        <legend>Hardware Abstraction (||)</legend>
+        {% for ha in has %}
+            {% assign tmp = ha | downcase | prepend: "ha:" %}
+            <div>
+                <input class="filter-input filter-input-ha" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                <label for="{{ tmp }}">{{ ha }}</label>
+            </div>
+        {% endfor %}
+    </fieldset>
+    <fieldset>
         <legend>Effect Localization (||)</legend>
         {% for el in els %}
             {% assign tmp = el | downcase | prepend: "el:" %}
@@ -100,6 +113,7 @@ has_toc: false
             {% for pl in tool.platform %}pl:{{ pl | downcase | split: " " | join: "-" }} {% endfor %}
             av:{{ tool.availability | split: "(" | first | trim | split: " " | join: "-" | downcase }}
             {% for hc in tool.haptic_category %}hc:{{ hc | replace: "Vibrotactile", "vt" | replace: "Force Feedback", "ff" | replace: "Temperature", "temp" }} {% endfor %}
+            ha:{{ tool.hardware_abstraction | split: "(" | first | trim | downcase }}
             {% for df in tool.driving_feature %}df:{{ df | downcase }} {% endfor %}
             el:{{ tool.effect_localization | downcase }}
             {% for ms in tool.media_support %}ms:{{ ms | downcase }} {% endfor %}

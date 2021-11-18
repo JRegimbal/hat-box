@@ -74,6 +74,30 @@ function updateToolFilter(evt) {
         }
     }
 
+    // Hardware Abstraction (OR)
+    const hasFilter = [];
+    const haInputs = Array.from(document.getElementsByClassName("filter-input-ha"));
+    for (const input of haInputs) {
+        if (input.checked) {
+            hasFilter.push(input.value);
+        }
+    }
+    if (hasFilter.length !== 0) {
+        for (const tool of tools) {
+            if (tool.classList.contains("hidden")) continue;
+            let hide = true;
+            for (const filter of hasFilter) {
+                if (tool.classList.contains(filter)) {
+                    hide = false;
+                    break;
+                }
+            }
+            if (hide) {
+                tool.classList.add("hidden");
+            }
+        }
+    }
+
     // Effect Localization (OR)
     const elsFilter = [];
     const elInputs = Array.from(document.getElementsByClassName("filter-input-el"));
