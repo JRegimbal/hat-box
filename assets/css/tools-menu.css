@@ -29,6 +29,8 @@
     margin: auto;
     max-height: 10em;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .tools-img-div img {
