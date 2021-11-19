@@ -40,8 +40,10 @@ has_toc: false
 
 <section class="filter-section">
     <h2>Filters</h2>
-    <fieldset>
-        <legend>Platform (&&)</legend>
+    <details>
+        <summary>Platform (&#x2227;)</summary>
+        <fieldset>
+        <legend>Platforms</legend>
         {% for pl in pls %}
             {% assign tmp = pl | downcase | split: " " | join: "-" | prepend: "pl:" %}
             <div>
@@ -49,77 +51,99 @@ has_toc: false
                 <label for="{{ tmp }}">{{ pl }}</label>
             </div>
         {% endfor %}
-    </fieldset>
-    <fieldset>
-        <legend>Availability (||)</legend>
-        {% for av in avs %}
-            {% assign tmp = av | split: " " | join: "-" | downcase  | prepend: "av:" %}
-            <div>
-                <input class="filter-input filter-input-av" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
-                <label for="{{ tmp }}">{{ av }}</label>
-            </div>
-        {% endfor %}
-    </fieldset>
-    <fieldset>
-        <legend>Haptic Category (||)</legend>
-        {% for hc in hcs %}
-            {% assign tmp = hc | replace: "Vibrotactile", "vt" | replace: "Force Feedback", "ff" | replace: "Temperature", "temp" | prepend: "hc:" %}
-            <div>
-                <input class="filter-input filter-input-hc" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
-                <label for="{{ tmp }}">{{ hc }}</label>
-            </div>
-        {% endfor %}
-    </fieldset>
-    <fieldset>
-        <legend>Hardware Abstraction (||)</legend>
-        {% for ha in has %}
-            {% assign tmp = ha | downcase | prepend: "ha:" %}
-            <div>
-                <input class="filter-input filter-input-ha" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
-                <label for="{{ tmp }}">{{ ha }}</label>
-            </div>
-        {% endfor %}
-    </fieldset>
-    <fieldset>
-        <legend>Effect Localization (||)</legend>
-        {% for el in els %}
-            {% assign tmp = el | downcase | prepend: "el:" %}
-            <div>
-                <input class="filter-input filter-input-el" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
-                <label for="{{ tmp }}">{{ el }}</label>
-            </div>
-        {% endfor %}
-    </fieldset>
-    <fieldset>
-        <legend>Media Support</legend>
-        {% for ms in mss %}
-            {% assign tmp = ms | downcase | prepend: "ms:" %}
-            <div>
-                <input class="filter-input filter-input-ms" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
-                <label for="{{ tmp }}">{{ ms }}</label>
-            </div>
-        {% endfor %}
-    </fieldset>
-    <fieldset>
-        <legend>Design Approaches</legend>
-        {% for da in das %}
-            {% assign tmp = da | downcase | prepend: "da:" %}
-            <div>
-                <input class="filter-input filter-input-da" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
-                <label for="{{ tmp }}">{{ da }}</label>
-            </div>
-        {% endfor %}
-    </fieldset>
-    <fieldset>
-        <legend>Interaction Metaphors</legend>
-        {% for im in ims %}
-            {% assign tmp = im | downcase | prepend: "im:" %}
-            <div>
-                <input class="filter-input filter-input-im" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
-                <label for="{{ tmp }}">{{ im }}</label>
-            </div>
-        {% endfor %}
-    </fieldset>
+        </fieldset>
+    </details>
+    <details>
+        <summary>Availability (&#x2228;)</summary>
+        <fieldset>
+            <legend>Availabilities</legend>
+            {% for av in avs %}
+                {% assign tmp = av | split: " " | join: "-" | downcase  | prepend: "av:" %}
+                <div>
+                    <input class="filter-input filter-input-av" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                    <label for="{{ tmp }}">{{ av }}</label>
+                </div>
+            {% endfor %}
+        </fieldset>
+    </details>
+    <details>
+        <summary>Haptic Category (&#x2228;)</summary>
+        <fieldset>
+            <legend>Haptic Categories</legend>
+            {% for hc in hcs %}
+                {% assign tmp = hc | replace: "Vibrotactile", "vt" | replace: "Force Feedback", "ff" | replace: "Temperature", "temp" | prepend: "hc:" %}
+                <div>
+                    <input class="filter-input filter-input-hc" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                    <label for="{{ tmp }}">{{ hc }}</label>
+                </div>
+            {% endfor %}
+        </fieldset>
+    </details>
+    <details>
+        <summary>Hardware Abstraction (&#x2228;)</summary>
+        <fieldset>
+            <legend>Hardware Abstractions</legend>
+            {% for ha in has %}
+                {% assign tmp = ha | downcase | prepend: "ha:" %}
+                <div>
+                    <input class="filter-input filter-input-ha" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                    <label for="{{ tmp }}">{{ ha }}</label>
+                </div>
+            {% endfor %}
+        </fieldset>
+    </details>
+    <details>
+        <summary>Effect Localization (&#x2228;)</summary>
+        <fieldset>
+            <legend>Effect Localizations</legend>
+            {% for el in els %}
+                {% assign tmp = el | downcase | prepend: "el:" %}
+                <div>
+                    <input class="filter-input filter-input-el" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                    <label for="{{ tmp }}">{{ el }}</label>
+                </div>
+            {% endfor %}
+        </fieldset>
+    </details>
+    <details>
+        <summary>Media Support (&#x2228;)</summary>
+        <fieldset>
+            <legend>Media Support</legend>
+            {% for ms in mss %}
+                {% assign tmp = ms | downcase | prepend: "ms:" %}
+                <div>
+                    <input class="filter-input filter-input-ms" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                    <label for="{{ tmp }}">{{ ms }}</label>
+                </div>
+            {% endfor %}
+        </fieldset>
+    </details>
+    <details>
+        <summary>Design Approaches (&#x2228;)</summary>
+        <fieldset>
+            <legend>Design Approaches</legend>
+            {% for da in das %}
+                {% assign tmp = da | downcase | prepend: "da:" %}
+                <div>
+                    <input class="filter-input filter-input-da" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                    <label for="{{ tmp }}">{{ da }}</label>
+                </div>
+            {% endfor %}
+        </fieldset>
+    </details>
+    <details>
+        <summary>Interaction Metaphors (&#x2228;)</summary>
+        <fieldset>
+            <legend>Interaction Metaphors</legend>
+            {% for im in ims %}
+                {% assign tmp = im | downcase | prepend: "im:" %}
+                <div>
+                    <input class="filter-input filter-input-im" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                    <label for="{{ tmp }}">{{ im }}</label>
+                </div>
+            {% endfor %}
+        </fieldset>
+    </details>
     <script type="text/javascript" src="{{ site.baseurl }}/assets/js/filter.js"></script>
 </section>
 
