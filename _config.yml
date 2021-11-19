@@ -40,6 +40,13 @@ just_the_docs:
       search_exclude: true
     tools:
       name: Tools
+
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/JRegimbal/authoring-tool-website"
+gh_edit_branch: "main"
+gh_edit_view_mode: "tree"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
