@@ -98,6 +98,30 @@ function updateToolFilter(evt) {
         }
     }
 
+    // Driving Feature (AND)
+    const dfsFilter = [];
+    const dfInputs = Array.from(document.getElementsByClassName("filter-input-df"));
+    for (const input of dfInputs) {
+        if (input.checked) {
+            dfsFilter.push(input.value);
+        }
+    }
+    if (dfsFilter.length !== 0) {
+        for (const tool of tools) {
+            if (tool.classList.contains("hidden")) continue;
+            let hide = false;
+            for (const filter of dfsFilter) {
+                if (!tool.classList.contains(filter)) {
+                    hide = true;
+                    break;
+                }
+            }
+            if (hide) {
+                tool.classList.add("hidden");
+            }
+        }
+    }
+
     // Effect Localization (OR)
     const elsFilter = [];
     const elInputs = Array.from(document.getElementsByClassName("filter-input-el"));

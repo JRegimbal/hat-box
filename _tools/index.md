@@ -29,7 +29,7 @@ has_toc: false
         {% assign hcs = hcs | concat: tool.haptic_category | uniq %}
         {% assign ha = tool.hardware_abstraction | split: " (" | first | trim %}
         {% assign has = has | push: ha | uniq %}
-        {% assign dfs = dfs | concat: tool.design_approaches | uniq %}
+        {% assign dfs = dfs | concat: tool.driving_feature | uniq %}
         {% assign els = els | push: tool.effect_localization | uniq %}
         {% assign mss = mss | concat: tool.media_support | uniq %}
         {% assign ips = ips | push: tool.iterative_playback | uniq %}
@@ -88,6 +88,19 @@ has_toc: false
                 <div>
                     <input class="filter-input filter-input-ha" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
                     <label for="{{ tmp }}">{{ ha }}</label>
+                </div>
+            {% endfor %}
+        </fieldset>
+    </details>
+    <details>
+        <summary>Driving Feature (&#x2227;)</summary>
+        <fieldset>
+            <legend>Driving Features</legend>
+            {% for df in dfs %}
+                {% assign tmp = df | downcase | prepend: "df:" %}
+                <div>
+                    <input class="filter-input filter-input-df" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                    <label for="{{ tmp }}">{{ df }}</label>
                 </div>
             {% endfor %}
         </fieldset>
