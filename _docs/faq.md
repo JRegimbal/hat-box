@@ -12,6 +12,8 @@ This is a collection of information on a variety of different haptic authoring t
 Each entry has information tagged across [a few different categories]({{ site.baseurl }}/docs/information) to permit a quick understanding of what the tool can do, how you can get it, and how you would use it.
 Extra textual information can be added, including links to other resources like a website, source code repository, or published paper.
 
+This resource is still a work in progress.
+
 ## What is this trying to solve?
 
 Haptic devices are complicated pieces of equipment that are controlled differently at a low level even if they have the same function (e.g., vibrate).
@@ -35,7 +37,7 @@ The submodality focused on here is vibrotactile, although this focus is not excl
 ## I noticed something that's missing/incorrect! What should I do?
 
 Eventually, this site will be hosted on GitHub and it will be possible to file an issue or even submit a change automatically.
-For right now, please get in touch with me.
+For right now, please get in touch with me at <span style="font-style: italic;">{{ site.email }}</span>.
 
 ## Why doesn't this project have a real name?
 
