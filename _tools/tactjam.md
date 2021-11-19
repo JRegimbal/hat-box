@@ -22,4 +22,5 @@ interaction_metaphors:
     - Demonstration
 image: /assets/tools/tactjam.png
 ---
-For more information about TactJam, consult the [TEI'21 abstract](https://doi.org/10.1145/3430524.3442699).
+For more information about TactJam, consult the [TEI'21 abstract](https://doi.org/10.1145/3430524.3442699)
+and the [main GitHub repository](https://github.com/TactileVision/TactJam).

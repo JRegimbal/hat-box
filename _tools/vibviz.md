@@ -22,5 +22,6 @@ interaction_metaphors:
     - Generic Menu
 image: /assets/tools/vibviz.png
 ---
-For more information on VibViz, consult the [2015 World Haptics Conference paper](https://doi.org/10.1109/WHC.2015.7177722)
-and [the VibViz website](https://www.cs.ubc.ca/~seifi/VibViz/main.html).
+For more information on VibViz, consult the [2015 World Haptics Conference paper](https://doi.org/10.1109/WHC.2015.7177722),
+[the VibViz website](https://www.cs.ubc.ca/~seifi/VibViz/main.html),
+and [the GitHub repository](https://github.com/hastiseifi/VibViz---Open-Source).

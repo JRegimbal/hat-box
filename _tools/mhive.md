@@ -23,4 +23,5 @@ interaction_metaphors:
     - Demonstration
 image: /assets/tools/mHIVE.png
 ---
-For more information, consult the [2014 Haptics Symposium paper](https://doi.org/10.1109/HAPTICS.2014.6775476).
+For more information, consult the [2014 Haptics Symposium paper](https://doi.org/10.1109/HAPTICS.2014.6775476)
+and the [GitHub repository](https://github.com/ubcspin/mHIVE).

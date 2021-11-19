@@ -25,4 +25,5 @@ interaction_metaphors:
     - Keyframe
 image: /assets/tools/macaron.png
 ---
-For more information about Macaron, consult the [Haptics Symposium paper](https://doi.org/10.1109/HAPTICS.2016.7463155).
+For more information about Macaron, consult the [Haptics Symposium paper](https://doi.org/10.1109/HAPTICS.2016.7463155)
+and the [GitHub repository](https://github.com/hapticdesign/hapticdesign.github.io).

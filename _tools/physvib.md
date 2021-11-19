@@ -21,4 +21,5 @@ interaction_metaphors:
     - 'N/A'
 image: /assets/tools/physvib.jpg
 ---
-For more information, consult the [2016 Transactions on Haptics paper](https://doi.org/10.1109/TOH.2016.2614804).
+For more information, consult the [2016 Transactions on Haptics paper](https://doi.org/10.1109/TOH.2016.2614804)
+and the [GitHub repository](https://github.com/maharaga/PhysVib).

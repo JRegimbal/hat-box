@@ -23,4 +23,6 @@ interaction_metaphors:
     - Dataflow
 image: /assets/tools/synth-a-modeler.jpg
 ---
-For more information, consult the [2012 Linux Audio Conference paper](https://hal.archives-ouvertes.fr/hal-03162970) and the [2016 Conference on Human Haptic Sensing and Touch Enabled Computer Applications paper](https://doi.org/10.1007/978-3-319-42324-1_48).
+For more information, consult the [2012 Linux Audio Conference paper](https://hal.archives-ouvertes.fr/hal-03162970),
+the [2016 Conference on Human Haptic Sensing and Touch Enabled Computer Applications paper](https://doi.org/10.1007/978-3-319-42324-1_48),
+and the both the [GitHub repository for the designer](https://github.com/ptrv/SaM-Designer) and [the one for the compiler](https://github.com/eberdahl/SaM).

@@ -22,4 +22,4 @@ interaction_metaphors:
 image: /assets/tools/voodle.png
 ---
 For more information, consult the [DIS'17 paper](https://doi.org/10.1145/3064663.3064668)
-and [the Git repository](https://github.com/ubcspin/Voodle).
+and the [GitHub repository](https://github.com/ubcspin/Voodle).

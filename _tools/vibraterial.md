@@ -23,4 +23,5 @@ interaction_metaphors:
     - Keyframe
 image: /assets/tools/vibraterial.png
 ---
-For more information on this or bARefoot, consult the [UIST'20 paper](https://doi.org/10.1145/3379337.3415828).
+For more information on this or bARefoot, consult the [UIST'20 paper](https://doi.org/10.1145/3379337.3415828)
+and the [Git repository](https://gogs.cs.uni-saarland.de/fruchard/HapticExperienceGenerator).
