@@ -40,6 +40,7 @@ just_the_docs:
       search_exclude: true
     tools:
       name: Tools
+      search_exclude: false
 
 gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub."
