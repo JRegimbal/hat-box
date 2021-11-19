@@ -41,6 +41,22 @@ has_toc: false
 <section class="filter-section">
     <h2>Filters</h2>
     <details>
+        <summary>Year Range</summary>
+        <fieldset>
+            <legend>Year Range</legend>
+            <div>
+                <label>Start Year
+                    <input id="start-year" class="filter-input" type="number" min="{{ yrs | first }}" max="{{ yrs | last }}" value="{{ yrs | first }}">
+                </label>
+            </div>
+            <div>
+                <label>End Year
+                    <input id="end-year" class="filter-input" type="number" min="{{ yrs | first }}" max="{{ yrs | last }}" value="{{ yrs | last }}">
+                </label>
+            </div>
+        </fieldset>
+    </details>
+    <details>
         <summary>Platform (&#x2227;)</summary>
         <fieldset>
         <legend>Platforms</legend>

@@ -2,6 +2,21 @@ function updateToolFilter(evt) {
     // Set all to visible at first
     const tools = Array.from(document.getElementsByClassName("tools-top-div"));
     tools.forEach(tool => { tool.classList.remove("hidden"); });
+    // Year (Range)
+    const startYear = document.getElementById("start-year").value;
+    const endYear = document.getElementById("end-year").value;
+    for (const tool of tools) {
+        if (tool.classList.contains("hidden")) continue;
+        try {
+            const year = Number(Array.from(tool.classList).find(el => el.startsWith("year:")).split(":")[1]);
+            if (year < startYear || year > endYear) {
+                tool.classList.add("hidden");
+            }
+        } catch (e) {
+            console.error(e);
+        }
+    }
+
     // Platform (AND)
     const plsFilter = [];
     const plInputs = Array.from(document.getElementsByClassName("filter-input-pl"));
