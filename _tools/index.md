@@ -166,7 +166,8 @@ has_toc: false
             {% for im in tool.interaction_metaphors %}im:{{ im | downcase }} {% endfor %}
         "><a href="{{ site.baseurl }}{{ tool.url }}">
         <div class="tools-img-div">
-            <img src="{{ site.baseurl }}{% if tool.image %}{{ tool.image }}{% else %}/assets/tools/unknown.png{% endif %}">
+            <img src="{{ site.baseurl }}{% if tool.image %}{{ tool.image }}{% else %}/assets/tools/unknown.png{% endif %}"
+                alt="{% if tool.image %}A image showing {{ tool.title }}.{% else %}A placeholder image for {{ tool.title }}.{% endif %}">
         </div>
         <div class="tools-label-div">
             <h3 style="text-align: center;word-wrap: anywhere; white-space: normal;">{{ tool.title }}</h3>
