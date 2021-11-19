@@ -132,6 +132,19 @@ has_toc: false
         </fieldset>
     </details>
     <details>
+        <summary>Iterative Playback (&#x2228;)</summary>
+        <fieldset>
+            <legend>Iterative Playback</legend>
+            {% for ip in ips %}
+                {% assign tmp = ip | split: " " | join: "-" | downcase | prepend: "ip:" %}
+                <div>
+                    <input class="filter-input filter-input-ip" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                    <label for="{{ tmp }}">{{ ip }}</label>
+                </div>
+            {% endfor %}
+        </fieldset>
+    </details>
+    <details>
         <summary>Design Approaches (&#x2228;)</summary>
         <fieldset>
             <legend>Design Approaches</legend>
@@ -174,7 +187,7 @@ has_toc: false
             {% for df in tool.driving_feature %}df:{{ df | downcase }} {% endfor %}
             el:{{ tool.effect_localization | downcase }}
             {% for ms in tool.media_support %}ms:{{ ms | downcase }} {% endfor %}
-            ip:{{ tool.iterative_playback | downcase }}
+            ip:{{ tool.iterative_playback | split: " " | join: "-" | downcase }}
             {% for da in tool.design_approaches %}da:{{ da | downcase }} {% endfor %}
             {% for im in tool.interaction_metaphors %}im:{{ im | downcase }} {% endfor %}
         "><a href="{{ site.baseurl }}{{ tool.url }}">

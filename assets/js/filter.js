@@ -170,6 +170,30 @@ function updateToolFilter(evt) {
         }
     }
 
+    // Iterative Playback (OR)
+    const ipsFilter = [];
+    const ipInputs = Array.from(document.getElementsByClassName("filter-input-ip"));
+    for (const input of ipInputs) {
+        if (input.checked) {
+            ipsFilter.push(input.value);
+        }
+    }
+    if (ipsFilter.length !== 0) {
+        for (const tool of tools) {
+            if (tool.classList.contains("hidden")) continue;
+            let hide = true;
+            for (const filter of ipsFilter) {
+                if (tool.classList.contains(filter)) {
+                    hide = false;
+                    break;
+                }
+            }
+            if (hide) {
+                tool.classList.add("hidden");
+            }
+        }
+    }
+
     // Design Approaches (OR)
     const dasFilter = [];
     const daInputs = Array.from(document.getElementsByClassName("filter-input-da"));
