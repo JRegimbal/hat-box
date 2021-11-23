@@ -22,12 +22,15 @@ Despite this, it's remarkably difficult to find out what already exists and how 
 
 This means that someone trying to find a tool to use may be not know where to look.
 Someone planning to make a tool may not know what UX approaches have been tried, or even if there's a base that can be used to start from.
-The main goal of this project is to help people find the information they need quickly, whether that's a specific tool or a summary of what's been done.
-This also aims to provide some documentation of the many tools that were developed but never were or are no longer publicly available.
+The main goal of this project is to help people find the information they need quickly, whether that's in-depth information on a particular tool or high-level information to compare across many tools.
+
+Secondary goals of this project are to provide some level of documentation of tools that were never or are no longer publicly available, and to encourage designers to produce more documentation and publicly archive their work, especially if a project ends.
+Interesting, complex features have been often proposed and prototyped in projects whose source code or binaries could not be located, making the formation of potential standard configuration files, libraries, or anything else difficult.
+The further development and use of authoring tools, both by hapticians and non-experts, would likely be aided by more open development and documentation now.
 
 ## Isn't this this same as [Haptipedia](https://haptipedia.org)?
 
-Haptipedia is a similar project and an inspiration for this work. From the [Haptipedia FAQ](https://haptipedia.org/pages/):
+Haptipedia is a similar project and an inspiration for this work. This project's aims complement Haptipedia. From the [Haptipedia FAQ](https://haptipedia.org/pages/):
 
 > Haptipedia is an online, open-source, visualization of a growing database of 105+ haptic devices invented since 1992.  Device and experience designers, with backgrounds in haptics or in other design fields, can browse and search the database to track haptic technology evolution and ideate new devices, find devices that fit their project criteria and interests, and access information and resources for obtaining and/or fabricating them. They can contribute to the database by providing or verifying data on existing or new devices.
 
@@ -36,7 +39,7 @@ The submodality focused on here is vibrotactile, although this focus is not excl
 
 ## I noticed something that's missing/incorrect! What should I do?
 
-Eventually, this site will be hosted on GitHub and it will be possible to file an issue or even submit a change automatically.
+Eventually, this site will be hosted on a public GitHub and it will be possible to file an issue or even propose a change automatically.
 For right now, please get in touch with me at <span style="font-style: italic;">{{ site.email }}</span>.
 
 ## Why doesn't this project have a real name?

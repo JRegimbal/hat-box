@@ -6,16 +6,16 @@ nav_order: 1
 
 # {{ page.title }}
 
-Each tool has information in three different categories: General Purpose, Hardware Control, and Interaction and Interface.
+Each tool has information recorded in three different categories: General Purpose, Hardware Control, and Interaction and Interface.
 
 ## General Purpose Information
 
 General purpose information describes how the authoring tool was released and how it can be run.
 This includes:
 
-* *Year of First Release* - The first year the tool was publicly released as either a product or in an academic paper;
+* *Year of First Mention* - The first year the tool was publicly released as a product or discussed in an academic paper;
 * *Platform* - The software platform required to run the tool. This can range from an operating system to a specific software framework; and
-* *Availability* - If the tool can be obtained and, if so, if its source code is available under an [open source license](https://opensource.org/osd).
+* *Availability* - If the tool can be obtained by the public and, if so, if its source code is available under an [open source license](https://opensource.org/osd).
 
 ## Hardware Control Information
 
@@ -32,7 +32,7 @@ Interaction and interface information are broadly concerned with how a user (i.e
 As some tools have user interfaces while others are SDKs or APIs, not all possible fields may be used. Those in **bold** are not applicable to SDKs or APIs.
 This information includes:
 
-* *Driving Feature* - What parameter drives the changes in haptic output. Either time or event.
+* *Driving Feature* - What parameter drives the changes in haptic output. Either time or action.
 * *Effect Localization* - In creating spatially distributed haptic stimuli, how location of the stimuli is determined.
     * Device-centric - Control is leveraged directly over the actuators with no abstraction to spatial location.
     * Location-aware - Location of the actuators or their impact on the end effector is taken into account, allowing some degree of automatic abstraction.
