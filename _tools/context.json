@@ -1,0 +1,153 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@language": "en-US",
+        "@direction": "rtl",
+        "hat": "http://cim.mcgill.ca/~juliette/authoring/docs/information#",
+        "hatt": "http://cim.mcgill.ca/~juliette/authoring/tools/",
+        "schema": "https://schema.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@graph": [
+        {
+            "@id": "hat:AuthoringTool",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The clas of all haptic authoring tools.",
+            "rdfs:label": "AuthoringTool"
+        },
+        {
+            "@id": "hat:Year",
+            "@type": "rdf:Property",
+            "rdfs:comment": "The year a tool was first made publicly known, either as a product or in a paper.",
+            "rdfs:label": "Year",
+            "rdfs:range": { "@id": "xsd:integer" },
+            "rdfs:domain": { "@id": "hat:AuthoringTool" }
+        },
+        {
+            "@id": "hat:HapticCategoryType",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Class representing all haptic submodalities.",
+            "rdfs:label": "HapticCategoryType"
+        },
+        {
+            "@id": "hat:HapticCategory",
+            "@type": "rdf:Property",
+            "rdfs:comment": "The haptic submodalities targetted by an authoring tool.",
+            "rdfs:label": "HapticCategory",
+            "rdfs:domain": { "@id": "hat:AuthoringTool" },
+            "rdfs:range": { "@id": "hat:HapticCategoryType" }
+        },
+        {
+            "@id": "hat:Vibrotactile",
+            "@type": "rdfs:Class",
+            "rdfs:subClassOf": { "@id": "hat:HapticCategoryType" },
+            "rdfs:label": "Vibrotactile",
+            "rdfs:comment": "The vibrotactile submodality."
+        },
+        {
+            "@id": "hat:ForceFeedback",
+            "@type": "rdfs:Class",
+            "rdfs:subClassOf": { "@id": "hat:HapticCategoryType" },
+            "rdfs:label": "ForceFeedback",
+            "rdfs:comment": "The kinesthetic or force-feedback submodality."
+        },
+        {
+            "@id": "hat:Temperature",
+            "@type": "rdfs:Class",
+            "rdfs:subClassOf": { "@id": "hat:HapticCategoryType" },
+            "rdfs:label": "Temperature",
+            "rdfs:comment": "The temperature submodality."
+        },
+        {
+            "@id": "hat:DrivingFeatureType",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Class representing all possible driving features.",
+            "rdfs:label": "DrivingFeatureType"
+        },
+        {
+            "@id": "hat:DrivingFeature",
+            "@type": "rdf:Property",
+            "rdfs:comment": "The driving feature or features present in an authoring tool.",
+            "rdfs:label": "DrivingFeature",
+            "rdfs:domain": { "@id": "hat:AuthoringTool" },
+            "rdfs:range": { "@id": "hat:DrivingFeatureType" }
+        },
+        {
+            "@id": "hat:Time",
+            "@type": "rdfs:Class",
+            "rdfs:subClassOf": { "@id": "hat:DrivingFeatureType" },
+            "rdfs:label": "Time"
+        },
+        {
+            "@id": "hat:Action",
+            "@type": "rdfs:Class",
+            "rdfs:subClassOf": { "@id": "hat:DrivingFeatureType" },
+            "rdfs:label": "Action"
+        },
+        {
+            "@id": "hat:DesignApproachesType",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Class representing all possible design approaches.",
+            "rdfs:label": "DesignApproachesType"
+        },
+        {
+            "@id": "hat:DesignApproaches",
+            "@type": "rdf:Property",
+            "rdfs:comment": "Design approaches available in a tool.",
+            "rdfs:label": "DesignApproaches",
+            "rdfs:range": { "@id": "hat:DesignApproachesType" },
+            "rdfs:domain": { "@id": "hat:AuthoringTool" }
+        },
+        {
+            "@id": "hat:DirectParametricControl",
+            "@type": "rdfs:Class",
+            "rdfs:subClassOf": { "@id": "hat:DesignApproachesType" },
+            "rdfs:comment": "",
+            "rdfs:label": "DirectParametricControl"
+        },
+        {
+            "@id": "hat:Process",
+            "@type": "rdfs:Class",
+            "rdfs:subClassOf": { "@id": "hat:DesignApproachesType" },
+            "rdfs:comment": "",
+            "rdfs:label": "Process"
+        },
+        {
+            "@id": "hat:Sequencing",
+            "@type": "rdfs:Class",
+            "rdfs:subClassOf": { "@id": "hat:DesignApproachesType" },
+            "rdfs:comment": "",
+            "rdfs:label": "Sequencing"
+        },
+        {
+            "@id": "hat:Library",
+            "@type": "rdfs:Class",
+            "rdfs:subClassOf": { "@id": "hat:DesignApproachesType" },
+            "rdfs:comment": "",
+            "rdfs:label": "Library"
+        },
+        {
+            "@id": "hat:Description",
+            "@type": "rdfs:Class",
+            "rdfs:subClassOf": { "@id": "hat:DesignApproachesType" },
+            "rdfs:comment": "",
+            "rdfs:label": "Description"
+        },
+        
+        
+        {
+            "@id": "hatt:3Dtactiledraw",
+            "@type": "hat:AuthoringTool",
+            "rdfs:label": "3DTactileDraw",
+            "hat:Year": 2019,
+            "hat:HapticCategory": { "@id": "hat:Vibrotactile" },
+            "hat:DesignApproaches": [
+                { "@id": "hat:DirectParametricControl" },
+                { "@id": "hat:Process" }
+            ],
+            "hat:DrivingFeature": { "@id": "hat:Time" }
+        }
+    ]
+}
