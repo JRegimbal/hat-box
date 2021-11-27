@@ -31,7 +31,7 @@ module TestPlugin
           thisId = site.config["url"] + site.baseurl + "/" + relpath
           test["@id"] = thisId
           test["dcterms:title"] = tool.data["title"]
-          test["hat:Year"] = tool.data["year"]
+          test["hat:Year"] = tool.data["year"].to_i
           if tool.data["availability"] == "Proprietary" or tool.data["availability"] == "Unavailable"
             test["hat:Availability"] = { :@id => "hat:" + tool.data["availability"] }
           elsif tool.data["availability"] == "Source Available, Ambiguous License"
