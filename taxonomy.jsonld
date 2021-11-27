@@ -1,0 +1,531 @@
+[ {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Action",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#DrivingFeatureType" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Action"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Audio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#MediaSupportType" ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#AuthoringTool",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "The clas of all haptic authoring tools."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "AuthoringTool"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Availability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "If the tool can be obtained by the public and, if so, licensing conditions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#AuthoringTool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Availability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#AvailabilityType"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#AvailabilityType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "AvailabilityType"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Bespoke",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "Hardware abstraction representing control over a custom-built bespoke device."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Bespoke"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#HardwareAbstractionType"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Class",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "Hardware abstraction representing control over an entire class or classes of actuators."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "HardwareClass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#HardwareAbstractionType"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Consumer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "Hardware abstraction representing control over a consumer device."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Consumer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#HardwareAbstractionType"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Dataflow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#InteractionMetaphorsType" ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Demonstration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#InteractionMetaphorsType" ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#DesignApproachesType" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Description"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#DesignApproaches",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "Design approaches available in a tool."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#AuthoringTool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "DesignApproaches"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#DesignApproachesType"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#DesignApproachesType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "Class representing all possible design approaches."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "DesignApproachesType"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Device-centric",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#EffectLocalizationType" ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#DirectParametricControl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#DesignApproachesType" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "DirectParametricControl"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#DrivingFeature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "The driving feature or features present in an authoring tool."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#AuthoringTool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "DrivingFeature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#DrivingFeatureType"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#DrivingFeatureType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "Class representing all possible driving features."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "DrivingFeatureType"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#EffectLocalization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "In creating spatially distributed haptic stimuli, how location of the stimuli is determined."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#AuthoringTool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "EffectLocalization"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#EffectLocalizationType"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#EffectLocalizationType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "EffectLocalizationType"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#ForceFeedback",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#HapticCategoryType" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "The kinesthetic or force-feedback submodality."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "ForceFeedback"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#GenericMenu",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#InteractionMetaphorsType" ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#HapticCategory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "The haptic submodalities targetted by an authoring tool."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#AuthoringTool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "HapticCategory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#HapticCategoryType"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#HapticCategoryType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "Class representing all haptic submodalities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "HapticCategoryType"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#HardwareAbstraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#AuthoringTool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "HardwareAbstraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#HardwareAbstractionType"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#HardwareAbstractionType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "Class representing all possible hardware abstractions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "HardwareAbstractionType"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#InteractionMetaphorsType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The possible interaction metaphors that could be present."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "InteractionMetaphorsType"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#InterationMetaphors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Common UI metaphors that define how the user interacts with the tool. Note that Generic Menu is not listed if other metaphors are present."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#AuthoringTool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Interaction Metaphors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#InteractionMetaphorsType"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#IterativePlayback",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#IterativePlaybackType" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Support for iteratively rendering effects within the tool’s environment as part of testing."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#AuthoringTool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "IterativePlayback"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#IterativePlaybackType"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#IterativePlaybackType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Types of iterative playback that may be possible."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "IterativePlaybackType"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Keyframe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#InteractionMetaphorsType" ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Library",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#DesignApproachesType" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Library"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Location-aware",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#EffectLocalizationType" ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#MediaSupport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Support for at least loading non-haptic media, such as audio or visuals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#AuthoringTool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MediaSupport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#MediaSupportType"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#MediaSupportType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Types of media support."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MediaSupportType"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#NoIterativePlayback",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#IterativePlaybackType" ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#NonCommercial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Source code is made available, but under a license that specifies non-commercial usage."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NonCommercial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#AvailabilityType"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#OpenSource"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#OpenSource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The tool is available under a license recognized as being open source by the Open Source Initiative."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "OpenSource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://opensource.org/osd"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#AvailabilityType"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Process",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#DesignApproachesType" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Process"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Proprietary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#AvailabilityType" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "The tool is available under a proprietary license."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Proprietary"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#SAAL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#AvailabilityType" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "The source of the tool is publicly available, but is not explicitly licensed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Source Available, Ambiguous License"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Score",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#InteractionMetaphorsType" ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Sequencing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#DesignApproachesType" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Sequencing"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#SonificationIterativePlayback",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#IterativePlaybackType" ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Target-centric",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#EffectLocalizationType" ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Temperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#HapticCategoryType" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "The temperature submodality."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Temperature"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Time",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#DrivingFeatureType" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Time"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Track",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#InteractionMetaphorsType" ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Unavailable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#AvailabilityType" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "The tool is no longer or never was publicly available."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Unavailable"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Unknown",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#EffectLocalizationType", "http://cim.mcgill.ca/~juliette/authoring/docs/information#IterativePlaybackType" ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Vibrotactile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#HapticCategoryType" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "The vibrotactile submodality."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Vibrotactile"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Visual",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://cim.mcgill.ca/~juliette/authoring/docs/information#MediaSupportType" ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#Year",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en-us",
+    "@value" : "The year a tool was first made publicly known, either as a product or in a paper."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cim.mcgill.ca/~juliette/authoring/docs/information#AuthoringTool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Year"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://cim.mcgill.ca/~juliette/authoring/taxonomy.jsonld",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@value" : "Juliette Regimbal"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
