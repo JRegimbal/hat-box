@@ -48,19 +48,22 @@ module TestPlugin
             puts tool.data["availability"]
           end
           test["hat:HapticCategory"] = tool.data["haptic_category"].map {|val|
-            val.gsub! " ", ""
-            { :@id => "hat:" + val }
+            tmp = val.dup
+            tmp.gsub! " ", ""
+            { :@id => "hat:" + tmp }
           }
           test["hat:DrivingFeature"] = tool.data["driving_feature"].map {|val| { :@id => "hat:" + val }}
           test["hat:EffectLocalization"] = { :@id => "hat:" + tool.data["effect_localization"] }
           test["hat:DesignApproaches"] = tool.data["design_approaches"].map {|val|
-            val.sub! "DPC", "DirectParametricControl"
-            { :@id => "hat:" + val }
+            tmp = val.dup
+            tmp.sub! "DPC", "DirectParametricControl"
+            { :@id => "hat:" + tmp }
           }
           if tool.data["interaction_metaphors"].length > 0 and not tool.data["interaction_metaphors"].include?("None")
             test["hat:InteractionMetaphors"] = tool.data["interaction_metaphors"].map {|val|
-              val.gsub! " ", ""
-              { :@id => "hat:" + val}
+              tmp = val.dup
+              tmp.gsub! " ", ""
+              { :@id => "hat:" + tmp}
             }
           end
           if tool.data["media_support"].length > 0 and not tool.data["media_support"].include?("None")
