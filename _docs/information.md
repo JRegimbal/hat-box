@@ -6,48 +6,54 @@ nav_order: 1
 
 # {{ page.title }}
 
-Each tool has information recorded in three different categories: General Purpose, Hardware Control, and Interaction and Interface.
+Each tool has information recorded in three different broad categories: General Purpose, Hardware Control, and Interaction and Interface.
 
 ## General Purpose Information
 
 General purpose information describes how the authoring tool was released and how it can be run.
 This includes:
 
-* *Year of First Mention* - The first year the tool was publicly released as a product or discussed in an academic paper;
-* *Platform* - The software platform required to run the tool. This can range from an operating system to a specific software framework; and
-* *Availability* - If the tool can be obtained by the public and, if so, if its source code is available under an [open source license](https://opensource.org/osd).
+* **Year of First Mention**: The first year the tool was publicly released as a product or discussed in an academic paper.
+* **Platform**: The software platform required to run the tool. This can range from an operating system to a specific software framework.
+* **Availability**: If and under what kind of license the tool can be obtained by the public.
+For projects where source code is made available but no license is apparent, the label "Source Available, Ambiguous License" is applied.
+When an [open source license](https://opensource.org/osd) is applied, the kind is specified (e.g., "Open Source (MIT)").
 
 ## Hardware Control Information
 
 Hardware control information describes what kinds of hardware is able to be controlled by the tool.
-Since the kinds of hardware controlled vary so much, metrics about "level of control" are not attempted.
+Since there is so much variation in supported hardware, there is no attempt to determine a level of performance.
 This information includes:
 
-* *Haptic Category* - Which haptic submodalities are controllable by the tool, specifically vibrotactile, force-feedback, and temperature; and
-* *Hardware Abstraction* - How generic the hardware is, ranging from a class of available device, to specific consumer products, to bespoke devices.
+* **Haptic Category**: Which haptic submodalities are controllable by the tool. Specifically: vibrotactile, force-feedback, and temperature.
+* **Hardware Abstraction**: How generic the hardware is, ranging from a class of available device, to specific consumer products, to bespoke, custom-built devices.
+Note that unless commercialized, open hardware devices are counted as "bespoke".
 
 ## Interaction and Interface Information
 
 Interaction and interface information are broadly concerned with how a user (i.e., a designer) uses the tool.
-As some tools have user interfaces while others are SDKs or APIs, not all possible fields may be used. Those in **bold** are not applicable to SDKs or APIs.
+Some fields are limited to tools that have a reasonably fixed user interface.
+For example, most SDKs offer little out of the box, but are in an environment where new interfaces and interactions can be programmed with some effort.
+Fields that are follwed by an \* are not applicable to tools like SDKs or APIs.
 This information includes:
 
-* *Driving Feature* - What parameter drives the changes in haptic output. Either time or action.
-* *Effect Localization* - In creating spatially distributed haptic stimuli, how location of the stimuli is determined.
-    * Device-centric - Control is leveraged directly over the actuators with no abstraction to spatial location.
-    * Location-aware - Location of the actuators or their impact on the end effector is taken into account, allowing some degree of automatic abstraction.
-    * Target-centric - The location or arrangement of the device is not explicitly taken into account, and the designer simply associates the effect with a virtual object and/or part of the body.
-* *Media Support* - Support for at least loading non-haptic media, such as audio or visuals.
-* **Iterative Playback** - Support for iteratively rendering effects within the tool's environment as part of testing.
-* *Design Approaches* - Broadly, the methods available to create a desired effect.
-    * Direct parametric control - the low-level parameters can be directly manipulated.
+* **Driving Feature**: What parameter drives the changes in haptic output. Options include time, where output is solely a function of time, and action, where another input can change the output.
+* **Effect Localization**: In creating spatially distributed haptic stimuli, how locations of the stimuli on the skin are handled in the tool.
+    * Device-centric - Control is leveraged directly over the actuators with no abstraction to spatial location. The tool has no information about where an effect will be felt.
+    * Location-aware - The desired location of an effect is taken into account to some extent.
+    * Target-centric - Where the effect is to be experienced, whether on a specific part of the body or through interaction with a virtual object, is the primary choice about effect location presented in the tool. How the device will create the stimuli is abstracted away.
+* **Media Support**: Support for non-haptic media. The bar for this is to load the media into the workspace, but not allow it to be modified or use it for any automatic process. Often this involves loading audio or visual media and allowing a file to be played back so haptic effects can be synchronized with it.
+* **Iterative Playback\***: Support for iteratively rendering effects within the tool's environment as part of testing and development.
+* **Design Approaches**: Broadly, the methods available to create a desired effect.
+    * Direct parametric control (DPC) - the low-level parameters can be directly manipulated.
     * Process - low-level parameters are controlled by some abstract process.
-    * Sequencing - effects controlling the parameters can be created by ordering other effects in time.
-    * Library - a library of pre-existing effects is available for use or re-use.
-    * Description - a high level description of the perceived experienced can be transformed into an effect with those properties.
-* **Interaction Metaphors** - Common UI metaphors that define how the user interacts with the tool. Note that Generic Menu is not listed if other metaphors are present.
-    * Track - a visual timeline is used to represent a channel similar to in audio or video editing.
+    * Sequencing - effects can be ordered in time to create larger effects.
+    * Library - a library of pre-existing effects is available for use or re-use. Users may be able to contribute to this library.
+    * Description - a natural language description of the perceived experienced can be transformed into an effect with those properties, either by searching through an indexed library of effects or creating a new one.
+* **Interaction Metaphors\***: Common UI metaphors that define how the user interacts with the tool. Note that Generic Menu is not listed if other metaphors are present.
+    * Track - a timeline is used to represent an interactive channel containing effects, similar to those in audio or video editing.
     * Keyframe - key points for the effect are set and behavior between them is interpolated.
-    * Score - an adaptation of a musical score is used to represent haptic effects.
-    * Dataflow - a dataflow programming model is used to control actuator behavior.
-    * Demonstration - physical actions or other input data are mapped to features or output effects.
+    * Score - an adaptation of a musical score or other music notation is used to represent haptic effects.
+    * Dataflow - a dataflow programming model is used to control haptic output.
+    * Demonstration - physical actions or other input data are mapped to features or output effects. This mapping is able to be simply understood by the person using the tool. E.g., tapping a screen or button to indicate a pattern of a vibration.
+    * Generic Menu - the typical elements in a GUI, such as a dropdown menu, slider, or button. Since these are the default choice in graphical software, and may not even be possible to fully remove in certain environments, this is only mentioned when no other labelled metaphor was found.
