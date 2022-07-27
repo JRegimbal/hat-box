@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Haptic Authoring Tools
+title: HAT Box
 email: juliette dot regimbal at mail dot mcgill dot ca
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a website containing information on haptic authoring tools.
+  Haptic Authoring Tool (HAT) Box is an extensible collection of haptic authoring tools. HAT Box is meant to help hapticians find a tool that meets their criteria, learn more about a particular one, or plan their own tool.
 baseurl: "/~juliette/authoring" # the subpath of your site, e.g. /blog
 url: "http://cim.mcgill.ca" # the base hostname & protocol for your site, e.g. http://example.com
 
