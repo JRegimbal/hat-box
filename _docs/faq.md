@@ -14,7 +14,7 @@ While initial work focused on tools to control vibrotactile device, any haptic a
 Each entry has information tagged across [several different categories]({{ site.baseurl }}/docs/information) to permit a quick understanding of what the tool can do, how you can get it, and how you would use it.
 Extra textual information can be added, including links to other resources like a website, source code repository, or published paper.
 
-{{site.title}} is still a work in progress. After a first version is published, it will move into a collaborative phase where tools can be added or modified through pull requests.
+{{site.title}} is still a work in progress. After a first version is published, it will move into a collaborative phase where tools can be added or modified through pull requests. Right now, the list of tools is incomplete and information on them was determined through best efforts.
 
 ## What is this trying to solve?
 
