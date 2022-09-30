@@ -8,7 +8,7 @@ platform:
 availability: Unavailable
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Consumer (Game Controllers)
+hardware_abstraction: Class (Audio-driven)
 driving_feature:
     - Time
 effect_localization: Device-centric

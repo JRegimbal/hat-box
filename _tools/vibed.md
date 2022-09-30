@@ -4,7 +4,6 @@ layout: tool
 title: VibEd
 year: '2016'
 platform:
-    - Android
     - Web
 availability: Unavailable
 haptic_category:

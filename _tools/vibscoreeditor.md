@@ -8,7 +8,7 @@ platform:
 availability: Unavailable
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Class (ERM, Voice Coil)
+hardware_abstraction: Consumer (Brüel & Kjaer Model 4810, Samsung Voice Coil, Unspecified vibration motor)
 driving_feature:
     - Time
 effect_localization: Device-centric

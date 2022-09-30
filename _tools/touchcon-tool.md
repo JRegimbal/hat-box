@@ -20,7 +20,7 @@ design_approaches:
     - DPC
     - Sequencing
 interaction_metaphors:
-    - Keyframe
+    - Track
 image: /assets/tools/touchcon-tool.gif
 ---
 For more information, consult the [ICACT'09 paper](https://ieeexplore.ieee.org/abstract/document/4809484).
