@@ -8,7 +8,7 @@ platform:
 availability: Unavailable
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Bespoke (HaptiHead)
+hardware_abstraction: Bespoke (HapticHead)
 driving_feature:
     - Time
 effect_localization: Target-centric

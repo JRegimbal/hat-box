@@ -4,20 +4,21 @@ layout: tool
 title: FeelCraft
 year: '2014'
 platform:
-    - Unknown
+    - Java and Python
 availability: Unavailable
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Consumer (Vybe Haptic Gaming Pad)
 driving_feature:
     - Action
-effect_localization: Unknown
+effect_localization: Device-centric
 media_support:
     - None
-iterative_playback: 'Unknown'
+iterative_playback: 'Yes'
 design_approaches:
     - DPC
     - Library
+    - Description
 interaction_metaphors:
     - Generic Menu
 image: /assets/tools/feelcraft.jpg

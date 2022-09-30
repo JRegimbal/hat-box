@@ -23,6 +23,7 @@ design_approaches:
     - DPC
     - Process
     - Sequencing
+    - Library
 interaction_metaphors:
     - Track
     - Demonstration

@@ -4,11 +4,11 @@ layout: tool
 title: PhysVib
 year: '2016'
 platform:
-    - Java
+    - Android
 availability: Source Available, Ambiguous License
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Class (Voice Coil)
+hardware_abstraction: Class (Audio-driven)
 driving_feature:
     - Action
 effect_localization: Target-centric

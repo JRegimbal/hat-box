@@ -11,6 +11,7 @@ haptic_category:
 hardware_abstraction: Class (Vibration Motors)
 driving_feature:
     - Time
+    - Action
 effect_localization: Device-centric
 media_support:
     - None

@@ -4,7 +4,7 @@ layout: tool
 title: posVibEditor
 year: '2008'
 platform:
-    - Unknown
+    - Windows
 availability: Unavailable
 haptic_category:
     - Vibrotactile

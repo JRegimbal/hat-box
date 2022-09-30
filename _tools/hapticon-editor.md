@@ -4,7 +4,7 @@ layout: tool
 title: Hapticon Editor
 year: '2003'
 platform:
-    - Unknown
+    - Windows
 availability: Unavailable
 haptic_category:
     - Force Feedback

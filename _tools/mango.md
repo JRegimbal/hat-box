@@ -8,7 +8,7 @@ platform:
 availability: Unavailable
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Class (with configuration file)
+hardware_abstraction: Consumer (C-2 Tactors)
 driving_feature:
     - Time
 effect_localization: Location-aware

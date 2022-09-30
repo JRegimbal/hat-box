@@ -4,23 +4,21 @@ layout: tool
 title: Tactile Glove Authoring
 year: '2010'
 platform:
-    - Unknown
+    - Windows
 availability: Unavailable
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Bespoke (Tactile Glove)
 driving_feature:
     - Time
-effect_localization: Target-centric
+effect_localization: Location-aware
 media_support:
     - Audio
     - Visual
 iterative_playback: 'Yes'
 design_approaches:
     - Process
-    - Sequencing
 interaction_metaphors:
-    - Track
     - Demonstration
 image: /assets/tools/tactile-glove.png
 ---

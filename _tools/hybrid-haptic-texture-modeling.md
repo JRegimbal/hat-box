@@ -9,7 +9,7 @@ availability: Unavailable
 haptic_category:
     - Force Feedback
     - Vibrotactile
-hardware_abstraction: Class (3 DoF Omega.3 and Voice Coil Haptuator)
+hardware_abstraction: Consumer (Omega.3 and Haptuator)
 driving_feature:
     - Action
 effect_localization: Device-centric

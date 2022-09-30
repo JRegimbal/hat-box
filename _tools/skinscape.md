@@ -4,7 +4,7 @@ layout: tool
 title: Skinscape
 year: '2001'
 platform:
-    - Unknown
+    - Protools and Max/MSP
 availability: Unavailable
 haptic_category:
     - Vibrotactile
@@ -14,12 +14,13 @@ driving_feature:
 effect_localization: Device-centric
 media_support:
     - Audio
-iterative_playback: 'Unknown'
+iterative_playback: 'Yes'
 design_approaches:
     - DPC
     - Sequencing
 interaction_metaphors:
     - Track
+    - Demonstration
 image: /assets/tools/skinscape.png
 ---
 For more information, consult [Eric Gunther's Masters Thesis](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.833.3460&rep=rep1&type=pdf).

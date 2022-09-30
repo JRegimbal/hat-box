@@ -8,7 +8,7 @@ platform:
 availability: Open Source (MIT, CC-BY-4.0)
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Bespoke (TactJam Device)
+hardware_abstraction: Bespoke (TactJam Hardware)
 driving_feature:
     - Time
 effect_localization: Location-aware
@@ -17,7 +17,7 @@ media_support:
 iterative_playback: 'Yes'
 design_approaches:
     - DPC
-    - Sequencing
+    - Library
 interaction_metaphors:
     - Demonstration
 image: /assets/tools/tactjam.png

@@ -19,7 +19,6 @@ media_support:
 iterative_playback: 'Yes'
 design_approaches:
     - DPC
-    - Library
 interaction_metaphors:
     - Generic Menu
 image: /assets/tools/seeinghaptics.png

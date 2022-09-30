@@ -16,6 +16,7 @@ media_support:
     - None
 iterative_playback: 'No'
 design_approaches:
+    - DPC
     - Process
 interaction_metaphors:
     - Demonstration

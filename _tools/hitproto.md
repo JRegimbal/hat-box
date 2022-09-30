@@ -10,7 +10,6 @@ haptic_category:
     - Force Feedback
 hardware_abstraction: Consumer (PHANTOM)
 driving_feature:
-    - Time
     - Action
 effect_localization: Location-aware
 media_support:

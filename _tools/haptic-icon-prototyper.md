@@ -4,7 +4,7 @@ layout: tool
 title: Haptic Icon Prototyper
 year: '2006'
 platform:
-    - Unknown
+    - Linux
 availability: Unavailable
 haptic_category:
     - Force Feedback

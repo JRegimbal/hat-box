@@ -21,6 +21,7 @@ design_approaches:
     - Process
     - Sequencing
 interaction_metaphors:
+    - Keyframe
     - Demonstration
 image: /assets/tools/cha-et-al.jpg
 ---
