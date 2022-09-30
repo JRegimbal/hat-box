@@ -27,6 +27,8 @@ This information includes:
 
 * <span id="category">**Haptic Category**</span>: Which haptic submodalities are controllable by the tool. Specifically: vibrotactile, force-feedback, and temperature.
 * <span id="abstraction">**Hardware Abstraction**</span>: How generic the hardware is, ranging from a class of available device, to specific consumer products, to bespoke, custom-built devices.
+For tools that support multiple Haptic Categories, the overall Hardware Abstraction is assigned with Bespoke before Consumer before Class.
+For example, a tool that uses both a Novint Falcon and any audio-driven vibrotactile actuator would be labeled "Consumer" rather than "Class".
 Note that unless commercialized, open hardware devices are counted as "bespoke".
 
 ## Interaction and Interface Information
@@ -47,7 +49,7 @@ This information includes:
 * <span id="design-approaches">**Design Approaches**</span>: Broadly, the methods available to create a desired effect.
     * Direct parametric control (DPC) - the low-level parameters can be directly manipulated.
     * Process - low-level parameters are controlled by some abstract process.
-    * Sequencing - effects can be ordered in time to create larger effects.
+    * Sequencing - reusable effects can be ordered in time to create larger effects.
     * Library - a library of pre-existing effects is available for use or re-use. Users may be able to contribute to this library.
     * Description - a natural language description of the perceived experienced can be transformed into an effect with those properties, either by searching through an indexed library of effects or creating a new one.
 * <span id="interaction-metaphors">**Interaction Metaphors\***</span>: Common UI metaphors that define how the user interacts with the tool. Note that Generic Menu is not listed if other metaphors are present.
