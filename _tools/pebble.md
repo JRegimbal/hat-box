@@ -17,7 +17,6 @@ media_support:
 iterative_playback: 'N/A'
 design_approaches:
     - DPC
-    - Sequencing
 interaction_metaphors:
     - 'N/A'
 ---
