@@ -6,7 +6,7 @@ year: '2020'
 platform:
     - Windows
     - macOS
-availability: Proprietary
+availability: Unavailable
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Consumer (iPhone, Android)
