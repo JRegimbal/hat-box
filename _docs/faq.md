@@ -42,7 +42,7 @@ Haptipedia is a similar project and an inspiration for this work. This project's
 > Haptipedia is an online, open-source, visualization of a growing database of 105+ haptic devices invented since 1992.  Device and experience designers, with backgrounds in haptics or in other design fields, can browse and search the database to track haptic technology evolution and ideate new devices, find devices that fit their project criteria and interests, and access information and resources for obtaining and/or fabricating them. They can contribute to the database by providing or verifying data on existing or new devices.
 
 While Haptipedia exclusively focuses on grounded force-feedback haptic devices, {{site.title}} is concerned with tools to create haptic effects and media.
-{{ site.title }} primarily focuses on the vibrotactile submodulaity, although tools supporting other submodalities are also included. This is often done when tools support multiple submodalities or are influenced by tools targetting a non-vibrotactile submodality.
+{{ site.title }} primarily focuses on the vibrotactile submodality, although tools supporting other submodalities are also included. This is often done when tools support multiple submodalities or are influenced by tools targeting a non-vibrotactile submodality.
 
 ## I noticed something that's missing/incorrect! What should I do?
 
