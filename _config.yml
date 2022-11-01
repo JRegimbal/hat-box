@@ -18,13 +18,13 @@ longtitle: Haptic Authoring Tool Box
 email: juliette dot regimbal at mail dot mcgill dot ca
 description: >- # this means to ignore newlines until "baseurl:"
   Haptic Authoring Tool (HAT) Box is an extensible collection of haptic authoring tools. HAT Box is meant to help hapticians find a tool that meets their criteria, learn more about a particular one, or plan their own tool.
-baseurl: "/~juliette/authoring" # the subpath of your site, e.g. /blog
-url: "https://www.cim.mcgill.ca" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "/~juliette/authoring" # the subpath of your site, e.g. /blog
+# url: "https://www.cim.mcgill.ca" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
-#remote_theme: pmarsceill/just-the-docs
-theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
+# theme: just-the-docs
 
 collections:
   posts:
