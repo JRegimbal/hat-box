@@ -25,4 +25,8 @@ interaction_metaphors:
     - Demonstration
 image: /assets/tools/cha-et-al.jpg
 ---
+The authoring tool described by Cha et al. is meant to create interactions to be broadcast using MPEG-4 Binary Format for Scenes (BIFS).
+Haptic effects are represented through different "nodes" that support moving a force-feedback device along a trajectory, guiding a force-feedback device to a specific position, and triggering vibration on a tactile array.
+The tool itself supports recording motion on a force-feedback device for use in these nodes and an interface for creating and aligning vibration effects with pre-existing video files.
+
 For more information, consult the [WHC'07 paper](https://doi.org/10.1109/WHC.2007.20).

@@ -23,4 +23,7 @@ interaction_metaphors:
     - Demonstration
 image: /assets/tools/3dtactiledraw.jpg
 ---
+3DTactileDraw supports control of an a 24-actuator array using the HapticHead helmet.
+Two major interfaces are present in the tool: a paint interface that permits drawing desired effects directly on the surface of a model of a 3D head, and a curve interface that provides per-actuator intensity keyframes on a timeline.
+
 For more information about 3DTactileDraw, consult the [CHI 2019 paper](https://doi.org/10.1145/3290607.3313030).

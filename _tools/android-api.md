@@ -23,4 +23,9 @@ design_approaches:
 interaction_metaphors:
     - 'N/A'
 ---
+The Android API consists of preset `VibrationEffect` assets and developer-added compositions of the "click" and "tick" effects.
+Waveforms can also be created by specifying periods a sequence of vibration durations or durations and associated amplitudes.
+Audio-coupled effects can also be generated using the `HapticGenerator`.
+There are significant differences in hardware and software support across different Android devices and OS versions, including basic features such as amplitude control.
+
 For more information, consult the [Android API documentation](https://source.android.com/devices/input/haptics/haptics-implement) and [Android Open Source Project (AOSP)](https://source.android.com/).
