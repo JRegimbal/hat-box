@@ -29,4 +29,8 @@ interaction_metaphors:
     - Demonstration
 image: /assets/tools/hfx-studio.png
 ---
+HFX studio allows for authoring haptic effects directly on the body or attaching them to objects in a VR environment.
+Perceptual models are used to encode and render the desired effects to the extent supported by the connected hardware.
+This intermediate perceptual layer is intended to separate the design of haptic effects from the devices used to display them.
+
 For more information, consult the [VRST'18 paper](https://doi.org/10.1145/3281505.3281518).

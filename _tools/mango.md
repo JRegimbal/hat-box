@@ -25,4 +25,10 @@ interaction_metaphors:
     - Demonstration
 image: /assets/tools/mango.png
 ---
+Mango is a graphical tool for creating effects on vibrotactile arrays.
+A visualization of the layout of the actuators in the array is present in the editor.
+Users can create "animation objects" with different positions and intensities, and create paths to define the motion of these objects over time.
+Parameters can be adjusted over time as well through the use of keyframes.
+A rendering algorithm is used to transform these tactile animations into actuator signals so that the authored vibrotactile experience is perceived by the user.
+
 For more information, consult the [UIST'15 paper](https://doi.org/10.1145/2807442.2807470).
