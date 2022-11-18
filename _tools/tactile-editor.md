@@ -23,4 +23,10 @@ interaction_metaphors:
     - Track
 image: /assets/tools/tactile-editor.jpg
 ---
+Tactile Editor is an application that allows users to create vibration patterns for motors.
+"Motor objects" represent the basic unit of these patterns and include parameters for physical motor assignment, start time, duration, and intensity.
+These objects can be assigned to different tracks to allow different vibrations to be layered together.
+Patterns can be tested by playing them back on a connected device.
+Sensor values input to the Editor can be used to trigger the start of different patterns.
+
 For more information, consult [Markus Jonas's Masters Thesis](https://core.ac.uk/download/pdf/36415797.pdf).
