@@ -21,5 +21,9 @@ interaction_metaphors:
     - 'N/A'
 image: /assets/tools/physvib.jpg
 ---
+PhysVib is an extension to the Android-based AndEngine physics engine.
+Certain objects in the engine are treated as being manipulated by the user (in the "haptic camera"), and collisions involving these objects generate vibrotactile feedback.
+This feedback is passed through audio output to an actuator attached to the Android device.
+
 For more information, consult the [2016 Transactions on Haptics paper](https://doi.org/10.1109/TOH.2016.2614804)
 and the [GitHub repository](https://github.com/maharaga/PhysVib).

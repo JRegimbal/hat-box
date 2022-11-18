@@ -21,4 +21,7 @@ interaction_metaphors:
     - 'N/A'
 image: /assets/tools/penn.jpg
 ---
+The Penn Haptic Texture Toolkit consists of texture and friction models recorded from 100 surfaces.
+The data used to create the models and sample code for displaying the textures on the Phantom Omni are included as part of the toolkit.
+
 For more information, consult the [2014 Haptics Symposium paper](https://doi.org/10.1109/HAPTICS.2014.6775475).
