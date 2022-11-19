@@ -26,4 +26,8 @@ interaction_metaphors:
     - Demonstration
 image: /assets/tools/bhaptics.png
 ---
+The bHaptics Designer allows for tactile patterns and animations to be created on the various bHaptics products worn on the body.
+Points of vibration can be set to move across the grid of the selected device with intensity changing from waypoint to waypoint.
+Individual paths can be placed into tracks on a timeline to create layered, more complex effects.
+
 For more information, consult the [bHaptics Designer website](https://designer.bhaptics.com/).

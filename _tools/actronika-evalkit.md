@@ -25,4 +25,7 @@ interaction_metaphors:
     - Dataflow
 image: /assets/tools/actronika-effects-player.png
 ---
+The Actronica EvalKit includes a basic dataflow interface where preset, parametrized effects can be adjusted and their output directed to different actuators.
+Other modes support directly playing back an audio file and trying other, more complex effects on the included haptic module.
+
 For more information, consult the [Actronika website](https://www.actronika.com/).
