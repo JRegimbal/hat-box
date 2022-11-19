@@ -15,9 +15,10 @@ This includes:
 
 * <span id="year">**Year of First Mention**</span>: The first year the tool was publicly released as a product or discussed in an academic paper.
 * <span id="platform">**Platform**</span>: The software platform required to run the tool. This can range from an operating system to a specific software framework.
-* <span id="availability">**Availability**</span>: If and under what kind of license the tool can be obtained by the public.
-For projects where source code is made available but no license is apparent, the label "Source Available, Ambiguous License" is applied.
+* <span id="availability">**Availability**</span>: If the tool can be obtained by the public.
+* <span id="license">**License**</span>: The license this tool is or was available to be used under, if one could be found.
 When an [open source license](https://opensource.org/osd) is applied, the kind is specified (e.g., "Open Source (MIT)").
+Note that open source does not imply a tool is gratis!
 
 ## Hardware Control Information
 
