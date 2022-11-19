@@ -26,4 +26,10 @@ interaction_metaphors:
     - Demonstration
 image: /assets/tools/lofelt.png
 ---
+Lofelt Studio allows users to load an audio file into the tool.
+This automatically creates an initial vibrotactile experience.
+This can be refined through controls in the editor itself, such as menus controlling global parameters and using keyframes to control the waveforms directly.
+These editing processes can also be used to create effects from scratch.
+Vibrotactile effects can be sent to iOS and Android devices with a corresponding Lofelt Studio app installed.
+
 For more information, consult the [Lofelt website](https://lofelt.com).
