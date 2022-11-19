@@ -6,19 +6,39 @@
     </thead>
     <tbody>
         <tr>
-            <th><a href="{{ site.baseurl }}/docs/information.html#year">Year of First Release</a></th>
+            <th>
+                <a aria-describedby="yeartip" href="{{ site.baseurl }}/docs/information.html#year">Year of First Release</a>
+                <div role="tooltip" id="yeartip">
+                    <p>The year a tool was first publicly released or discussed in an academic paper.</p>
+                </div>
+            </th>
             <td>{{ page.year }}</td>
         </tr>
         <tr>
-            <th><a href="{{ site.baseurl }}/docs/information.html#platform">Platform</a></th>
+            <th>
+                <a aria-describedby="platformtip" href="{{ site.baseurl }}/docs/information.html#platform">Platform</a>
+                <div role="tooltip" id="platformtip">
+                    <p>The OS or software framework needed to run the tool.</p>
+                </div>
+            </th>
             <td>{{ page.platform | join: ", " }}</td>
         </tr>
         <tr>
-            <th><a href="{{ site.baseurl }}/docs/information.html#availability">Availability</a></th>
+            <th>
+                <a aria-describedby="avilabilitytip" href="{{ site.baseurl }}/docs/information.html#availability">Availability</a>
+                <div role="tooltip" id="availabilitytip">
+                    <p>If the tool can be obtained by the public.</p>
+                </div>
+            </th>
             <td>{{ page.availability }}</td>
         </tr>
         <tr>
-            <th><a href="{{ site.baseurl }}/docs/information.html#license">License</a></th>
+            <th>
+                <a aria-describedby="licensetip" href="{{ site.baseurl }}/docs/information.html#license">License</a>
+                <div role="tooltip" id="licensetip">
+                    <p>The type of license applied to the tool.</p>
+                </div>
+            </th>
             <td>{{ page.license }}</td>
         </tr>
     </tbody>

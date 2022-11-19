@@ -1,3 +1,6 @@
+@import "tooltip.css";
+
 .tool-image img {
     max-height: 30em;
 }
+

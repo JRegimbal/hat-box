@@ -6,11 +6,21 @@
     </thead>
     <tbody>
         <tr>
-            <th><a href="{{ site.baseurl }}/docs/information.html#category">Haptic Category</a></th>
+            <th>
+                <a aria-describedby="categorytip" href="{{ site.baseurl }}/docs/information.html#category">Haptic Category</a>
+                <div role="tooltip" id="categorytip">
+                    <p>The haptic submodalities controllable by the tool.</p>
+                </div>
+            </th>
             <td>{{ page.haptic_category | join: ", " }}</td>
         </tr>
         <tr>
-            <th><a href="{{ site.baseurl }}/docs/information.html#abstraction">Hardware Abstraction</a></th>
+            <th>
+                <a aria-describedby="abstractiontip" href="{{ site.baseurl }}/docs/information.html#abstraction">Hardware Abstraction</a>
+                <div role="tooltip" id="abstractiontip">
+                    <p>The genericism of the hardware supported by the tool.</p>
+                </div>
+            </th>
             <td>{{ page.hardware_abstraction }}</td>
         </tr>
     </tbody>
