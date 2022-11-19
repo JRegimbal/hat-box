@@ -6,6 +6,7 @@ year: '2009'
 platform:
     - Unknown
 availability: Unavailable
+license: Unknown
 haptic_category:
     - Vibrotactile
     - Temperature

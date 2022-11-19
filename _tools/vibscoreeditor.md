@@ -6,6 +6,7 @@ year: '2009'
 platform:
     - Windows
 availability: Unavailable
+license: Unknown
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Consumer (Brüel & Kjaer Model 4810, Samsung Voice Coil, Unspecified vibration motor)

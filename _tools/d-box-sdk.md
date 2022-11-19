@@ -5,7 +5,8 @@ title: D-Box SDK
 year: '2008'
 platform:
     - Windows
-availability: Proprietary
+availability: Available
+license: Proprietary
 haptic_category:
     - Force Feedback
 hardware_abstraction: Consumer (D-Box)

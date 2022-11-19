@@ -5,7 +5,8 @@ title: Penn Haptic Texture Toolkit
 year: '2014'
 platform:
     - HDAPI
-availability: Non-Commercial Research Use Only
+availability: Available
+license: Non-Commercial Research Use Only
 haptic_category:
     - Force Feedback
 hardware_abstraction: Consumer (Phantom Omni)

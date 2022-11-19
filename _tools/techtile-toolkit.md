@@ -5,7 +5,8 @@ title: TECHTILE Toolkit
 year: '2012'
 platform:
     - Windows
-availability: Source Available, Ambiguous License
+availability: Available
+license: Unknown
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Bespoke (TECHTILE)

@@ -5,7 +5,8 @@ title: Interhaptics Haptic Composer
 year: '2020'
 platform:
     - Windows
-availability: Proprietary
+availability: Available
+license: Proprietary
 haptic_category:
     - Force Feedback
     - Vibrotactile

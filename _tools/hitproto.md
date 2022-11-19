@@ -6,6 +6,7 @@ year: '2010'
 platform:
     - Unknown
 availability: Unavailable
+license: Unknown
 haptic_category:
     - Force Feedback
 hardware_abstraction: Consumer (PHANTOM)

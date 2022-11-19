@@ -6,6 +6,7 @@ year: '2018'
 platform:
     - Unity
 availability: Unavailable
+license: Unknown
 haptic_category:
     - Force Feedback
     - Vibrotactile

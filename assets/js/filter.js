@@ -65,6 +65,30 @@ function updateToolFilter(evt) {
         }
     }
 
+    // License (OR)
+    const licFilter = []
+    const liInputs = Array.from(document.getElementsByClassName("filter-input-li"));
+    for (const input of liInputs) {
+        if (input.checked) {
+            licFilter.push(input.value);
+        }
+    }
+    if (licFilter.length !== 0) {
+        for (const tool of tools) {
+            if (tool.classList.contains("hidden")) continue;
+            let hide = true;
+            for (const filter of licFilter) {
+                if (tool.classList.contains(filter)) {
+                    hide = false;
+                    break;
+                }
+            }
+            if (hide) {
+                tool.classList.add("hidden");
+            }
+        }
+    }
+
     // Haptic Categories (OR)
     const hcsFilter = [];
     const hcInputs = Array.from(document.getElementsByClassName("filter-input-hc"));

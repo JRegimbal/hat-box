@@ -5,7 +5,8 @@ title: Neosensory SDK
 year: '2020'
 platform:
     - Android
-availability: Open Source (Apache 2.0)
+availability: Available
+license: Open Source (Apache 2.0)
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Consumer (Neosensory Buzz)

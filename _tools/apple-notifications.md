@@ -5,7 +5,8 @@ title: Apple Notifications
 year: '2013'
 platform:
     - iOS
-availability: Proprietary
+availability: Available
+license: Proprietary
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Consumer (iPhone)

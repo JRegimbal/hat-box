@@ -5,7 +5,8 @@ title: Pebble/Rebble
 year: '2012'
 platform:
     - Pebble
-availability: Open Source (MIT)
+availability: Available
+license: Open Source (MIT)
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Consumer (Pebble)

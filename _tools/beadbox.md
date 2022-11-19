@@ -5,7 +5,8 @@ title: Beadbox
 year: '2015'
 platform:
     - Windows
-availability: Open Source (MIT)
+availability: Available
+license: Open Source (MIT)
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Class (Audio-driven)

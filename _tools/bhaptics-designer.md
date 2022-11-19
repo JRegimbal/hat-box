@@ -5,7 +5,8 @@ title: bHaptics Designer
 year: '2016'
 platform:
     - Web
-availability: Proprietary
+availability: Available
+license: Proprietary
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Consumer (bHaptic Devices)

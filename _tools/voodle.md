@@ -5,7 +5,8 @@ title: Voodle
 year: '2017'
 platform:
     - NodeJS
-availability: Source Available, Ambiguous License
+availability: Available
+license: Unknown
 haptic_category:
     - Force Feedback
 hardware_abstraction: Bespoke (CuddleBit)

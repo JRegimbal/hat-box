@@ -5,7 +5,8 @@ title: Haptic Studio (Immersion)
 year: '2003'
 platform:
     - Windows
-availability: Proprietary
+availability: Unavailable
+license: Proprietary
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Consumer (TouchSense Devices)

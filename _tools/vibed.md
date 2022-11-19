@@ -6,6 +6,7 @@ year: '2016'
 platform:
     - Web
 availability: Unavailable
+license: Unknown
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Consumer (Android, iPhone, Xbox)

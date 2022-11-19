@@ -6,6 +6,7 @@ year: '2015'
 platform:
     - Unknown
 availability: Unavailable
+license: Unknown
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Consumer (C-2 Tactors)

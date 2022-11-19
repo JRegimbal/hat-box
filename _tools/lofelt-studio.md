@@ -7,6 +7,7 @@ platform:
     - Windows
     - macOS
 availability: Unavailable
+license: Proprietary
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Consumer (iPhone, Android)

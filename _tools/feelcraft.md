@@ -6,6 +6,7 @@ year: '2014'
 platform:
     - Java and Python
 availability: Unavailable
+license: Unknown
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Consumer (Vybe Haptic Gaming Pad)

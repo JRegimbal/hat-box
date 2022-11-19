@@ -6,6 +6,7 @@ year: '2015'
 platform:
     - iPad
 availability: Unavailable
+license: Unknown
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Bespoke (Ilinx Garment)

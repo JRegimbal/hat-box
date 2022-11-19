@@ -5,7 +5,8 @@ title: TactJam
 year: '2021'
 platform:
     - Electron
-availability: Open Source (MIT, CC-BY-4.0)
+availability: Available
+license: Open Source (MIT, CC-BY-4.0)
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Bespoke (TactJam Hardware)

@@ -6,6 +6,7 @@ year: '2010'
 platform:
     - Windows
 availability: Unavailable
+license: Unknown
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Bespoke (Tactile Glove)

@@ -7,7 +7,8 @@ platform:
     - Windows
     - macOS
     - Linux
-availability: Open Source (GPL 2)
+availability: Available
+license: Open Source (GPL 2)
 haptic_category:
     - Force Feedback
 hardware_abstraction: Class (1 DoF)

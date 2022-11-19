@@ -6,7 +6,8 @@ year: '2020'
 platform:
     - Windows
     - macOS
-availability: Open Source (MIT)
+availability: Available
+license: Open Source (MIT)
 haptic_category:
     - Force Feedback
 hardware_abstraction: Class (1 DoF motor)

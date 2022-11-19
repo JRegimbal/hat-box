@@ -7,7 +7,8 @@ platform:
     - Windows
     - macOS
     - Linux
-availability: Open Source (MIT)
+availability: Available
+license: Open Source (MIT)
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Class (Audio-driven)

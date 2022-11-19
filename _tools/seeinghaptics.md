@@ -6,6 +6,7 @@ year: '2019'
 platform:
     - Unity
 availability: Unavailable
+license: Unknown
 haptic_category:
     - Vibrotactile
     - Temperature

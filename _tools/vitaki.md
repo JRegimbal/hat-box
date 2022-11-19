@@ -7,6 +7,7 @@ platform:
     - Windows
     - Linux
 availability: Unavailable
+license: Unknown
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Class (ERM)

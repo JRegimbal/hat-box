@@ -6,6 +6,7 @@ year: '2011'
 platform:
     - Pure Data
 availability: Unavailable
+license: Unknown
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Class (Generic VT)

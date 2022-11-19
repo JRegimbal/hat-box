@@ -6,6 +6,7 @@ year: '2006'
 platform:
     - Linux
 availability: Unavailable
+license: Unknown
 haptic_category:
     - Force Feedback
 hardware_abstraction: Class (1 DoF motor)

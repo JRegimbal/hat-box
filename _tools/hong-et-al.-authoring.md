@@ -6,6 +6,7 @@ year: '2013'
 platform:
     - Android
 availability: Unavailable
+license: Unknown
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Consumer (Haptuator)

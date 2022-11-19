@@ -7,7 +7,8 @@ platform:
     - Windows
     - macOS
     - Linux
-availability: Open Source (GPL 3)
+availability: Available
+license: Open Source (GPL 3)
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Consumer (Actronika Unitouch)

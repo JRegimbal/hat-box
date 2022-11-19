@@ -6,6 +6,7 @@ year: '2008'
 platform:
     - macOS
 availability: Unavailable
+license: Unknown
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Class (Vibration Motors)

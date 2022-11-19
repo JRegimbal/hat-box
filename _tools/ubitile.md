@@ -6,6 +6,7 @@ year: '2016'
 platform:
     - Unknown
 availability: Unavailable
+license: Unknown
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Bespoke (Ubitile)

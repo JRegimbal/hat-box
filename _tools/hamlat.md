@@ -6,6 +6,7 @@ year: '2008'
 platform:
     - Blender
 availability: Unavailable
+license: Unknown
 haptic_category:
     - Force Feedback
 hardware_abstraction: Consumer (PHANTOM)

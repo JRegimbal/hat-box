@@ -12,6 +12,7 @@ has_toc: false
 {% assign yrs = "" | split: "," %}
 {% assign pls = "" | split: "," %}
 {% assign avs = "" | split: "," %}
+{% assign lic = "" | split: "," %}
 {% assign hcs = "" | split: "," %}
 {% assign has = "" | split: "," %}
 {% assign dfs = "" | split: "," %}
@@ -24,8 +25,9 @@ has_toc: false
     {% if tool.title != "Tools" %}
         {% assign yrs = yrs | push: tool.year | uniq | sort %}
         {% assign pls = pls | concat: tool.platform | uniq %}
-        {% assign av = tool.availability | split: "(" | first | trim %}
-        {% assign avs = avs | push: av | uniq %}
+        {% assign li = tool.license | split: "(" | first | trim %}
+        {% assign lic = lic | push: li | uniq %}
+        {% assign avs = avs | push: tool.availability | uniq | sort %}
         {% assign hcs = hcs | concat: tool.haptic_category | uniq %}
         {% assign ha = tool.hardware_abstraction | split: " (" | first | trim %}
         {% assign has = has | push: ha | uniq %}
@@ -78,6 +80,19 @@ has_toc: false
                 <div>
                     <input class="filter-input filter-input-av" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
                     <label for="{{ tmp }}">{{ av }}</label>
+                </div>
+            {% endfor %}
+        </fieldset>
+    </details>
+    <details>
+        <summary>License (&#x2228;)</summary>
+        <fieldset>
+            <legend>Licenses</legend>
+            {% for li in lic %}
+                {% assign tmp = li | split: " " | join: "-" | downcase | prepend: "li:" %}
+                <div>
+                    <input class="filter-input filter-input-li" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                    <label for="{{ tmp }}">{{ li }}</label>
                 </div>
             {% endfor %}
         </fieldset>
@@ -198,6 +213,7 @@ has_toc: false
             year:{{ tool.year }}
             {% for pl in tool.platform %}pl:{{ pl | downcase | split: " " | join: "-" }} {% endfor %}
             av:{{ tool.availability | split: "(" | first | trim | split: " " | join: "-" | downcase }}
+            li:{{ tool.license | split: "(" | first | trim | split: " " | join: "-" | downcase }}
             {% for hc in tool.haptic_category %}hc:{{ hc | replace: "Vibrotactile", "vt" | replace: "Force Feedback", "ff" | replace: "Temperature", "temp" }} {% endfor %}
             ha:{{ tool.hardware_abstraction | split: "(" | first | trim | downcase }}
             {% for df in tool.driving_feature %}df:{{ df | downcase }} {% endfor %}

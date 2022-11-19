@@ -5,7 +5,8 @@ title: mHIVE
 year: '2014'
 platform:
     - Android
-availability: Open Source (BSD 3-Clause)
+availability: Available
+license: Open Source (BSD 3-Clause)
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Class (Voice Coil)

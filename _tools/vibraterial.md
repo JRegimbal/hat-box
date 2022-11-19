@@ -5,7 +5,8 @@ title: vibrAteRial
 year: '2020'
 platform:
     - NodeJS
-availability: Open Source (GPL 3)
+availability: Available
+license: Open Source (GPL 3)
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Bespoke (bARefoot)

@@ -6,6 +6,7 @@ year: '2007'
 platform:
     - Windows
 availability: Unavailable
+license: Unknown
 haptic_category:
     - Vibrotactile
     - Force Feedback

@@ -5,7 +5,8 @@ title: PhysVib
 year: '2016'
 platform:
     - Android
-availability: Source Available, Ambiguous License
+availability: Available
+license: Unknown
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Class (Audio-driven)

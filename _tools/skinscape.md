@@ -6,6 +6,7 @@ year: '2001'
 platform:
     - Protools and Max/MSP
 availability: Unavailable
+license: Unknown
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Consumer (6 V1220 transducers, 1 Aura Systems Interactor Cushion)
