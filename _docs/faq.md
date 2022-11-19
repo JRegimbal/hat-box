@@ -46,5 +46,6 @@ While Haptipedia exclusively focuses on grounded force-feedback haptic devices, 
 
 ## I noticed something that's missing/incorrect! What should I do?
 
-Eventually, this site will be hosted on a public GitHub and it will be possible to file an issue or even propose a change automatically.
-For right now, please get in touch with me at <span style="font-style: italic;">{{ site.email }}</span>.
+If something is wrong or could be improved, please let me know by either sending an email to <span style="font-style: italic;">{{ site.email }}</span>, or
+by opening an issue or pull request on [the {{ site.title }} GitHub repo](https://github.com/JRegimbal/hat-box).
+Existing pages include an "Edit this page on GitHub" link at the bottom of the screen for convenience.
