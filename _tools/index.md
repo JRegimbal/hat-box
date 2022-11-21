@@ -43,7 +43,7 @@ has_toc: false
 <section class="filter-section">
     <h2>Filters</h2>
     <details>
-        <summary>Year Range</summary>
+        <summary>General Purpose</summary>
         <fieldset>
             <legend>Year Range</legend>
             <div>
@@ -57,11 +57,8 @@ has_toc: false
                 </label>
             </div>
         </fieldset>
-    </details>
-    <details>
-        <summary>Platform (&#x2227;)</summary>
         <fieldset>
-        <legend>Platforms</legend>
+        <legend>Platforms (&#x2227;)</legend>
         {% for pl in pls %}
             {% assign tmp = pl | downcase | split: " " | join: "-" | prepend: "pl:" %}
             <div>
@@ -70,11 +67,8 @@ has_toc: false
             </div>
         {% endfor %}
         </fieldset>
-    </details>
-    <details>
-        <summary>Availability (&#x2228;)</summary>
         <fieldset>
-            <legend>Availabilities</legend>
+            <legend>Availability (&#x2228;)</legend>
             {% for av in avs %}
                 {% assign tmp = av | split: " " | join: "-" | downcase  | prepend: "av:" %}
                 <div>
@@ -83,11 +77,8 @@ has_toc: false
                 </div>
             {% endfor %}
         </fieldset>
-    </details>
-    <details>
-        <summary>License (&#x2228;)</summary>
         <fieldset>
-            <legend>Licenses</legend>
+            <legend>Licenses (&#x2228;)</legend>
             {% for li in lic %}
                 {% assign tmp = li | split: " " | join: "-" | downcase | prepend: "li:" %}
                 <div>
@@ -98,9 +89,9 @@ has_toc: false
         </fieldset>
     </details>
     <details>
-        <summary>Haptic Category (&#x2228;)</summary>
+        <summary>Hardware Control</summary>
         <fieldset>
-            <legend>Haptic Categories</legend>
+            <legend>Haptic Category (&#x2228;)</legend>
             {% for hc in hcs %}
                 {% assign tmp = hc | replace: "Vibrotactile", "vt" | replace: "Force Feedback", "ff" | replace: "Temperature", "temp" | prepend: "hc:" %}
                 <div>
@@ -109,11 +100,8 @@ has_toc: false
                 </div>
             {% endfor %}
         </fieldset>
-    </details>
-    <details>
-        <summary>Hardware Abstraction (&#x2228;)</summary>
         <fieldset>
-            <legend>Hardware Abstractions</legend>
+            <legend>Hardware Abstractions (&#x2228;)</legend>
             {% for ha in has %}
                 {% assign tmp = ha | downcase | prepend: "ha:" %}
                 <div>
@@ -124,9 +112,9 @@ has_toc: false
         </fieldset>
     </details>
     <details>
-        <summary>Driving Feature (&#x2227;)</summary>
+        <summary>Interaction and Interface</summary>
         <fieldset>
-            <legend>Driving Features</legend>
+            <legend>Driving Feature (&#x2227;)</legend>
             {% for df in dfs %}
                 {% assign tmp = df | downcase | prepend: "df:" %}
                 <div>
@@ -135,11 +123,8 @@ has_toc: false
                 </div>
             {% endfor %}
         </fieldset>
-    </details>
-    <details>
-        <summary>Effect Localization (&#x2228;)</summary>
         <fieldset>
-            <legend>Effect Localizations</legend>
+            <legend>Effect Localization (&#x2228;)</legend>
             {% for el in els %}
                 {% assign tmp = el | downcase | prepend: "el:" %}
                 <div>
@@ -148,11 +133,8 @@ has_toc: false
                 </div>
             {% endfor %}
         </fieldset>
-    </details>
-    <details>
-        <summary>Media Support (&#x2228;)</summary>
         <fieldset>
-            <legend>Media Support</legend>
+            <legend>Media Support (&#x2228;)</legend>
             {% for ms in mss %}
                 {% assign tmp = ms | downcase | prepend: "ms:" %}
                 <div>
@@ -161,11 +143,8 @@ has_toc: false
                 </div>
             {% endfor %}
         </fieldset>
-    </details>
-    <details>
-        <summary>Iterative Playback (&#x2228;)</summary>
         <fieldset>
-            <legend>Iterative Playback</legend>
+            <legend>Iterative Playback (&#x2228;)</legend>
             {% for ip in ips %}
                 {% assign tmp = ip | split: " " | join: "-" | downcase | prepend: "ip:" %}
                 <div>
@@ -174,11 +153,8 @@ has_toc: false
                 </div>
             {% endfor %}
         </fieldset>
-    </details>
-    <details>
-        <summary>Design Approaches (&#x2228;)</summary>
         <fieldset>
-            <legend>Design Approaches</legend>
+            <legend>Design Approaches (&#x2228;)</legend>
             {% for da in das %}
                 {% assign tmp = da | downcase | prepend: "da:" %}
                 <div>
@@ -187,11 +163,8 @@ has_toc: false
                 </div>
             {% endfor %}
         </fieldset>
-    </details>
-    <details>
-        <summary>Interaction Metaphors (&#x2228;)</summary>
         <fieldset>
-            <legend>Interaction Metaphors</legend>
+            <legend>Interaction Metaphors (&#x2228;)</legend>
             {% for im in ims %}
                 {% assign tmp = im | downcase | prepend: "im:" %}
                 <div>
