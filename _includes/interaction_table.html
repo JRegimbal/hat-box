@@ -9,7 +9,7 @@
             <th>
                 <a aria-describedby="drivertip" href="{{ site.baseurl }}/docs/information.html#driving-feature">Driving Feature</a>
                 <div role="tooltip" id="drivertip">
-                    <p>What determines changes in haptic parameters, either time or actions.</p>
+                    {{ site.data.short.drivingFeature }}
                 </div>
             </th>
             <td>{{ page.driving_feature | join: ", " }}</td>
@@ -18,7 +18,7 @@
             <th>
                 <a aria-describedby="localizationtip" href="{{ site.baseurl }}/docs/information.html#effect-localization">Effect Localization</a>
                 <div role="tooltip" id="localizationtip">
-                    <p>How determining the location of stimuli on the skin is handled.</p>
+                    {{ site.data.short.effectLocalization }}
                     <ul>
                         <li>Device-centric, or control is over actuators,</li>
                         <li>Target-centric, or control is over which virtual object or part of the body a stimulus is felt on,</li>
@@ -32,7 +32,7 @@
             <th>
                 <a aria-describedby="mediatip" href="{{ site.baseurl }}/docs/information.html#media-support">Media Support</a>
                 <div role="tooltip" id="mediatip">
-                    <p>Support for non-haptic media in the workspace, even if just to aid in manual synchronization.</p>
+                    {{ site.data.short.mediaSupport }}
                 </div>
             </th>
             <td>{{ page.media_support | join: ", " }}</td>
@@ -41,7 +41,7 @@
             <th>
                 <a aria-describedby="playbacktip" href="{{ site.baseurl }}/docs/information.html#iterative-playback">Iterative Playback</a>
                 <div role="tooltip" id="playbacktip">
-                    <p>If haptic effects can be played back from the tool to aid in the design process.</p>
+                    {{ site.data.short.iterativePlayback }}
                 </div>
             </th>
             <td>{{ page.iterative_playback }}</td>
@@ -50,14 +50,7 @@
             <th>
                 <a aria-describedby="approachestip" href="{{ site.baseurl }}/docs/information.html#design-approaches">Design Approaches</a>
                 <div role="tooltip" id="approachestip">
-                    <p>Broadly, the methods available to create a desired effect.</p>
-                    <ul>
-                        <li>Direct parametric control (DPC): low-level parameters are directly modifiable.</li>
-                        <li>Process: parameters are controllable by an abstract process.</li>
-                        <li>Sequencing: reusable effects are ordered in time to create complex effects.</li>
-                        <li>Library: a library of pre-existing effects is available for use or re-use.</li>
-                        <li>Description: a natural language description of the experience is used to find an appropriate effect, often through searching a library.</li>
-                    </ul>
+                    {{ site.data.short.designApproaches }}
                 </div>
             </th>
             <td>{{ page.design_approaches | join: ", " }}</td>
@@ -66,14 +59,7 @@
             <th>
                 <a aria-describedby="metaphortip" href="{{ site.baseurl }}/docs/information.html#interaction-metaphors">Interaction Metaphors</a>
                 <div role="tooltip" id="metaphortip">
-                    <p>Common UI metaphors that define how a user interacts with a tool.</p>
-                    <ul>
-                        <li>Track: a timeline represents an interactive channel containing effects.</li>
-                        <li>Keyframe: key points of the effect are set and behavior between them is interpolated.</li>
-                        <li>Score: an adaptation of a musical score or notation represents haptic effects.</li>
-                        <li>Demonstration: physical actions or other data are mapped simply to effects or parameters.</li>
-                        <li>Generic Menu: typical GUI elements (e.g., sliders) are used to control effects with the absence of other metaphors.</li>
-                    </ul>
+                    {{ site.data.short.interactionMetaphors }}
                 </div>
             </th>
             <td>{{ page.interaction_metaphors | join: ", " }}</td>

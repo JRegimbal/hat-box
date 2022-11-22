@@ -9,7 +9,7 @@
             <th>
                 <a aria-describedby="yeartip" href="{{ site.baseurl }}/docs/information.html#year">Year of First Release</a>
                 <div role="tooltip" id="yeartip">
-                    <p>The year a tool was first publicly released or discussed in an academic paper.</p>
+                    {{ site.data.short.year }}
                 </div>
             </th>
             <td>{{ page.year }}</td>
@@ -18,7 +18,7 @@
             <th>
                 <a aria-describedby="platformtip" href="{{ site.baseurl }}/docs/information.html#platform">Platform</a>
                 <div role="tooltip" id="platformtip">
-                    <p>The OS or software framework needed to run the tool.</p>
+                    {{ site.data.short.platform }}
                 </div>
             </th>
             <td>{{ page.platform | join: ", " }}</td>
@@ -27,7 +27,7 @@
             <th>
                 <a aria-describedby="avilabilitytip" href="{{ site.baseurl }}/docs/information.html#availability">Availability</a>
                 <div role="tooltip" id="availabilitytip">
-                    <p>If the tool can be obtained by the public.</p>
+                    {{ site.data.short.availability }}
                 </div>
             </th>
             <td>{{ page.availability }}</td>
@@ -36,7 +36,7 @@
             <th>
                 <a aria-describedby="licensetip" href="{{ site.baseurl }}/docs/information.html#license">License</a>
                 <div role="tooltip" id="licensetip">
-                    <p>The type of license applied to the tool.</p>
+                    {{ site.data.short.license }}
                 </div>
             </th>
             <td>{{ page.license }}</td>

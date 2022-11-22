@@ -1,0 +1,28 @@
+year: <p>The year a tool was first publicly released or discussed in an academic paper.</p>
+platform: <p>The OS or software framework needed to run the tool.</p>
+availability: <p>If the tool can be obtained by the public.</p>
+license: <p>Tye type of license applied to the tool.</p>
+hapticCategory: <p>The haptic submodalities controllable by the tool.</p>
+hardwareAbstraction: <p>The genericism of the hardware supported by the tool.</p>
+drivingFeature: <p>What determines changes in haptic parameters, either time or actions.</p>
+effectLocalization: <p>How determining the location of stimuli on the skin is handled.</p>
+mediaSupport: <p>Support for non-haptic media in the workspace, even if just to aid in manual synchronization.</p>
+iterativePlayback: <p>If haptic effects can be played back from the tool to aid in the design process.</p>
+designApproaches: |
+  <p>Broadly, the methods available to create a desired effect.</p>
+  <ul>
+  <li>Direct parametric control (DPC): low-level parameters are directly modifiable.</li>
+  <li>Process: parameters are controllable by an abstract process.</li>
+  <li>Sequencing: reusable effects are ordered in time to create complex effects.</li>
+  <li>Library: a library of pre-existing effects is available for use or re-use.</li>
+  <li>Description: a natural language description of the experience is used to find an appropriate effect, often through searching a library.</li>
+  </ul>
+interactionMetaphors: |
+  <p>Common UI metaphors that define how a user interacts with a tool.</p>
+  <ul>
+  <li>Track: a timeline represents an interactive channel containing effects.</li>
+  <li>Keyframe: key points of the effect are set and behavior between them is interpolated.</li>
+  <li>Score: an adaptation of a musical score or notation represents haptic effects.</li>
+  <li>Demonstration: physical actions or other data are mapped simply to effects or parameters.</li>
+  <li>Generic Menu: typical GUI elements (e.g., sliders) are used to control effects with the absence of other metaphors.</li>
+  </ul>
