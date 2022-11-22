@@ -103,7 +103,10 @@ has_toc: false
     <details>
         <summary>Hardware Control</summary>
         <fieldset>
-            <legend>Haptic Category (&#x2228;)</legend>
+            <legend aria-describedby="categorytip">Haptic Category (&#x2228;)</legend>
+            <div role="tooltip" id="categorytip">
+                <p>The haptic submodalities controllable by the tool.</p>
+            </div>
             {% for hc in hcs %}
                 {% assign tmp = hc | replace: "Vibrotactile", "vt" | replace: "Force Feedback", "ff" | replace: "Temperature", "temp" | prepend: "hc:" %}
                 <div>
@@ -113,7 +116,10 @@ has_toc: false
             {% endfor %}
         </fieldset>
         <fieldset>
-            <legend>Hardware Abstractions (&#x2228;)</legend>
+            <legend aria-describedby="abstractiontip">Hardware Abstractions (&#x2228;)</legend>
+            <div role="tooltip" id="abstractiontip">
+                <p>The genericism of the hardware supported by the tool.</p>
+            </div>
             {% for ha in has %}
                 {% assign tmp = ha | downcase | prepend: "ha:" %}
                 <div>
@@ -126,7 +132,10 @@ has_toc: false
     <details>
         <summary>Interaction and Interface</summary>
         <fieldset>
-            <legend>Driving Feature (&#x2227;)</legend>
+            <legend aria-describedby="drivertip">Driving Feature (&#x2227;)</legend>
+            <div role="tooltip" id="drivertip">
+                <p>What determines changes in haptic parameters, either time or actions.</p>
+            </div>
             {% for df in dfs %}
                 {% assign tmp = df | downcase | prepend: "df:" %}
                 <div>
@@ -136,7 +145,10 @@ has_toc: false
             {% endfor %}
         </fieldset>
         <fieldset>
-            <legend>Effect Localization (&#x2228;)</legend>
+            <legend aria-describedby="localizationtip">Effect Localization (&#x2228;)</legend>
+            <div role="tooltip" id="localizationtip">
+                <p>How determining the location of stimuli on the skin is handled.</p>
+            </div>
             {% for el in els %}
                 {% assign tmp = el | downcase | prepend: "el:" %}
                 <div>
@@ -146,7 +158,10 @@ has_toc: false
             {% endfor %}
         </fieldset>
         <fieldset>
-            <legend>Media Support (&#x2228;)</legend>
+            <legend aria-describedby="mediatip">Media Support (&#x2228;)</legend>
+            <div role="tooltip" id="mediatip">
+                <p>Support for non-haptic media in the workspace, even if just to aid in manual synchronization.</p>
+            </div>
             {% for ms in mss %}
                 {% assign tmp = ms | downcase | prepend: "ms:" %}
                 <div>
@@ -156,7 +171,10 @@ has_toc: false
             {% endfor %}
         </fieldset>
         <fieldset>
-            <legend>Iterative Playback (&#x2228;)</legend>
+            <legend aria-describedby="playbacktip">Iterative Playback (&#x2228;)</legend>
+            <div role="tooltip" id="playbacktip">
+                <p>If haptic effects can be played back from the tool to aid in the design process.</p>
+            </div>
             {% for ip in ips %}
                 {% assign tmp = ip | split: " " | join: "-" | downcase | prepend: "ip:" %}
                 <div>
@@ -166,7 +184,17 @@ has_toc: false
             {% endfor %}
         </fieldset>
         <fieldset>
-            <legend>Design Approaches (&#x2228;)</legend>
+            <legend aria-describedby="approachestip">Design Approaches (&#x2228;)</legend>
+            <div role="tooltip" id="approachestip">
+                <p>Broadly, the methods available to create a desired effect.</p>
+                <ul>
+                    <li>Direct parametric control (DPC): low-level parameters are directly modifiable.</li>
+                    <li>Process: parameters are controllable by an abstract process.</li>
+                    <li>Sequencing: reusable effects are ordered in time to create complex effects.</li>
+                    <li>Library: a library of pre-existing effects is available for use or re-use.</li>
+                    <li>Description: a natural language description of the experience is used to find an appropriate effect, often through searching a library.</li>
+                </ul>
+            </div>
             {% for da in das %}
                 {% assign tmp = da | downcase | prepend: "da:" %}
                 <div>
@@ -176,7 +204,17 @@ has_toc: false
             {% endfor %}
         </fieldset>
         <fieldset>
-            <legend>Interaction Metaphors (&#x2228;)</legend>
+            <legend aria-describedby="metaphortip">Interaction Metaphors (&#x2228;)</legend>
+            <div role="tooltip" id="metaphortip">
+                <p>Common UI metaphors that define how a user interacts with a tool.</p>
+                <ul>
+                    <li>Track: a timeline represents an interactive channel containing effects.</li>
+                    <li>Keyframe: key points of the effect are set and behavior between them is interpolated.</li>
+                    <li>Score: an adaptation of a musical score or notation represents haptic effects.</li>
+                    <li>Demonstration: physical actions or other data are mapped simply to effects or parameters.</li>
+                    <li>Generic Menu: typical GUI elements (e.g., sliders) are used to control effects with the absence of other metaphors.</li>
+                </ul>
+            </div>
             {% for im in ims %}
                 {% assign tmp = im | downcase | prepend: "im:" %}
                 <div>
