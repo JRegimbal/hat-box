@@ -45,7 +45,10 @@ has_toc: false
     <details>
         <summary>General Purpose</summary>
         <fieldset>
-            <legend>Year Range</legend>
+            <legend aria-describedby="yeartip">Year Range</legend>
+            <div role="tooltip" id="yeartip">
+                    <p>The year a tool was first publicly released or discussed in an academic paper.</p>
+            </div>
             <div>
                 <label>Start Year
                     <input id="start-year" class="filter-input" type="number" min="{{ yrs | first }}" max="{{ yrs | last }}" value="{{ yrs | first }}">
@@ -58,17 +61,23 @@ has_toc: false
             </div>
         </fieldset>
         <fieldset>
-        <legend>Platforms (&#x2227;)</legend>
-        {% for pl in pls %}
-            {% assign tmp = pl | downcase | split: " " | join: "-" | prepend: "pl:" %}
-            <div>
-                <input class="filter-input filter-input-pl" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
-                <label for="{{ tmp }}">{{ pl }}</label>
+            <legend aria-describedby="platformtip">Platforms (&#x2227;)</legend>
+            <div role="tooltip" id="platformtip">
+                <p>The OS or software framework needed to run the tool.</p>
             </div>
-        {% endfor %}
+            {% for pl in pls %}
+                {% assign tmp = pl | downcase | split: " " | join: "-" | prepend: "pl:" %}
+                <div>
+                    <input class="filter-input filter-input-pl" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                    <label for="{{ tmp }}">{{ pl }}</label>
+                </div>
+            {% endfor %}
         </fieldset>
         <fieldset>
-            <legend>Availability (&#x2228;)</legend>
+            <legend aria-describedby="availabilitytip">Availability (&#x2228;)</legend>
+            <div role="tooltip" id="availabilitytip">
+                <p>If the tool can be obtained by the public.</p>
+            </div>
             {% for av in avs %}
                 {% assign tmp = av | split: " " | join: "-" | downcase  | prepend: "av:" %}
                 <div>
@@ -78,7 +87,10 @@ has_toc: false
             {% endfor %}
         </fieldset>
         <fieldset>
-            <legend>Licenses (&#x2228;)</legend>
+            <legend aria-describedby="licensetip">Licenses (&#x2228;)</legend>
+            <div role="tooltip" id="licensetip">
+                <p>Tye type of license applied to the tool.</p>
+            </div>
             {% for li in lic %}
                 {% assign tmp = li | split: " " | join: "-" | downcase | prepend: "li:" %}
                 <div>
