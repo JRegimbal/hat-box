@@ -6,15 +6,15 @@ nav_order: 1
 
 # Welcome to the {{site.longtitle}}
 
-This site contains information on a variety of different haptic authoring tools, ranging from SDKs to complete interactive environments.
-While most address the control of vibrotactile devices, some tools address force feedback and temperature control.
+This site contains information on a variety of different haptic authoring tools (HATs), ranging from SDKs to complete interactive environments.
+While most support designing for and controlling vibrotactile devices, some tools do include support for force feedback and temperature control.
 
-{{site.title}} is intended to provide high-level information on a large number of haptic authoring tools with links to more information when possible.
-This is to make it easier to find tools that may be useful, especially if they can be used or modified far more easily than creating an entirely new tool.
-High-level information, especially that related to a tool's user interfaces or interactions, may help designers of new tools find ideas and trends relevant to other projects.
-Finally, this collection aims to encourage authoring tool creators to publicly archive their work in some way, such as through open source software and hardware, especially as a project ends.
-More information about this project can be found on the [FAQ page]({{ site.baseurl }}/docs/faq).
+{{site.title}} is intended to provide high-level information on a large number of these haptic authoring tools to aid in searching for and making comparisons between them.
+While most people would likely search for a tool to directly use, {{site.title}} also aims to be useful to those who want to create new tools by collecting information from a variety of sources and establishing a high-level taxonomy to aid in description and comparison.
+This project also provides a place for creators to archive and link to additional information on their work to maximize its utility, even if active development of their tool ends.
 
-To understand the information recorded for each tool in this collection, please consult the [Tool Information page]({{ site.baseurl }}/docs/information).
+More information about {{site.title}}and its goals can be found on the [FAQ page]({{ site.baseurl }}/docs/faq).
 
-To see the list of tools, go to the [Tools page]({{ site.baseurl }}/tools/) or use the search bar.
+To see the current list of entries, go to the [Tools page]({{ site.baseurl }}/tools/) or use the search bar.
+
+For more information about the taxonomy, please consult the [Tool Information page]({{ site.baseurl }}/docs/information).
