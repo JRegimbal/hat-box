@@ -2,10 +2,22 @@ year: <p>The year a tool was first publicly released or discussed in an academic
 platform: <p>The OS or software framework needed to run the tool.</p>
 availability: <p>If the tool can be obtained by the public.</p>
 license: <p>Tye type of license applied to the tool.</p>
-hapticCategory: <p>The haptic submodalities controllable by the tool.</p>
-hardwareAbstraction: <p>The genericism of the hardware supported by the tool.</p>
-drivingFeature: <p>What determines changes in haptic parameters, either time or actions.</p>
-effectLocalization: <p>How determining the location of stimuli on the skin is handled.</p>
+hapticCategory: <p>The general types of haptic output devices controlled by the tool.</p>
+hardwareAbstraction: |
+  <p>How broad the type of hardware support is for a tool.</p>
+  <ul>
+  <li>Bespoke: Hardware is custom built, including open hardware.</li>
+  <li>Consumer: Support is limited to a specific commercial device or a family of devices.</li>
+  <li>Class: Any device with the same affordances can be used, possibly with some configuration required.</li>
+  </ul>
+drivingFeature: <p>If haptic content is controlled over time, by other actions, or both.</p>
+effectLocalization: |
+  <p>How the desired location of stimuli is mapped to the device.</p>
+  <ul>
+  <li>Device-centric: No spatial information is taken into acccount. Actuators are directly controlled.</li>
+  <li>Target-centric: Stimuli are placed on the body or are assigned to a virtual object to be triggered through interaction. The tool handles how the device will display the effect.</li>
+  <li>Location-aware: The desired location of an effect is taken into account to some extent, but is ultimately presented in context of the output device.</li>
+  </ul>
 mediaSupport: <p>Support for non-haptic media in the workspace, even if just to aid in manual synchronization.</p>
 iterativePlayback: <p>If haptic effects can be played back from the tool to aid in the design process.</p>
 designApproaches: |
@@ -23,6 +35,7 @@ interactionMetaphors: |
   <li>Track: a timeline represents an interactive channel containing effects.</li>
   <li>Keyframe: key points of the effect are set and behavior between them is interpolated.</li>
   <li>Score: an adaptation of a musical score or notation represents haptic effects.</li>
+  <li>Dataflow: a dataflow programming model is used to control haptic output.</li>
   <li>Demonstration: physical actions or other data are mapped simply to effects or parameters.</li>
   <li>Generic Menu: typical GUI elements (e.g., sliders) are used to control effects with the absence of other metaphors.</li>
   </ul>
