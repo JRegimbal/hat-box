@@ -43,7 +43,11 @@ has_toc: false
 <section class="filter-section">
     <h2>Filters</h2>
     <details>
-        <summary>General Purpose</summary>
+        <summary>General Purpose <span aria-describedby="gptip">&#9432;</span>
+            <div role="tooltip" id="gptip">
+                {{ site.data.short.generalPurpose }}
+            </div>
+        </summary>
         <fieldset>
             <legend aria-describedby="yeartip">Year Range</legend>
             <div role="tooltip" id="yeartip">
@@ -101,7 +105,11 @@ has_toc: false
         </fieldset>
     </details>
     <details>
-        <summary>Hardware Control</summary>
+        <summary>Hardware Control <span aria-describedby="hctip">&#9432;</span>
+            <div role="tooltip" id="hctip">
+                {{ site.data.short.hardwareControl }}
+            </div>
+        </summary>
         <fieldset>
             <legend aria-describedby="categorytip">Haptic Category (&#x2228;)</legend>
             <div role="tooltip" id="categorytip">
@@ -130,7 +138,11 @@ has_toc: false
         </fieldset>
     </details>
     <details>
-        <summary>Interaction and Interface</summary>
+        <summary>Interaction and Interface <span aria-describedby="iitip">&#9432;</span>
+            <div role="tooltip" id="iitip">
+                {{ site.data.short.iAndI }}
+            </div>
+        </summary>
         <fieldset>
             <legend aria-describedby="drivertip">Driving Feature (&#x2227;)</legend>
             <div role="tooltip" id="drivertip">
