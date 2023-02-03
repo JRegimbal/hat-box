@@ -30,4 +30,4 @@ These objects can be assigned to different tracks to allow different vibrations 
 Patterns can be tested by playing them back on a connected device.
 Sensor values input to the Editor can be used to trigger the start of different patterns.
 
-For more information, consult [Markus Jonas's Masters Thesis](https://core.ac.uk/download/pdf/36415797.pdf).
+For more information, consult [Markus Jonas's Masters Thesis](https://hci.rwth-aachen.de/publications/jonas2008a.pdf).

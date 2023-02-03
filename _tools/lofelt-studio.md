@@ -32,4 +32,4 @@ This can be refined through controls in the editor itself, such as menus control
 These editing processes can also be used to create effects from scratch.
 Vibrotactile effects can be sent to iOS and Android devices with a corresponding Lofelt Studio app installed.
 
-For more information, consult the [Lofelt website](https://lofelt.com).
+For more information, consult the [Lofelt website as archived on the Wayback Machine](https://web.archive.org/web/20220526171057/lofelt.com).
