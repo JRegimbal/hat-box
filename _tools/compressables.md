@@ -8,7 +8,7 @@ platform:
 availability: Available
 license: Open Source (MIT)
 haptic_category:
-    - Pressure
+    - Skin Stretch/Compression
 hardware_abstraction: Bespoke (Compressables)
 driving_feature:
     - Time
