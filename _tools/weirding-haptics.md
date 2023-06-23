@@ -6,7 +6,7 @@ year: '2021'
 platform:
     - Unity
 availability: Available
-license: Open Source (APLG 3)
+license: Open Source (AGPL 3)
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Consumer (Oculus Touch)
