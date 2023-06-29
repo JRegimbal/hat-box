@@ -7,7 +7,7 @@ nav_order: 1
 # Welcome to the {{site.longtitle}}
 
 This site contains information on a variety of different haptic authoring tools (HATs), ranging from SDKs to complete interactive environments.
-While most support designing for and controlling vibrotactile devices, some tools do include support for force feedback and temperature control.
+While most support designing for and controlling vibrotactile devices, some tools do include support for force feedback, skin stretch or compression, and temperature control.
 
 {{site.title}} is intended to provide high-level information on a large number of these haptic authoring tools to aid in searching for and making comparisons between them.
 By compiling information from a variety of sources and creating a high-level taxonomy to aid in describing, comparing, and filtering tools, {{site.title}} aims to be of use in searching for tools and creating new ones.
