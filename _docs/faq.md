@@ -14,7 +14,7 @@ While initial work focused on tools to control vibrotactile device, any haptic a
 Each entry has information tagged across [several different categories]({{ site.baseurl }}/docs/information.html) to permit a quick understanding of what the tool can do, how you can get it, and how you would use it.
 Extra textual information can be added, including links to other resources like a website, source code repository, or published paper.
 
-{{site.title}} is a collaborative project. If you have tools you would like to see here, including your own, or any other ideas for contributing, please [read the contribution guide](https://github.com/JRegimbal/hat-box/https://github.com/JRegimbal/hat-box/blob/main/CONTRIBUTING.md).
+{{site.title}} is a collaborative project. If you have tools you would like to see here, including your own, or any other ideas for contributing, please [read the contribution guide](https://github.com/JRegimbal/hat-box/blob/main/CONTRIBUTING.md).
 Please note that the information present on HAT Box is through the best efforts of contributors, and we cannot guarantee that pages are complete and accurate.
 
 ## What is this trying to solve?
