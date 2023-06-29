@@ -59,5 +59,6 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - README.md
+  - CONTRIBUTING.md
   - LICENSE.txt
   - .github/
