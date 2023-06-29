@@ -1,9 +1,9 @@
-# Haptic Authoring Tool Box (HAT Box)
+# Welcome to the Haptic Authoring Tool Box (HAT Box)
 
-This is a repository of information about haptic authoring tools.
+This is a repository of information about haptic authoring tools to help hapticians find a resource they can use or get inspiration for their own work.
 More information on the project itself and its aims can be found in the [index page](./index.md) and the [FAQ page](./_docs/faq.md).
 
-**Note that this project is still a work in progress.**
+If you're interested in contributing, to HAT Box, please [read the contributor info page first](./CONTRIBUTING.md).
 
 ## License
 

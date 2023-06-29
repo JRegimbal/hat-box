@@ -16,7 +16,7 @@ This includes:
 * <span id="year">**Year of First Mention**</span>: The first year the tool was publicly released as a product or discussed in an academic paper.
 * <span id="platform">**Platform**</span>: The software platform required to run the tool. This can range from an operating system to a specific software framework.
 * <span id="availability">**Availability**</span>: If the tool can be obtained by the public.
-* <span id="license">**License**</span>: The license this tool is or was available to be used under, if one could be found.
+* <span id="license">**License**</span>: The kind of license this tool is or was available to be used under, if one could be found.
 When an [open source license](https://opensource.org/osd) is applied, the kind is specified (e.g., "Open Source (MIT)").
 Note that open source does not imply a tool is gratis!
 
@@ -26,7 +26,7 @@ Hardware control information describes what kinds of hardware is able to be cont
 Since there is so much variation in supported hardware, there is no attempt to determine a level of performance.
 This information includes:
 
-* <span id="category">**Haptic Category**</span>: Which haptic submodalities are controllable by the tool. Specifically: vibrotactile, force-feedback, and temperature.
+* <span id="category">**Haptic Category**</span>: Which haptic submodalities are controllable by the tool. Specifically: vibrotactile, force-feedback, skin stretch/compression, and temperature.
 * <span id="abstraction">**Hardware Abstraction**</span>: How generic the hardware is, ranging from a class of available device, to specific consumer products, to bespoke, custom-built devices.
 For tools that support multiple Haptic Categories, the overall Hardware Abstraction is assigned with Bespoke before Consumer before Class.
 For example, a tool that uses both a Novint Falcon and any audio-driven vibrotactile actuator would be labeled "Consumer" rather than "Class".
@@ -37,7 +37,7 @@ Note that unless commercialized, open hardware devices are counted as "bespoke".
 Interaction and interface information are broadly concerned with how a user (i.e., a designer) uses the tool.
 Some fields are limited to tools that have a reasonably fixed user interface.
 For example, most SDKs offer little out of the box, but are in an environment where new interfaces and interactions can be programmed with some effort.
-Fields that are follwed by an \* are not applicable to tools like SDKs or APIs.
+Fields that are followed by an \* are not applicable to tools like SDKs or APIs.
 This information includes:
 
 * <span id="driving-feature">**Driving Feature**</span>: What parameter drives the changes in haptic output. Options include time, where output is solely a function of time, and action, where another input can change the output.

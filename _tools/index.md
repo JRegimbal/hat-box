@@ -49,7 +49,7 @@ has_toc: false
             </div>
         </summary>
         <fieldset>
-            <legend aria-describedby="yeartip">Year Range</legend>
+            <legend aria-describedby="yeartip">Year Range&#9432;</legend>
             <div role="tooltip" id="yeartip">
                 {{ site.data.short.year }}
             </div>
@@ -65,7 +65,7 @@ has_toc: false
             </div>
         </fieldset>
         <fieldset>
-            <legend aria-describedby="platformtip">Platforms (&#x2227;)</legend>
+            <legend aria-describedby="platformtip">Platforms (&#x2227;)&#9432;</legend>
             <div role="tooltip" id="platformtip">
                 {{ site.data.short.platform }}
             </div>
@@ -78,7 +78,7 @@ has_toc: false
             {% endfor %}
         </fieldset>
         <fieldset>
-            <legend aria-describedby="availabilitytip">Availability (&#x2228;)</legend>
+            <legend aria-describedby="availabilitytip">Availability (&#x2228;)&#9432;</legend>
             <div role="tooltip" id="availabilitytip">
                 {{ site.data.short.availability }}
             </div>
@@ -91,7 +91,7 @@ has_toc: false
             {% endfor %}
         </fieldset>
         <fieldset>
-            <legend aria-describedby="licensetip">Licenses (&#x2228;)</legend>
+            <legend aria-describedby="licensetip">Licenses (&#x2228;)&#9432;</legend>
             <div role="tooltip" id="licensetip">
                 {{ site.data.short.license }}
             </div>
@@ -111,7 +111,7 @@ has_toc: false
             </div>
         </summary>
         <fieldset>
-            <legend aria-describedby="categorytip">Haptic Category (&#x2228;)</legend>
+            <legend aria-describedby="categorytip">Haptic Category (&#x2228;)&#9432;</legend>
             <div role="tooltip" id="categorytip">
                 {{ site.data.short.hapticCategory }}
             </div>
@@ -124,7 +124,7 @@ has_toc: false
             {% endfor %}
         </fieldset>
         <fieldset>
-            <legend aria-describedby="abstractiontip">Hardware Abstractions (&#x2228;)</legend>
+            <legend aria-describedby="abstractiontip">Hardware Abstractions (&#x2228;)&#9432;</legend>
             <div role="tooltip" id="abstractiontip">
                 {{ site.data.short.hardwareAbstraction }}
             </div>
@@ -144,7 +144,7 @@ has_toc: false
             </div>
         </summary>
         <fieldset>
-            <legend aria-describedby="drivertip">Driving Feature (&#x2227;)</legend>
+            <legend aria-describedby="drivertip">Driving Feature (&#x2227;)&#9432;</legend>
             <div role="tooltip" id="drivertip">
                 {{ site.data.short.drivingFeature }}
             </div>
@@ -157,7 +157,7 @@ has_toc: false
             {% endfor %}
         </fieldset>
         <fieldset>
-            <legend aria-describedby="localizationtip">Effect Localization (&#x2228;)</legend>
+            <legend aria-describedby="localizationtip">Effect Localization (&#x2228;)&#9432;</legend>
             <div role="tooltip" id="localizationtip">
                 {{ site.data.short.effectLocalization }}
             </div>
@@ -170,7 +170,7 @@ has_toc: false
             {% endfor %}
         </fieldset>
         <fieldset>
-            <legend aria-describedby="mediatip">Media Support (&#x2228;)</legend>
+            <legend aria-describedby="mediatip">Media Support (&#x2228;)&#9432;</legend>
             <div role="tooltip" id="mediatip">
                 {{ site.data.short.mediaSupport }}
             </div>
@@ -183,7 +183,7 @@ has_toc: false
             {% endfor %}
         </fieldset>
         <fieldset>
-            <legend aria-describedby="playbacktip">Iterative Playback (&#x2228;)</legend>
+            <legend aria-describedby="playbacktip">Iterative Playback (&#x2228;)&#9432;</legend>
             <div role="tooltip" id="playbacktip">
                 {{ site.data.short.iterativePlayback }}
             </div>
@@ -196,7 +196,7 @@ has_toc: false
             {% endfor %}
         </fieldset>
         <fieldset>
-            <legend aria-describedby="approachestip">Design Approaches (&#x2228;)</legend>
+            <legend aria-describedby="approachestip">Design Approaches (&#x2228;)&#9432;</legend>
             <div role="tooltip" id="approachestip">
                 {{ site.data.short.designApproaches }}
             </div>
@@ -209,7 +209,7 @@ has_toc: false
             {% endfor %}
         </fieldset>
         <fieldset>
-            <legend aria-describedby="metaphortip">Interaction Metaphors (&#x2228;)</legend>
+            <legend aria-describedby="metaphortip">Interaction Metaphors (&#x2228;)&#9432;</legend>
             <div role="tooltip" id="metaphortip">
                 {{ site.data.short.interactionMetaphors }}
             </div>

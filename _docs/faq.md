@@ -14,7 +14,8 @@ While initial work focused on tools to control vibrotactile device, any haptic a
 Each entry has information tagged across [several different categories]({{ site.baseurl }}/docs/information.html) to permit a quick understanding of what the tool can do, how you can get it, and how you would use it.
 Extra textual information can be added, including links to other resources like a website, source code repository, or published paper.
 
-{{site.title}} is still a work in progress. After a first version is published, it will move into a collaborative phase where tools can be added or modified through pull requests. Right now, the list of tools is incomplete and information on them was determined through best efforts.
+{{site.title}} is a collaborative project. If you have tools you would like to see here, including your own, or any other ideas for contributing, please [read the contribution guide](https://github.com/JRegimbal/hat-box/blob/main/CONTRIBUTING.md).
+Please note that the information present on HAT Box is through the best efforts of contributors, and we cannot guarantee that pages are complete and accurate.
 
 ## What is this trying to solve?
 
@@ -46,6 +47,6 @@ While Haptipedia exclusively focuses on grounded force-feedback haptic devices, 
 
 ## I noticed something that's missing/incorrect! What should I do?
 
-If something is wrong or could be improved, please let me know by either sending an email to <span style="font-style: italic;">{{ site.email }}</span>, or
-by opening an issue or pull request on [the {{ site.title }} GitHub repo](https://github.com/JRegimbal/hat-box).
+Mistakes happen! If you see something that is wrong or can think of a way to improve HAT Box, please check out our
+[contribution guide](https://github.com/JRegimbal/hat-box/blob/main/CONTRIBUTING.md) or send an email to <span style="font-style: italic;">{{ site.email }}</span>.
 Existing pages include an "Edit this page on GitHub" link at the bottom of the screen for convenience.
