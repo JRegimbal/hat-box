@@ -12,7 +12,7 @@ haptic_category:
 hardware_abstraction: Consumer (Kinova Gen3)
 driving_feature:
     - Action
-effect_localization: Target-aware
+effect_localization: Target-centric
 media_support:
     - None
 iterative_playback: 'Yes'

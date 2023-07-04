@@ -13,7 +13,7 @@ hardware_abstraction: Consumer (Ultraleap STRATOS Explore)
 driving_feature:
     - Time
     - Action
-effect_localization: Target-aware
+effect_localization: Target-centric
 media_support:
     - Audio
     - Visual
@@ -27,7 +27,7 @@ interaction_metaphors:
     - Track
     - Keyframe
     - Demonstration
-image: /assets/tools/cobity.png
+#image: /assets/tools/cobity.png
 ---
 Feellustrator is a design tool for ultrasound mid-air haptics that allows users to sketch out paths for sensations to follow, control how the focal point will move along this path, and combine them together over time to create more complex experiences.
 Audio and visual reference materials can be loaded into the tool, but cannot be modified once added.
