@@ -54,3 +54,12 @@
     word-wrap: anywhere;
     white-space: normal;
 }
+
+.optiongroup {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.optiongroup div {
+    padding: 0.1em;
+}

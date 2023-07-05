@@ -53,15 +53,17 @@ has_toc: false
             <div role="tooltip" id="yeartip">
                 {{ site.data.short.year }}
             </div>
-            <div>
-                <label>Start Year
-                    <input id="start-year" class="filter-input" type="number" min="{{ yrs | first }}" max="{{ yrs | last }}" value="{{ yrs | first }}">
-                </label>
-            </div>
-            <div>
-                <label>End Year
-                    <input id="end-year" class="filter-input" type="number" min="{{ yrs | first }}" max="{{ yrs | last }}" value="{{ yrs | last }}">
-                </label>
+            <div class="optiongroup">
+                <div>
+                    <label>Start Year
+                        <input id="start-year" class="filter-input" type="number" min="{{ yrs | first }}" max="{{ yrs | last }}" value="{{ yrs | first }}">
+                    </label>
+                </div>
+                <div>
+                    <label>End Year
+                        <input id="end-year" class="filter-input" type="number" min="{{ yrs | first }}" max="{{ yrs | last }}" value="{{ yrs | last }}">
+                    </label>
+                </div>
             </div>
         </fieldset>
         <fieldset>
@@ -69,6 +71,7 @@ has_toc: false
             <div role="tooltip" id="platformtip">
                 {{ site.data.short.platform }}
             </div>
+            <div class="optiongroup">
             {% for pl in pls %}
                 {% assign tmp = pl | downcase | split: " " | join: "-" | prepend: "pl:" %}
                 <div>
@@ -76,12 +79,14 @@ has_toc: false
                     <label for="{{ tmp }}">{{ pl }}</label>
                 </div>
             {% endfor %}
+            </div>
         </fieldset>
         <fieldset>
             <legend aria-describedby="availabilitytip">Availability (&#x2228;)&#9432;</legend>
             <div role="tooltip" id="availabilitytip">
                 {{ site.data.short.availability }}
             </div>
+            <div class="optiongroup">
             {% for av in avs %}
                 {% assign tmp = av | split: " " | join: "-" | downcase  | prepend: "av:" %}
                 <div>
@@ -89,12 +94,14 @@ has_toc: false
                     <label for="{{ tmp }}">{{ av }}</label>
                 </div>
             {% endfor %}
+            </div>
         </fieldset>
         <fieldset>
             <legend aria-describedby="licensetip">Licenses (&#x2228;)&#9432;</legend>
             <div role="tooltip" id="licensetip">
                 {{ site.data.short.license }}
             </div>
+            <div class="optiongroup">
             {% for li in lic %}
                 {% assign tmp = li | split: " " | join: "-" | downcase | prepend: "li:" %}
                 <div>
@@ -102,6 +109,7 @@ has_toc: false
                     <label for="{{ tmp }}">{{ li }}</label>
                 </div>
             {% endfor %}
+            </div>
         </fieldset>
     </details>
     <details>
@@ -115,6 +123,7 @@ has_toc: false
             <div role="tooltip" id="categorytip">
                 {{ site.data.short.hapticCategory }}
             </div>
+            <div class="optiongroup">
             {% for hc in hcs %}
                 {% assign tmp = hc | replace: "Vibrotactile", "vt" | replace: "Force Feedback", "ff" | replace: "Temperature", "temp" | prepend: "hc:" %}
                 <div>
@@ -122,12 +131,14 @@ has_toc: false
                     <label for="{{ tmp }}">{{ hc }}</label>
                 </div>
             {% endfor %}
+            </div>
         </fieldset>
         <fieldset>
             <legend aria-describedby="abstractiontip">Hardware Abstractions (&#x2228;)&#9432;</legend>
             <div role="tooltip" id="abstractiontip">
                 {{ site.data.short.hardwareAbstraction }}
             </div>
+            <div class="optiongroup">
             {% for ha in has %}
                 {% assign tmp = ha | downcase | prepend: "ha:" %}
                 <div>
@@ -135,6 +146,7 @@ has_toc: false
                     <label for="{{ tmp }}">{{ ha }}</label>
                 </div>
             {% endfor %}
+            </div>
         </fieldset>
     </details>
     <details>
@@ -148,6 +160,7 @@ has_toc: false
             <div role="tooltip" id="drivertip">
                 {{ site.data.short.drivingFeature }}
             </div>
+            <div class="optiongroup">
             {% for df in dfs %}
                 {% assign tmp = df | downcase | prepend: "df:" %}
                 <div>
@@ -155,12 +168,14 @@ has_toc: false
                     <label for="{{ tmp }}">{{ df }}</label>
                 </div>
             {% endfor %}
+            </div>
         </fieldset>
         <fieldset>
             <legend aria-describedby="localizationtip">Effect Localization (&#x2228;)&#9432;</legend>
             <div role="tooltip" id="localizationtip">
                 {{ site.data.short.effectLocalization }}
             </div>
+            <div class="optiongroup">
             {% for el in els %}
                 {% assign tmp = el | downcase | prepend: "el:" %}
                 <div>
@@ -168,12 +183,14 @@ has_toc: false
                     <label for="{{ tmp }}">{{ el }}</label>
                 </div>
             {% endfor %}
+            </div>
         </fieldset>
         <fieldset>
             <legend aria-describedby="mediatip">Media Support (&#x2228;)&#9432;</legend>
             <div role="tooltip" id="mediatip">
                 {{ site.data.short.mediaSupport }}
             </div>
+            <div class="optiongroup">
             {% for ms in mss %}
                 {% assign tmp = ms | downcase | prepend: "ms:" %}
                 <div>
@@ -181,12 +198,14 @@ has_toc: false
                     <label for="{{ tmp }}">{{ ms }}</label>
                 </div>
             {% endfor %}
+            </div>
         </fieldset>
         <fieldset>
             <legend aria-describedby="playbacktip">Iterative Playback (&#x2228;)&#9432;</legend>
             <div role="tooltip" id="playbacktip">
                 {{ site.data.short.iterativePlayback }}
             </div>
+            <div class="optiongroup">
             {% for ip in ips %}
                 {% assign tmp = ip | split: " " | join: "-" | downcase | prepend: "ip:" %}
                 <div>
@@ -194,12 +213,14 @@ has_toc: false
                     <label for="{{ tmp }}">{{ ip }}</label>
                 </div>
             {% endfor %}
+            </div>
         </fieldset>
         <fieldset>
             <legend aria-describedby="approachestip">Design Approaches (&#x2228;)&#9432;</legend>
             <div role="tooltip" id="approachestip">
                 {{ site.data.short.designApproaches }}
             </div>
+            <div class="optiongroup">
             {% for da in das %}
                 {% assign tmp = da | downcase | prepend: "da:" %}
                 <div>
@@ -207,12 +228,14 @@ has_toc: false
                     <label for="{{ tmp }}">{{ da }}</label>
                 </div>
             {% endfor %}
+            </div>
         </fieldset>
         <fieldset>
             <legend aria-describedby="metaphortip">Interaction Metaphors (&#x2228;)&#9432;</legend>
             <div role="tooltip" id="metaphortip">
                 {{ site.data.short.interactionMetaphors }}
             </div>
+            <div class="optiongroup">
             {% for im in ims %}
                 {% assign tmp = im | downcase | prepend: "im:" %}
                 <div>
@@ -220,6 +243,7 @@ has_toc: false
                     <label for="{{ tmp }}">{{ im }}</label>
                 </div>
             {% endfor %}
+            </div>
         </fieldset>
     </details>
     <script type="text/javascript" src="{{ site.baseurl }}/assets/js/filter.js"></script>
