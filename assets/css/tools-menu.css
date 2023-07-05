@@ -63,3 +63,7 @@
 .optiongroup div {
     padding: 0.1em;
 }
+
+.filter-section details fieldset {
+    display: inline;
+}
