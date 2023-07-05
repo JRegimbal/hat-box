@@ -1,0 +1,11 @@
+@import "tooltip.css";
+@import "toolstyle.css";
+
+#compare-div  {
+    display: flex;
+}
+
+#compare-div section {
+    display: none;
+    padding: 1em;
+}

@@ -254,7 +254,8 @@ has_toc: false
 <div class="list-section">
 {% for tool in site.tools %}
     {% if tool.title != "Tools" %}
-    <div class="tools-top-div
+    <div id = "tool:{{ tool.title | downcase | split: ' ' | join: '-' }}"
+        class="tools-top-div
             year:{{ tool.year }}
             {% for pl in tool.platform %}pl:{{ pl | downcase | split: " " | join: "-" }} {% endfor %}
             av:{{ tool.availability | split: "(" | first | trim | split: " " | join: "-" | downcase }}
@@ -267,15 +268,22 @@ has_toc: false
             ip:{{ tool.iterative_playback | split: " " | join: "-" | downcase }}
             {% for da in tool.design_approaches %}da:{{ da | downcase }} {% endfor %}
             {% for im in tool.interaction_metaphors %}im:{{ im | downcase }} {% endfor %}
-        "><a href="{{ site.baseurl }}{{ tool.url }}">
-        <div class="tools-img-div">
-            <img src="{{ site.baseurl }}{% if tool.image %}{{ tool.image }}{% else %}/assets/tools/unknown.png{% endif %}"
-                alt="{% if tool.image %}A image showing {{ tool.title }}.{% else %}A placeholder image for {{ tool.title }}.{% endif %}">
+        ">
+        <div class="tools-int-div">
+            <div class="tools-img-div">
+                <a href="{{ site.baseurl }}{{ tool.url }}">
+                <img src="{{ site.baseurl }}{% if tool.image %}{{ tool.image }}{% else %}/assets/tools/unknown.png{% endif %}"
+                    alt="{% if tool.image %}A image showing {{ tool.title }}.{% else %}A placeholder image for {{ tool.title }}.{% endif %}">
+                </a>
+            </div>
+            <div class="tools-label-div">
+                <a href="{{ site.baseurl }}{{ tool.url }}">
+                    <h3 style="text-align: center;word-wrap: anywhere; white-space: normal;">{{ tool.title }}</h3>
+                </a>
+                <label>Compare <input type="checkbox"/></label>
+            </div>
         </div>
-        <div class="tools-label-div">
-            <h3 style="text-align: center;word-wrap: anywhere; white-space: normal;">{{ tool.title }}</h3>
-        </div>
-    </a></div>
+    </div>
     {% endif %}
 {% endfor %}
 </div>

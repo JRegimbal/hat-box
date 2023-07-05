@@ -21,7 +21,7 @@
     display: none;
 }
 
-.tools-top-div a {
+.tools-int-div{
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -44,9 +44,15 @@
 .tools-label-div {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin: auto;
     margin-bottom: 0;
+}
+
+.tools-label-div label {
+    margin-left: auto;
+    margin-right: 0;
 }
 
 .tools-label-div h3 {

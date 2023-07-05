@@ -1,0 +1,45 @@
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">General Purpose Information</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>
+                <a aria-describedby="yeartip" href="{{ site.baseurl }}/docs/information.html#year">Year of First Release&#9432;</a>
+                <div role="tooltip" id="yeartip">
+                    {{ site.data.short.year }}
+                </div>
+            </th>
+            <td>{{ tool.year }}</td>
+        </tr>
+        <tr>
+            <th>
+                <a aria-describedby="platformtip" href="{{ site.baseurl }}/docs/information.html#platform">Platform&#9432;</a>
+                <div role="tooltip" id="platformtip">
+                    {{ site.data.short.platform }}
+                </div>
+            </th>
+            <td>{{ tool.platform | join: ", " }}</td>
+        </tr>
+        <tr>
+            <th>
+                <a aria-describedby="availabilitytip" href="{{ site.baseurl }}/docs/information.html#availability">Availability&#9432;</a>
+                <div role="tooltip" id="availabilitytip">
+                    {{ site.data.short.availability }}
+                </div>
+            </th>
+            <td>{{ tool.availability }}</td>
+        </tr>
+        <tr>
+            <th>
+                <a aria-describedby="licensetip" href="{{ site.baseurl }}/docs/information.html#license">License&#9432;</a>
+                <div role="tooltip" id="licensetip">
+                    {{ site.data.short.license }}
+                </div>
+            </th>
+            <td>{{ tool.license }}</td>
+        </tr>
+    </tbody>
+</table>
