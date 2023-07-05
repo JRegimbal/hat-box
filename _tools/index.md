@@ -246,7 +246,7 @@ has_toc: false
             </div>
         </fieldset>
     </details>
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/filter.js"></script>
+    <button id="resetFilters">Reset Filters</button>
 </section>
 
 <section>
@@ -280,3 +280,4 @@ has_toc: false
 {% endfor %}
 </div>
 </section>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/filter.js"></script>

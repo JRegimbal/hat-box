@@ -1,4 +1,33 @@
-function updateToolFilter(evt) {
+let arrayChecked, selStartYear, selEndYear = null;
+
+const store = Boolean(window.sessionStorage);
+
+if (store) {
+    // Try to retrieve last filter settings from storage
+    arrayChecked = sessionStorage.getItem("checkedInputs");
+    if (arrayChecked) {
+        arrayChecked = JSON.parse(arrayChecked);
+    }
+    selStartYear = sessionStorage.getItem("selStartYear");
+    selEndYear = sessionStorage.getItem("selEndYear");
+
+    // Apply filter settings from storage
+    if (selStartYear) {
+        document.getElementById("start-year").value = parseInt(selStartYear);
+    }
+    if (selEndYear) {
+        document.getElementById("end-year").value = parseInt(selEndYear);
+    }
+    if (arrayChecked) {
+        for (const inputId of arrayChecked) {
+            document.getElementById(inputId).checked = true;
+        }
+    }
+} else {
+    console.warn("Session Storage API is not supported! Filter settings will not be preserved.");
+}
+
+function updateToolFilter() {
     // Set all to visible at first
     const tools = Array.from(document.getElementsByClassName("tools-top-div"));
     tools.forEach(tool => { tool.classList.remove("hidden"); });
@@ -282,5 +311,48 @@ function updateToolFilter(evt) {
     }
 }
 
-Array.from(document.getElementsByClassName("filter-input")).forEach(input => { input.addEventListener("change", updateToolFilter); });
-
+Array.from(document.getElementsByClassName("filter-input")).forEach(input => { input.addEventListener("change", (evt) => {
+            if (input.id === "start-year") {
+                selStartYear = input.value;
+                sessionStorage.setItem("selStartYear", selStartYear);
+            } else if (input.id === "end-year") {
+                selEndYear = input.value;
+                sessionStorage.setItem("selEndYear", selEndYear);
+            } else {
+                if (input.checked) {
+                    if (!arrayChecked) {
+                        arrayChecked = [];
+                    }
+                    arrayChecked.push(input.id);
+                    sessionStorage.setItem("checkedInputs", JSON.stringify(arrayChecked));
+                } else {
+                    if (arrayChecked) {
+                        arrayChecked.splice(arrayChecked.indexOf(input.id));
+                        sessionStorage.setItem("checkedInputs", JSON.stringify(arrayChecked));
+                    } else {
+                        console.warn("arrayChecked was empty when removing input of ID " + input.id);
+                    }
+                }
+            }
+            updateToolFilter();
+        }
+    );
+});
+document.getElementById("resetFilters").addEventListener("click", () => {
+    Array.from(document.getElementsByClassName("filter-input")).forEach(input => {
+        if (input.type === "checkbox") {
+            input.checked = input.defaultChecked;
+        } else if (input.type === "number") {
+            input.value = input.defaultValue;
+        }
+    });
+    if (store) {
+        arrayChecked = null;
+        selStartYear = null;
+        selEndYear = null;
+        sessionStorage.clear();
+    }
+    updateToolFilter();
+});
+// Apply filters with stored values (if any)
+updateToolFilter();
