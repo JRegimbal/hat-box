@@ -125,7 +125,7 @@ has_toc: false
             </div>
             <div class="optiongroup">
             {% for hc in hcs %}
-                {% assign tmp = hc | replace: "Vibrotactile", "vt" | replace: "Force Feedback", "ff" | replace: "Temperature", "temp" | prepend: "hc:" %}
+                {% assign tmp = hc | replace: "Vibrotactile", "vt" | replace: "Force Feedback", "ff" | replace: "Temperature", "temp" | replace: "Skin Stretch/Compression", "ssc" | prepend: "hc:" %}
                 <div>
                     <input class="filter-input filter-input-hc" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
                     <label for="{{ tmp }}">{{ hc }}</label>
@@ -260,7 +260,7 @@ has_toc: false
             {% for pl in tool.platform %}pl:{{ pl | downcase | split: " " | join: "-" }} {% endfor %}
             av:{{ tool.availability | split: "(" | first | trim | split: " " | join: "-" | downcase }}
             li:{{ tool.license | split: "(" | first | trim | split: " " | join: "-" | downcase }}
-            {% for hc in tool.haptic_category %}hc:{{ hc | replace: "Vibrotactile", "vt" | replace: "Force Feedback", "ff" | replace: "Temperature", "temp" }} {% endfor %}
+            {% for hc in tool.haptic_category %}hc:{{ hc | replace: "Vibrotactile", "vt" | replace: "Force Feedback", "ff" | replace: "Temperature", "temp" | replace: "Skin Stretch/Compression", "ssc" }} {% endfor %}
             ha:{{ tool.hardware_abstraction | split: "(" | first | trim | downcase }}
             {% for df in tool.driving_feature %}df:{{ df | downcase }} {% endfor %}
             el:{{ tool.effect_localization | downcase }}
