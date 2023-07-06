@@ -254,7 +254,7 @@ has_toc: false
 <div class="list-section">
 {% for tool in site.tools %}
     {% if tool.title != "Tools" %}
-    <div id = "tool:{{ tool.title | downcase | split: ' ' | join: '-' }}"
+    <div id = "tool-{{ tool.title | downcase | split: ' ' | join: '-' }}"
         class="tools-top-div
             year:{{ tool.year }}
             {% for pl in tool.platform %}pl:{{ pl | downcase | split: " " | join: "-" }} {% endfor %}
@@ -280,12 +280,14 @@ has_toc: false
                 <a href="{{ site.baseurl }}{{ tool.url }}">
                     <h3 style="text-align: center;word-wrap: anywhere; white-space: normal;">{{ tool.title }}</h3>
                 </a>
-                <label>Compare <input type="checkbox"/></label>
+                <label>Compare <input type="checkbox" name="{{ tool.title | downcase | split: ' ' | join: '-' }}" class="compare"/></label>
             </div>
         </div>
     </div>
     {% endif %}
 {% endfor %}
 </div>
+<button id="compare-reset">Reset Comparison</button>
 </section>
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/filter.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/compare-sel.js"></script>

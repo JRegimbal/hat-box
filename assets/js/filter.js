@@ -327,7 +327,7 @@ Array.from(document.getElementsByClassName("filter-input")).forEach(input => { i
                     sessionStorage.setItem("checkedInputs", JSON.stringify(arrayChecked));
                 } else {
                     if (arrayChecked) {
-                        arrayChecked.splice(arrayChecked.indexOf(input.id));
+                        arrayChecked.splice(arrayChecked.indexOf(input.id), 1);
                         sessionStorage.setItem("checkedInputs", JSON.stringify(arrayChecked));
                     } else {
                         console.warn("arrayChecked was empty when removing input of ID " + input.id);
@@ -350,7 +350,9 @@ document.getElementById("resetFilters").addEventListener("click", () => {
         arrayChecked = null;
         selStartYear = null;
         selEndYear = null;
-        sessionStorage.clear();
+        sessionStorage.removeItem("checkedInputs");
+        sessionStorage.removeItem("selStartYear");
+        sessionStorage.removeItem("selEndYear");
     }
     updateToolFilter();
 });

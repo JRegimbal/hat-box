@@ -6,6 +6,13 @@
 }
 
 #compare-div section {
-    display: none;
     padding: 1em;
+}
+
+.hidden {
+    display: none;
+}
+
+.tool-image img {
+    max-height: 10em;
 }

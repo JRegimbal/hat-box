@@ -1,15 +1,25 @@
 ---
 layout: default
 title: Comparison
-nav_exclude: true
 permalink: /compare
 ---
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/toolcompare.css">
-<div id="compare-div">
+<section id="compare-warning">
+    <p id="no-tools" class="hidden">
+        Nothing is currently selected for comparison. Please select two tools to compare on <a href="{{ site.baseurl }}/tools/">the Tools page</a>.
+    </p>
+    <p id="one-tool" class="hidden">
+        Only one tool is selected for comparison. Please select another to compare on <a href="{{ site.baseurl }}/tools/">the Tools page</a>.
+    </p>
+    <p id="no-storage">
+        Your web browser does not support the Session Storage API. This feature will not work.
+    </p>
+</section>
+<div id="compare-div" class="hidden">
 <section id="compare-1">
 {% for tool in site.tools %}
 {% if tool.title != "Tools" %}
-<div class="tool-whatever" id="tool1-{{tool.title | downcase | split: ' ' | join: '-'}}">
+<div class="tool-whatever hidden" id="tool1-{{tool.title | downcase | split: ' ' | join: '-'}}">
     <h1>{{tool.title}}</h1>
     {% if tool.image %}
     <section class="tool-image">
@@ -34,7 +44,7 @@ permalink: /compare
 <section id="compare-2">
 {% for tool in site.tools %}
 {% if tool.title != "Tools" %}
-<div class="tool-whatever" id="tool1-{{tool.title | downcase | split: ' ' | join: '-'}}">
+<div class="tool-whatever hidden" id="tool2-{{tool.title | downcase | split: ' ' | join: '-'}}">
     <h1>{{tool.title}}</h1>
     {% if tool.image %}
     <section class="tool-image">
@@ -57,3 +67,4 @@ permalink: /compare
 {% endfor %}
 </section>
 </div>
+<script src="{{ site.baseurl }}/assets/js/compare.js"></script>
