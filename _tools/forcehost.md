@@ -10,7 +10,7 @@ availability: Available
 license: Open Source (GPL 3)
 haptic_category:
     - Force Feedback
-hardware_abstraction: Bespoke (Force Host)
+hardware_abstraction: Bespoke ([TorqueTuner](./torquetuner.html) device, optionally with ESP32 boards supporting audio I/O)
 driving_feature:
     - Action
 effect_localization: Location-aware
