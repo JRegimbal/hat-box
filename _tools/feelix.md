@@ -35,5 +35,5 @@ For time-based effects, user-created and pre-existing effects can be sequenced i
 The second interface provides a dataflow programming environment to directly control the connected motor.
 Parameters of these effects can be connected to different inputs to support real-time adjustment of the haptic interaction.
 
-For more information, consult the [2020 ICMI paper](https://doi.org/10.1145/3382507.3418819)
+For more information, consult the [2020 ICMI paper](https://doi.org/10.1145/3382507.3418819), the [NordiCHI'22 tutorial](https://doi.org/10.1145/3547522.3558900), and the [TEI'23 studio](https://doi.org/10.1145/3569009.3571842).
 and the [Feelix documentation](https://docs.feelix.xyz/).
