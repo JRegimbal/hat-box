@@ -10,7 +10,7 @@ availability: Available
 license: Open Source (GPL 3)
 haptic_category:
     - Force Feedback
-hardware_abstraction: Bespoke ([TorqueTuner](./torquetuner.html) device, optionally with ESP32 boards supporting audio I/O)
+hardware_abstraction: Bespoke (TorqueTuner)
 driving_feature:
     - Action
 effect_localization: Location-aware
@@ -24,7 +24,7 @@ interaction_metaphors:
 image: /assets/tools/forcehost.png
 ---
 ForceHost is a toolchain for embedded physical modelling of audio-haptic effects for digital musical instruments.
-The ForceHost device consists of an ESP32 and 1-DoF servo with network connectivity so that it can be connected to other audio synthesis programs and so users can access the editor GUI through a web application.
+It primarily supports the [TorqueTuner](./torquetuner.html) device, but can optionally be used with ESP32 boards supporting audio I/O, a 1-DoF servo, and network connectivity. Network connectivity is necessary so that it can be connected to other audio synthesis programs and so users can access the editor GUI through a web application.
 This application allows users to create haptic effects at runtime by sketching and manipulating curves representing transfer functions.
 Based on [Faust](https://faust.grame.fr), ForceHost is also supported by a fork of Synth-a-Modeler and can be controlled with a lower-level API called haptic1D.
 
