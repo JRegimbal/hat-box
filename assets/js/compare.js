@@ -6,7 +6,7 @@ if (!window.sessionStorage) {
     document.getElementById("no-storage").classList.add("hidden");
     const compareTools = JSON.parse(sessionStorage.getItem("compareTools"));
     if (!compareTools || compareTools.length < 2) {
-        if (compareTools.length === 0) {
+        if (!compareTools || compareTools.length === 0) {
             document.getElementById("no-tools").classList.remove("hidden");
         } else {
             document.getElementById("one-tool").classList.remove("hidden");
