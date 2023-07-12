@@ -1,16 +1,16 @@
 if (window.sessionStorage) {
-    const compareReset = document.getElementById("compare-reset");
+    const compareResets = document.getElementsByClassName("compare-reset");
     const compareInputs = Array.from(document.getElementsByClassName("compare"));
     let compareArray = JSON.parse(sessionStorage.getItem("compareTools"));
 
-    compareReset.addEventListener("click", () => {
+    Array.from(compareResets).forEach(it => { it.addEventListener("click", () => {
         compareInputs.forEach(input => {
             input.disabled = false;
             input.checked = false;
         });
         compareArray = [];
         sessionStorage.removeItem("compareTools");
-    });
+    })});
 
     if (!compareArray) {
         compareArray = [];

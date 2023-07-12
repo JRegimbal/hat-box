@@ -251,6 +251,7 @@ has_toc: false
 
 <section>
 <h2>Tools</h2>
+<button class="compare-reset">Reset Comparison</button>
 <div class="list-section">
 {% for tool in site.tools %}
     {% if tool.title != "Tools" %}
@@ -287,7 +288,7 @@ has_toc: false
     {% endif %}
 {% endfor %}
 </div>
-<button id="compare-reset">Reset Comparison</button>
+<button class="compare-reset">Reset Comparison</button>
 </section>
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/filter.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/compare-sel.js"></script>
