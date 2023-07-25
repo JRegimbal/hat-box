@@ -12,7 +12,13 @@
                     {{ site.data.short.year }}
                 </div>
             </th>
-            <td>{{ page.year }}</td>
+            <td>
+                {% if tool %}
+                {{ tool.year }}
+                {% else %}
+                {{ page.year }}
+                {% endif %}
+            </td>
         </tr>
         <tr>
             <th>
@@ -21,7 +27,13 @@
                     {{ site.data.short.platform }}
                 </div>
             </th>
-            <td>{{ page.platform | join: ", " }}</td>
+            <td>
+                {% if tool %}
+                {{ tool.platform | join: ", " }}
+                {% else %}
+                {{ page.platform | join: ", " }}
+                {% endif %}
+            </td>
         </tr>
         <tr>
             <th>
@@ -30,7 +42,13 @@
                     {{ site.data.short.availability }}
                 </div>
             </th>
-            <td>{{ page.availability }}</td>
+            <td>
+                {% if tool %}
+                {{ tool.availability }}
+                {% else %}
+                {{ page.availability }}
+                {% endif %}
+            </td>
         </tr>
         <tr>
             <th>
@@ -39,7 +57,13 @@
                     {{ site.data.short.license }}
                 </div>
             </th>
-            <td>{{ page.license }}</td>
+            <td>
+                {% if tool %}
+                {{ tool.license }}
+                {% else %}
+                {{ page.license }}
+                {% endif %}
+            </td>
         </tr>
     </tbody>
 </table>

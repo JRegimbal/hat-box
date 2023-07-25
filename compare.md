@@ -28,9 +28,9 @@ search_exclude: true
     {% endif %}
     <section class="tool-summary">
         <h2>Tool Summary</h2>
-        {% include gp_table_cmp.html %}
-        {% include hardware_table_cmp.html %}
-        {% include interaction_table_cmp.html %}
+        {% include gp_table.html %}
+        {% include hardware_table.html %}
+        {% include interaction_table.html %}
     </section>
 
     <section class="description">
@@ -53,9 +53,9 @@ search_exclude: true
     {% endif %}
     <section class="tool-summary">
         <h2>Tool Summary</h2>
-        {% include gp_table_cmp.html %}
-        {% include hardware_table_cmp.html %}
-        {% include interaction_table_cmp.html %}
+        {% include gp_table.html %}
+        {% include hardware_table.html %}
+        {% include interaction_table.html %}
     </section>
 
     <section class="description">
