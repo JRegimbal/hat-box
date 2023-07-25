@@ -1,0 +1,18 @@
+@import "tooltip.css";
+@import "toolstyle.css";
+
+#compare-div  {
+    display: flex;
+}
+
+#compare-div section {
+    padding: 1em;
+}
+
+.hidden {
+    display: none;
+}
+
+.tool-image img {
+    max-height: 10em;
+}

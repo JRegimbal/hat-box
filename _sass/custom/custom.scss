@@ -1,0 +1,7 @@
+/* Have main column fill available width on screen
+ * Useful for bigger displays */
+.main {
+  @include mq(md) {
+    max-width: initial;
+  }
+}

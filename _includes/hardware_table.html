@@ -12,7 +12,13 @@
                     {{ site.data.short.hapticCategory }}
                 </div>
             </th>
-            <td>{{ page.haptic_category | join: ", " }}</td>
+            <td>
+                {% if tool %}
+                {{ tool.haptic_category | join: ", "}}
+                {% else %}
+                {{ page.haptic_category | join: ", " }}
+                {% endif %}
+            </td>
         </tr>
         <tr>
             <th>
@@ -21,7 +27,13 @@
                     {{ site.data.short.hardwareAbstraction }}
                 </div>
             </th>
-            <td>{{ page.hardware_abstraction }}</td>
+            <td>
+                {% if tool %}
+                {{ tool.hardware_abstraction }}
+                {% else %}
+                {{ page.hardware_abstraction }}
+                {% endif %}
+            </td>
         </tr>
     </tbody>
 </table>

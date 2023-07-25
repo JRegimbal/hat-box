@@ -2,5 +2,7 @@
 
 .tool-image img {
     max-height: 30em;
+    display: block;
+    margin: auto;
 }
 

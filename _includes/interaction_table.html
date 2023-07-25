@@ -12,7 +12,13 @@
                     {{ site.data.short.drivingFeature }}
                 </div>
             </th>
-            <td>{{ page.driving_feature | join: ", " }}</td>
+            <td>
+                {% if tool %}
+                {{ tool.driving_feature | join: ", " }}
+                {% else %}
+                {{ page.driving_feature | join: ", " }}
+                {% endif %}
+            </td>
         </tr>
         <tr>
             <th>
@@ -21,7 +27,13 @@
                     {{ site.data.short.effectLocalization }}
                 </div>
             </th>
-            <td>{{ page.effect_localization }}</td>
+            <td>
+                {% if tool %}
+                {{ tool.effect_localization }}
+                {% else %}
+                {{ page.effect_localization }}
+                {% endif %}
+            </td>
         </tr>
         <tr>
             <th>
@@ -30,7 +42,13 @@
                     {{ site.data.short.mediaSupport }}
                 </div>
             </th>
-            <td>{{ page.media_support | join: ", " }}</td>
+            <td>
+                {% if tool %}
+                {{ tool.media_support | join: ", " }}
+                {% else %}
+                {{ page.media_support | join: ", " }}
+                {% endif %}
+            </td>
         </tr>
         <tr>
             <th>
@@ -39,7 +57,13 @@
                     {{ site.data.short.iterativePlayback }}
                 </div>
             </th>
-            <td>{{ page.iterative_playback }}</td>
+            <td>
+                {% if tool %}
+                {{ tool.iterative_playback }}
+                {% else %}
+                {{ page.iterative_playback }}
+                {% endif %}
+            </td>
         </tr>
         <tr>
             <th>
@@ -48,7 +72,13 @@
                     {{ site.data.short.designApproaches }}
                 </div>
             </th>
-            <td>{{ page.design_approaches | join: ", " }}</td>
+            <td>
+                {% if tool %}
+                {{ tool.design_approaches | join: ", " }}
+                {% else %}
+                {{ page.design_approaches | join: ", " }}
+                {% endif %}
+            </td>
         </tr>
         <tr>
             <th>
@@ -57,7 +87,13 @@
                     {{ site.data.short.interactionMetaphors }}
                 </div>
             </th>
-            <td>{{ page.interaction_metaphors | join: ", " }}</td>
+            <td>
+                {% if tool %}
+                {{ tool.interaction_metaphors | join: ", " }}
+                {% else %}
+                {{ page.interaction_metaphors | join: ", " }}
+                {% endif %}
+            </td>
         </tr>
     </tbody>
 </table>
