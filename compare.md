@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Comparison
-permalink: /compare
+search_exclude: true
 ---
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/toolcompare.css">
 <section id="compare-warning">
