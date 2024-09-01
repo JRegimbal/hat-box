@@ -95,6 +95,36 @@
                 {% endif %}
             </td>
         </tr>
+        <tr>
+            <th>
+                <a aria-describedby="storagetip" href="{{ site.baseurl }}/docs/information.html#storage">Storage&#9432;</a>
+                <div role="tooltip" id="storagetip">
+                    {{ site.data.short.storage }}
+                </div>
+            </th>
+            <td>
+                {% if tool %}
+                {{ tool.storage | join: ", " }}
+                {% else %}
+                {{ page.storage | join: ", " }}
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <a aria-describedby="connectivitytip" href="{{ site.baseurl }}/docs/information.html#connectivity">Connectivity&#9432;</a>
+                <div role="tooltip" id="connectivitytip">
+                    {{ site.data.short.connectivity }}
+                </div>
+            </th>
+            <td>
+                {% if tool %}
+                {{ tool.connectivity | join: ", " }}
+                {% else %}
+                {{ page.connectivity | join: ", " }}
+                {% endif %}
+            </td>
+        </tr>
     </tbody>
 </table>
 

@@ -65,5 +65,35 @@
                 {% endif %}
             </td>
         </tr>
+        <tr>
+            <th>
+                <a aria-describedby="venuetip" href="{{ site.baseurl }}/docs/information.html#venue">Venue&#9432;</a>
+                <div role="tooltip" id="venuetip">
+                    {{ site.data.short.venue }}
+                </div>
+            </th>
+            <td>
+                {% if tool %}
+                {{ tool.venue }}
+                {% else %}
+                {{ page.venue }}
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <a aria-describedby="usecasetip" href="{{ site.baseurl }}/docs/information.html#use-case-tip">Intended Use Case&#9432;</a>
+                <div role="tooltip" id="use-case-tip">
+                    {{ site.data.short.useCase}}
+                </div>
+            </th>
+            <td>
+                {% if tool %}
+                {{ tool.use_case | join: ", " }}
+                {% else %}
+                {{ page.use_case | join: ", " }}
+                {% endif %}
+            </td>
+        </tr>
     </tbody>
 </table>

@@ -35,6 +35,36 @@
                 {% endif %}
             </td>
         </tr>
+        <tr>
+            <th>
+                <a aria-describedby="devicetip" href="{{ site.baseurl }}/docs/information.html#devices">Device Names&#9432;</a>
+                <div role="tooltip" id="devicetip">
+                    {{ site.data.short.device_names}}
+                </div>
+            </th>
+            <td>
+                {% if tool %}
+                {{ tool.device_names | join: ", " }}
+                {% else %}
+                {{ page.device_names | join: ", " }}
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <a aria-describedby="bodypostip" href="{{ site.baseurl }}/docs/information.html#body-position">Body Position&#9432;</a>
+                <div role="tooltip" id="bodypostip">
+                    {{ site.data.short.bodyPosition }}
+                </div>
+            </th>
+            <td>
+                {% if tool %}
+                {{ tool.body_position | join: ", " }}
+                {% else %}
+                {{ page.body_position | join: ", " }}
+                {% endif %}
+            </td>
+        </tr>
     </tbody>
 </table>
 
