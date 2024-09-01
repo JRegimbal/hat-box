@@ -3,13 +3,24 @@ parent: Tools
 layout: tool
 title: FeelCraft
 year: '2014'
+venue:
+    - UIST
+    - AsiaHaptics
 platform:
-    - Java and Python
+    - Java
+    - Python
 availability: Unavailable
 license: Unknown
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Consumer (Vybe Haptic Gaming Pad)
+body_position:
+    - N/A
+use_case:
+    - Collaboration
+    - Haptic Augmentation
+hardware_abstraction: Consumer
+device_names:
+    - Vybe Haptic Gaming Pad
 driving_feature:
     - Action
 effect_localization: Device-centric
@@ -23,6 +34,8 @@ design_approaches:
 interaction_metaphors:
     - Generic Menu
 image: /assets/tools/feelcraft.jpg
+connectivity: API
+storage: Feel Effect JSON
 ---
 FeelCraft is a technical architecture where libraries of haptic effects (feel effects) are triggered by events in pre-existing media applications through the use of the FeelCraft plugin.
 The implemented example connects to the event system of a Minecraft server.

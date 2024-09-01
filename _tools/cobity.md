@@ -7,9 +7,16 @@ platform:
     - Unity
 availability: Available
 license: Open Source (MIT)
+venue: Mensch und Computer
+body_position:
+    - N/A
+use_case:
+    - Virtual Reality
 haptic_category:
     - Force Feedback
-hardware_abstraction: Consumer (Kinova Gen3)
+hardware_abstraction: Consumer
+device_names:
+    - Kinova Gen3
 driving_feature:
     - Action
 effect_localization: Target-centric
@@ -22,6 +29,8 @@ design_approaches:
 interaction_metaphors:
     - Generic Menu
 image: /assets/tools/cobity.png
+connectivity: None
+storage: None
 ---
 Cobity is a Unity plugin for controlling a cobot in VR.
 The robot's end effector and position tracking parameters can be modified within the plugin.

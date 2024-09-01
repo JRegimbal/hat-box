@@ -9,9 +9,21 @@ platform:
     - Linux
 availability: Available
 license: Open Source (BSD 3-Clause)
+venue: EuroHaptics
+use_case:
+    - Simulation
 haptic_category:
     - Force Feedback
-hardware_abstraction: Consumer (Force Dimension, 3DSystems, Novint Falcon, Sixense)
+hardware_abstraction: Consumer
+device_names:
+    - omega.x
+    - delta.x
+    - sigma.x
+    - Phantom
+    - Novint Falcon
+    - Razer Hydra
+body_position:
+    - N/A
 driving_feature:
     - Action
 effect_localization: Target-centric
@@ -26,6 +38,10 @@ design_approaches:
 interaction_metaphors:
     - N/A
 image: /assets/tools/chai3d.png
+connectivity:
+    - API
+    - Device Template
+storage: None
 ---
 CHAI3D is a C++ framework for 3D haptics.
 Users can initialize a scene, populate it with virtual objects, and set the properties of those objects using built-in haptic effects, such as "viscosity" and "magnet".

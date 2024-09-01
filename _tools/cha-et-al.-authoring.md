@@ -7,10 +7,18 @@ platform:
     - Windows
 availability: Unavailable
 license: Unknown
+venue: IEEE WHC
+use_case:
+    - Broadcasting
+body_position:
+    - Hand
 haptic_category:
     - Vibrotactile
     - Force Feedback
-hardware_abstraction: Bespoke (76-tactor glove and PHANTOM)
+hardware_abstraction: Bespoke
+device_names:
+    - 76-Tactor Glove
+    - PHANTOM
 driving_feature:
     - Time
 effect_localization: Location-aware
@@ -25,6 +33,8 @@ interaction_metaphors:
     - Keyframe
     - Demonstration
 image: /assets/tools/cha-et-al.jpg
+storage: MPEG-4 BIFS
+connectivity: None
 ---
 The authoring tool described by Cha et al. is meant to create interactions to be broadcast using MPEG-4 Binary Format for Scenes (BIFS).
 Haptic effects are represented through different "nodes" that support moving a force-feedback device along a trajectory, guiding a force-feedback device to a specific position, and triggering vibration on a tactile array.

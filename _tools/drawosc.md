@@ -7,9 +7,18 @@ platform:
     - iPad
 availability: Unavailable
 license: Unknown
+venue: ICMC
+use_case:
+    - Music
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Bespoke (Ilinx Garment)
+body_position:
+    - Arm
+    - Leg
+    - Torso
+hardware_abstraction: Bespoke
+device_names:
+    - Ilinx Garment
 driving_feature:
     - Time
 effect_localization: Target-centric
@@ -22,6 +31,8 @@ design_approaches:
 interaction_metaphors:
     - Demonstration
 image: /assets/tools/DrawOSC.png
+connectivity: Open Sound Control
+storage: Unknown
 ---
 The DrawOSC and Pattern Player tools were used to compose tactile effects with the eccentric rotating mass (ERM) motors present on the arms, legs, and torso of the Ilinx garment.
 DrawOSC provides a visual representation of the body and allows the user to draw vibration trajectories that are played on the garment and to adjust a global vibration intensity parameter.

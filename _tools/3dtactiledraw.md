@@ -7,9 +7,17 @@ platform:
     - Unknown
 availability: Unavailable
 license: Unknown
+venue: ACM CHI
+body_position:
+    - Head
+use_case:
+    - Virtual Reality
+    - Augmented Reality
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Bespoke (HapticHead)
+hardware_abstraction: Bespoke
+device_names:
+    - HapticHead
 driving_feature:
     - Time
 effect_localization: Target-centric
@@ -22,6 +30,8 @@ design_approaches:
 interaction_metaphors:
     - Keyframe
     - Demonstration
+storage: Unknown
+connectivity: Unknown
 image: /assets/tools/3dtactiledraw.jpg
 ---
 3DTactileDraw supports control of an a 24-actuator array using the HapticHead helmet.

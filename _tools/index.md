@@ -21,6 +21,10 @@ has_toc: false
 {% assign ips = "" | split: "," %}
 {% assign das = "" | split: "," %}
 {% assign ims = "" | split: "," %}
+{% assign bps = "" | split: "," %}
+{% assign int = "" | split: "," %}
+{% assign prp = "" | split: "," %}
+{% assign ven = "" | split: "," %}
 {% for tool in site.tools %}
     {% if tool.title != "Tools" %}
         {% assign yrs = yrs | push: tool.year | uniq | sort %}

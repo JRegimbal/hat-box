@@ -7,9 +7,17 @@ platform:
     - Windows
 availability: Available
 license: Open Source (MIT)
+venue: UAHCI
+use_case:
+    - Collaboration
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Class (Audio-driven)
+hardware_abstraction: Class
+device_names:
+    - EmotiChair
+    - Voice Coil
+body_position:
+    - N/A
 driving_feature:
     - Time
 effect_localization: Location-aware
@@ -24,6 +32,8 @@ interaction_metaphors:
     - Track
     - Keyframe
 image: /assets/tools/beadbox.jpg
+connectivity: None
+storage: MIDI
 ---
 Beadbox allows users to place and connect beads across different tracks, representing different physical actuators.
 Each bead provides a visual representation of vibration frequency and intensity.

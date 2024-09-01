@@ -9,7 +9,14 @@ availability: Available
 license: Open Source (Apache 2.0)
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Consumer (Android Devices)
+venue: N/A
+use_case:
+    - Mobile
+hardware_abstraction: Consumer
+device_names:
+    - Android
+body_position:
+    - N/A
 driving_feature:
     - Time
 effect_localization: Device-centric
@@ -23,6 +30,8 @@ design_approaches:
     - Library
 interaction_metaphors:
     - 'N/A'
+storage: None
+connectivity: API
 ---
 The Android API consists of preset `VibrationEffect` assets and developer-added compositions of the "click" and "tick" effects.
 Waveforms can also be created by specifying periods a sequence of vibration durations or durations and associated amplitudes.

@@ -9,7 +9,14 @@ availability: Available
 license: Open Source (GPL 3)
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Consumer (Ultraleap STRATOS Explore)
+venue: ACM Symposium on Applied Perception
+use_case:
+    - Psychophysics
+hardware_abstraction: Consumer
+device_names:
+    - Ultraleap STRATOS Explore
+body_position:
+    - Hand
 driving_feature:
     - Time
 effect_localization: Location-aware
@@ -22,6 +29,8 @@ design_approaches:
 interaction_metaphors:
     - Generic Menu
 image: /assets/tools/dolphin.png
+storage: CSV
+connectivity: Device Template
 ---
 DOLPHIN is a framework with a design tool for creating ultrasound mid-air tactile renderings for perceptual studies.
 Users can create new classes to represent the geometries of shapes and the sampling strategies used to display them.

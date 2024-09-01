@@ -3,6 +3,10 @@ parent: Tools
 layout: tool
 title: Feelix
 year: '2020'
+venue:
+    - ACM ICMI
+    - ACM NordiCHI
+    - ACM TEI
 platform:
     - Windows
     - macOS
@@ -10,10 +14,16 @@ availability: Available
 license: Open Source (MIT)
 haptic_category:
     - Force Feedback
-hardware_abstraction: Class (1 DoF motor)
+use_case:
+    - Prototyping
+hardware_abstraction: Class
+device_names:
+    - Brushless Motors
 driving_feature:
     - Time
     - Action
+body_position:
+    - N/A
 effect_localization: Device-centric
 media_support:
     - None
@@ -28,6 +38,8 @@ interaction_metaphors:
     - Demonstration
     - Dataflow
 image: /assets/tools/feelix.jpg
+storage: Feelix Effect File
+connectivity: API
 ---
 Feelix supports the creation of effects on a 1 DoF motor through two main interfaces.
 The first allows for force-feedback effects to be sketched out over either motor position or time.
