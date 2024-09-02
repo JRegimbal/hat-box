@@ -5,12 +5,19 @@ title: H-Studio
 year: '2013'
 platform:
     - Unknown
+use_case:
+    - Haptic Augmentation
 availability: Unavailable
 license: Unknown
+venue: ACM UIST
 haptic_category:
     - Force Feedback
     - Vibrotactile
-hardware_abstraction: Consumer (Novint Falcon)
+hardware_abstraction: Consumer
+device_names:
+    - Novint Falcon
+body_position:
+    - N/A
 driving_feature:
     - Time
 effect_localization: Location-aware
@@ -27,6 +34,8 @@ interaction_metaphors:
     - Keyframe
     - Demonstration
 image: /assets/tools/hstudio.png
+connectivity: IMU Sensor
+storage: Unknown
 ---
 H-Studio is a tool meant to add haptic effects, primarily motion effects, to a pre-existing video file.
 Its primary interface provides a preview of the original audio-visual content, tracks of the different parameters that can be edited in H-Studio, and a visual preview of a selected motion effect.

@@ -5,11 +5,18 @@ title: HaptiDesigner
 year: '2022'
 platform:
     - Windows
+venue: UAHCI
+use_case:
+    - Communication
 availability: Available
 license: Unknown
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Bespoke (HaptiBoard and Motors)
+hardware_abstraction: Bespoke
+device_names:
+    - HaptiBoard
+body_position:
+    - Torso
 driving_feature:
     - Time
 effect_localization: Device-centric
@@ -22,6 +29,8 @@ design_approaches:
 interaction_metaphors:
     - Generic Menu
 image: /assets/tools/haptidesigner.jpg
+storage: HaptiDesigner XML
+connectivity: None
 ---
 HaptiDesigner is a toolkit to create vibrotactile patterns or *Haptograms* on multiple actuators.
 Each Haptogram is composed of multiple frames that each specify which actuators are activated in that frame ,the intensity of vibration, the duration, and the pause between the end of that frame and the following one.

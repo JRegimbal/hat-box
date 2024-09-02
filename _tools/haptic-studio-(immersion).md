@@ -5,14 +5,21 @@ title: Haptic Studio (Immersion)
 year: '2003'
 platform:
     - Windows
+venue: N/A
+use_case:
+    - Haptic Augmentation
 availability: Unavailable
 license: Proprietary
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Consumer (TouchSense Devices)
+hardware_abstraction: Consumer
+device_names:
+    - TouchSense Devices
 driving_feature:
     - Time
 effect_localization: Device-centric
+body_position:
+    - N/A
 media_support:
     - Audio
 iterative_playback: 'Yes'
@@ -24,6 +31,8 @@ interaction_metaphors:
     - Track
     - Keyframe
 image: /assets/tools/haptic-studio.png
+storage: WAV, Haptic Studio Files
+connectivity: None
 ---
 Haptic Studio supports the creation of several kinds of base effects either from scratch or from a WAV file.
 These base effects can be of types MagSweep (continuous vibration along an attack-sustain-release or ASR envelope), Periodic (regular pulses that are contained in an ASR envelope), or Waveform (statically loaded from a WAV file).

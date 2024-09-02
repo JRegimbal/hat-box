@@ -7,10 +7,24 @@ platform:
     - Windows
 availability: Available
 license: Proprietary
+venue: N/A
+use_case:
+    - Virtual Reality
+    - Gaming
 haptic_category:
     - Force Feedback
     - Vibrotactile
-hardware_abstraction: Consumer (Various)
+hardware_abstraction: Consumer
+body_position:
+    - N/A
+device_names:
+    - iPhone
+    - Android
+    - PlayStation DualSense
+    - Razer Kraken
+    - Xinput Controllers
+    - Meta Quest
+    - OpenXR Devices
 driving_feature:
     - Time
     - Action
@@ -26,6 +40,10 @@ interaction_metaphors:
     - Keyframe
     - Track
 image: /assets/tools/interhaptics.png
+storage:
+    - Interhaptics JSON
+    - WAV
+connectivity: API
 ---
 The Interhaptics Haptic Composer focuses on the creation of different materials for VR.
 Vibration can be added to a material by adding different regular waveforms and constants together.

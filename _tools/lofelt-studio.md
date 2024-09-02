@@ -8,9 +8,18 @@ platform:
     - macOS
 availability: Unavailable
 license: Proprietary
+venue: N/A
+use_case:
+    - Haptic Augmentation
+    - Collaboration
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Consumer (iPhone, Android)
+hardware_abstraction: Consumer
+device_names:
+    - iPhone
+    - Android
+body_position:
+    - N/A
 driving_feature:
     - Time
 effect_localization: Device-centric
@@ -25,6 +34,11 @@ interaction_metaphors:
     - Keyframe
     - Demonstration
 image: /assets/tools/lofelt.png
+connectivity: API
+storage:
+    - WAV
+    - Internal
+connectivity: API
 ---
 Lofelt Studio allows users to load an audio file into the tool.
 This automatically creates an initial vibrotactile experience.

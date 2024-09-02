@@ -7,9 +7,16 @@ platform:
     - Pebble
 availability: Available
 license: Open Source (MIT)
+venue: N/A
+use_case:
+    - Hardware Control
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Consumer (Pebble)
+hardware_abstraction: Consumer
+device_names:
+    - Pebble
+body_position:
+    - Arm
 driving_feature:
     - Time
 effect_localization: Device-centric
@@ -20,6 +27,8 @@ design_approaches:
     - DPC
 interaction_metaphors:
     - 'N/A'
+storage: None
+connectivity: API
 ---
 The Pebble smartwatches contain vibration motors that can be controlled through the C API, now maintained by the Rebble project.
 On-off vibration patterns can be programmed using the Vibes API where the duration of each on or off interval is specified.

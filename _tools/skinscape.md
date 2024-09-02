@@ -7,9 +7,18 @@ platform:
     - Protools and Max/MSP
 availability: Unavailable
 license: Unknown
+venue: N/A
+use_case:
+    - Music
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Consumer (6 V1220 transducers, 1 Aura Systems Interactor Cushion)
+hardware_abstraction: Consumer
+device_names:
+    - V1220 Transducer
+    - Aura Systems Interactor Cushion
+body_position:
+    - Arm
+    - Torso
 driving_feature:
     - Time
 effect_localization: Device-centric
@@ -23,6 +32,8 @@ interaction_metaphors:
     - Track
     - Demonstration
 image: /assets/tools/skinscape.png
+storage: AIFF
+connectivity: None
 ---
 Skinscape is meant to be a haptic equivalent to a MIDI sequencer.
 Keyboard inputs are recorded in Max/MSP and mapped to seven haptic actuators, six of which are located on the arms and one on the lower back.

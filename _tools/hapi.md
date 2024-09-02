@@ -6,11 +6,20 @@ year: '2018'
 platform:
     - Java
     - C#
+    - Python
 availability: Available
 license: Open Source (GPL 3)
+venue: N/A
+use_case:
+    - Simulation
+    - Education
 haptic_category:
     - Force Feedback
-hardware_abstraction: Consumer (Haply 2DIY)
+hardware_abstraction: Consumer
+device_names:
+    - Haply 2DIY
+body_position:
+    - N/A
 driving_feature:
     - Action
 effect_localization: Location-aware
@@ -21,6 +30,8 @@ design_approaches:
     - DPC
 interaction_metaphors:
     - N/A
+connectivity: API
+storage: None
 #image: /assets/tools/hapi.png
 ---
 hAPI is a low-level API for controlling the Haply 2DIY device.

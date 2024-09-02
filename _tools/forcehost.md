@@ -3,6 +3,9 @@ parent: Tools
 layout: tool
 title: ForceHost
 year: '2022'
+venue: NIME
+use_case:
+    - Music
 platform:
     - Web
     - Faust
@@ -10,7 +13,11 @@ availability: Available
 license: Open Source (GPL 3)
 haptic_category:
     - Force Feedback
-hardware_abstraction: Bespoke (TorqueTuner)
+hardware_abstraction: Bespoke
+device_names:
+    - TorqueTuner
+body_position:
+    - N/A
 driving_feature:
     - Action
 effect_localization: Location-aware
@@ -21,6 +28,8 @@ design_approaches:
     - Process
 interaction_metaphors:
     - Demonstration
+storage: None
+connectivity: OSC
 image: /assets/tools/forcehost.png
 ---
 ForceHost is a toolchain for embedded physical modelling of audio-haptic effects for digital musical instruments.

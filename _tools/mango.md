@@ -7,11 +7,18 @@ platform:
     - Unknown
 availability: Unavailable
 license: Unknown
+venue: IEEE Haptics Symposium
+use_case:
+    - Hardware Control
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Consumer (C-2 Tactors)
+hardware_abstraction: Consumer
+device_names:
+    - C-2 Tactor
 driving_feature:
     - Time
+body_position:
+    - N/A
 effect_localization: Location-aware
 media_support:
     - None
@@ -25,6 +32,8 @@ interaction_metaphors:
     - Keyframe
     - Demonstration
 image: /assets/tools/mango.png
+storage: Mango JSON
+connectivity: None
 ---
 Mango is a graphical tool for creating effects on vibrotactile arrays.
 A visualization of the layout of the actuators in the array is present in the editor.

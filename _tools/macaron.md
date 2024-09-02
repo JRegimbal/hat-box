@@ -7,12 +7,19 @@ platform:
     - Web
 availability: Available
 license: Unknown
+venue: IEEE Haptics Symposium
+use_case:
+    - Prototyping
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Class (Audio-driven)
+hardware_abstraction: Class
+device_names:
+    - Voice Coil
 driving_feature:
     - Time
 effect_localization: Device-centric
+body_position:
+    - N/A
 media_support:
     - None
 iterative_playback: 'Yes'
@@ -24,6 +31,10 @@ interaction_metaphors:
     - Track
     - Keyframe
 image: /assets/tools/macaron.png
+storage:
+    - Macaron JSON
+    - WAV
+connectivity: None
 ---
 Macaron uses web audio to drive an actuator connected to the user's computer.
 A library of vibrotactile effects are available for playback that are visualized as waveforms expressing amplitude and frequency over time.

@@ -9,9 +9,14 @@ platform:
     - Linux
 availability: Available
 license: Open Source (MIT)
+venue: IEEE ToH
+use_case:
+    - Hardware Control
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Class (Audio-driven)
+hardware_abstraction: Class
+device_names:
+    - Voice Coil
 driving_feature:
     - Time
 effect_localization: Location-aware
@@ -26,6 +31,12 @@ interaction_metaphors:
     - Track
     - Keyframe
 image: /assets/tools/syntacts.png
+connectivity: API
+storage:
+    - WAV
+    - AIFF
+    - CSV
+    - Syntacts Signal File
 ---
 Syntacts is an API and graphical tool for creating audio-driven vibrotactile arrays.
 Vibrotactile "signals" can be created using common waveforms and combined using operations such as sequencing and multiplication.

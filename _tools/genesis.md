@@ -9,9 +9,19 @@ platform:
     - Linux
 availability: Unavailable
 license: Proprietary
+venue:
+    - ICMC
+    - Symposium on Computer Music Multidisciplinary Research
+use_case:
+    - Music
+    - Simulation
 haptic_category:
     - Force Feedback
-hardware_abstraction: Bespoke (Transducteur gestuel rétroactif)
+hardware_abstraction: Bespoke
+body_position:
+    - N/A
+device_names:
+    - Transducteur gestuel rétroactif
 driving_feature:
     - Action
 effect_localization: Device-centric
@@ -22,6 +32,8 @@ design_approaches:
     - Process
 interaction_metaphors:
     - Dataflow
+storage: Unknown
+connectivity: None
 image: /assets/tools/genesis.png
 ---
 GENESIS is a physical modelling system that uses the [CORDIS-ANIMA](https://www.jstor.org/stable/3680567) framework to create virtual musical instruments.

@@ -3,13 +3,21 @@ parent: Tools
 layout: tool
 title: Feellustrator
 year: '2023'
+venue: ACM CHI
 platform:
     - Unknown
+use_case:
+    - Hardware Control
+    - Collaboration
 availability: Unavailable
 license: Unknown
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Consumer (Ultraleap STRATOS Explore)
+hardware_abstraction: Consumer
+device_names:
+    - Ultraleap STRATOS Explore
+body_position:
+    - Hand
 driving_feature:
     - Time
     - Action
@@ -27,6 +35,10 @@ interaction_metaphors:
     - Track
     - Keyframe
     - Demonstration
+storage:
+    - Feellustrator JSON
+    - CSV
+connectivity: None
 #image: /assets/tools/cobity.png
 ---
 Feellustrator is a design tool for ultrasound mid-air haptics that allows users to sketch out paths for sensations to follow, control how the focal point will move along this path, and combine them together over time to create more complex experiences.

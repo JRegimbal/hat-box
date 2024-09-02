@@ -3,13 +3,20 @@ parent: Tools
 layout: tool
 title: OM Editor
 year: '2021'
+venue: ACM MobileHCI
+use_case:
+    - Communication
 platform:
     - Android
 availability: Unavailable
 license: Unknown
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Bespoke (OM Wearables)
+hardware_abstraction: Bespoke
+device_names:
+    - OM Wearables
+body_position:
+    - Arm
 driving_feature:
     - Time
 effect_localization: Device-centric
@@ -22,6 +29,8 @@ design_approaches:
 interaction_metaphors:
     - Track
 image: /assets/tools/om-editor.png
+storage: Internal
+connectivity: None
 ---
 The OM Editor is an app to control OM Wearables: sleeves on the forearm each with three ERMs.
 The user can create sequences of up to six vibration patterns of the same duration where they can select the intensity of vibration and which actuators will vibrate.

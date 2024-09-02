@@ -7,9 +7,17 @@ platform:
     - Processing
 availability: Available
 license: Open Source (GPL 3)
+venue: HAID
+use_case:
+    - Music
+    - Simulation
 haptic_category:
     - Force Feedback
-hardware_abstraction: Consumer (Haply 2DIY)
+hardware_abstraction: Consumer
+device_names:
+    - Haply 2DIY
+body_position:
+    - N/A
 driving_feature:
     - Action
 effect_localization: Target-centric
@@ -23,6 +31,8 @@ design_approaches:
 interaction_metaphors:
     - N/A
 image: /assets/tools/miphysics.png
+storage: None
+connectivity: API
 ---
 miPhysics is a physical modelling framework built on [Processing](https://www.processing.org).
 Users can specify a mass-interaction system in the code and interact with it using a Haply 2DIY or other [hAPI](https://hapi.haply.co/docs/)-compatible device.
