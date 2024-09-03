@@ -19,6 +19,10 @@ This includes:
 * <span id="license">**License**</span>: The kind of license this tool is or was available to be used under, if one could be found.
 When an [open source license](https://opensource.org/osd) is applied, the kind is specified (e.g., "Open Source (MIT)").
 Note that open source does not imply a tool is gratis!
+* <span id="venue">**Venue**</span>: The academic venues where publications presented the tool.
+Note that this will be "N/A" for theses and commercial products that were not included in a journal or conference proceeding.
+* <span id="use-case">**Intended Use Case**</span>: The primary purposes for which the tool was developed based on publications and documentation.
+Note that "Prototyping" in this context refers to prototyping and evaluating authoring tools themselves.
 
 ## Hardware Control Information
 
@@ -31,6 +35,8 @@ This information includes:
 For tools that support multiple Haptic Categories, the overall Hardware Abstraction is assigned with Bespoke before Consumer before Class.
 For example, a tool that uses both a Novint Falcon and any audio-driven vibrotactile actuator would be labeled "Consumer" rather than "Class".
 Note that unless commercialized, open hardware devices are counted as "bespoke".
+* <span id="devices">**Device Names**</span>: The names of the hardware devices supported by the tool and used to determine the "Hardware Abstraction" field.
+* <span id="body-position">**Body Position**</span>: If the tool or supported hardware is usable only on specific parts of the body (e.g., the tool uses egocentric authoring, is for a wearable), a list of these parts.
 
 ## Interaction and Interface Information
 
@@ -60,3 +66,8 @@ This information includes:
     * Dataflow - a dataflow programming model is used to control haptic output.
     * Demonstration - physical actions or other input data are mapped to features or output effects. This mapping is able to be simply understood by the person using the tool. E.g., tapping a screen or button to indicate a pattern of vibration.
     * Generic Menu - the typical elements in a GUI, such as a dropdown menu, slider, or button. Since these are the default choice in graphical software, and may not even be possible to fully remove in certain environments, this is only mentioned when no other labelled metaphor was found.
+* <span id="storage">**Storage**</span>: Storage formats that can be imported to or exported by the tool.
+In cases where effects are saved in a way where they are not provided to the user as a file (e.g., in a server), the label "Internal" is applied.
+If import/export functions are described, but no information on the format is provided, the label "Unknown" is applied.
+* <span id="connectivity">**Connectivity**</span>: Ways in which the tool can be extended to support connections to new data, software, and devices at *runtime*.
+This may take a variety of forms, such as an API that can be called by other software and templates to extend support to new devices.
