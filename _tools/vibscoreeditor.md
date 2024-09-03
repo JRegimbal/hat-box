@@ -7,9 +7,18 @@ platform:
     - Windows
 availability: Unavailable
 license: Unknown
+venue: IEEE WHC
+use_case:
+    - Prototyping
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Consumer (Brüel & Kjaer Model 4810, Samsung Voice Coil, Unspecified vibration motor)
+hardware_abstraction: Consumer
+device_names:
+    - Brüel & Kjaer Model 4810
+    - Voice Coil
+    - Vibration Motor
+body_position:
+    - N/A
 driving_feature:
     - Time
 effect_localization: Device-centric
@@ -24,6 +33,8 @@ interaction_metaphors:
     - Keyframe
     - Score
 image: /assets/tools/vibscoreeditor.png
+storage: VibScoreEditor XML
+connectivity: Device Template
 ---
 VibScoreEditor applies uses music notation as a metaphor for vibrotactile editing.
 In this system, a "vibrotactile clef" determines the frequency and waveform assigned to each "pitch" occupying a position on the staff.

@@ -7,9 +7,20 @@ platform:
     - Web
 availability: Unavailable
 license: Unknown
+venue: iConference
+use_case:
+    - Gaming
+    - Prototyping
+    - Accessibility
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Consumer (Android, iPhone, Xbox)
+hardware_abstraction: Consumer
+device_names:
+    - Android
+    - iPhone
+    - Xbox
+body_position:
+    - N/A
 driving_feature:
     - Time
 effect_localization: Device-centric
@@ -22,6 +33,8 @@ design_approaches:
 interaction_metaphors:
     - Keyframe
 image: /assets/tools/vibed.png
+connectivity: Unknown
+storage: Unknown
 ---
 VibEd is designed to create vibrotactile feedback for games.
 A waveform editing interface is present in the tool where keyframes can be used to control the duration and intensity of vibration patterns to be displayed on the selected output device.

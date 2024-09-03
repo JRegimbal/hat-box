@@ -7,9 +7,17 @@ platform:
     - Electron
 availability: Available
 license: Open Source (MIT, CC-BY-4.0)
+venue: ACM TEI
+use_case:
+    - Collaboration
+    - Prototyping
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Bespoke (TactJam Hardware)
+hardware_abstraction: Bespoke
+device_names:
+    - TactJam Hardware
+body_position:
+    - Various
 driving_feature:
     - Time
 effect_localization: Location-aware
@@ -22,6 +30,8 @@ design_approaches:
 interaction_metaphors:
     - Demonstration
 image: /assets/tools/tactjam.png
+connectivity: None
+storage: Internal
 ---
 TactJam consists of a hardware component, client software component, and server component.
 The hardware includes eight ERM motors each connected to a board with push buttons corresponding to each.

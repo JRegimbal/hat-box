@@ -12,7 +12,6 @@ body_position:
     - Head
 use_case:
     - Virtual Reality
-    - Augmented Reality
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Bespoke

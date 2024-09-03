@@ -7,9 +7,17 @@ platform:
     - NodeJS
 availability: Available
 license: Unknown
+venue: ACM DIS
+use_case:
+    - Prototyping
+    - Communication
 haptic_category:
     - Force Feedback
-hardware_abstraction: Bespoke (CuddleBit)
+hardware_abstraction: Bespoke
+device_names:
+    - CuddleBit
+body_position:
+    - N/A
 driving_feature:
     - Action
 effect_localization: Device-centric
@@ -20,6 +28,8 @@ design_approaches:
     - Process
 interaction_metaphors:
     - Demonstration
+storage: None
+connectivity: None
 image: /assets/tools/voodle.png
 ---
 While Voodle is primarily meant to control 1 DoF robots called "CuddleBits", it can also be used for haptic prototyping.

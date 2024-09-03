@@ -8,9 +8,17 @@ platform:
     - Linux
 availability: Unavailable
 license: Unknown
+venue: Journal of HCI
+use_case:
+    - Virtual Reality
+    - Gaming
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Class (ERM)
+hardware_abstraction: Bespoke
+device_names:
+    - VITAKI Controller
+body_position:
+    - N/A
 driving_feature:
     - Time
 effect_localization: Location-aware
@@ -26,6 +34,8 @@ interaction_metaphors:
     - Track
     - Keyframe
 image: /assets/tools/vitaki.jpg
+connectivity: API
+storage: Unknown
 ---
 VITAKI supports controlling ERM motors in various configurations.
 A photo of the output device's configuration can be loaded into VITAKI and annotated with the locations of each actuator.

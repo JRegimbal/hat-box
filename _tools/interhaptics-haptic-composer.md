@@ -16,7 +16,7 @@ haptic_category:
     - Vibrotactile
 hardware_abstraction: Consumer
 body_position:
-    - N/A
+    - Hand
 device_names:
     - iPhone
     - Android

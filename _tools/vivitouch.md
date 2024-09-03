@@ -7,9 +7,17 @@ platform:
     - Unknown
 availability: Unavailable
 license: Unknown
+venue: IEEE WHC
+use_case:
+    - Haptic Augmentation
+    - Prototyping
 haptic_category:
     - Vibrotactile
-hardware_abstraction: Class (Audio-driven)
+hardware_abstraction: Class
+device_names:
+    - Voice Coil
+body_position:
+    - N/A
 driving_feature:
     - Time
 effect_localization: Device-centric
@@ -25,6 +33,10 @@ design_approaches:
 interaction_metaphors:
     - Track
     - Keyframe
+storage:
+    - MKV
+    - ViviTouch XML
+connectivity: None
 image: /assets/tools/vivitouch.png
 ---
 Vivitouch is meant to support prototyping of vibrotactile haptics aligned to audio-visual content.
