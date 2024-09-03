@@ -17,7 +17,12 @@ hardware_abstraction: Bespoke
 device_names:
     - TactJam Hardware
 body_position:
-    - Various
+    - Head
+    - Arm
+    - Hand
+    - Torso
+    - Leg
+    - Foot
 driving_feature:
     - Time
 effect_localization: Location-aware

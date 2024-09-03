@@ -13,7 +13,7 @@ venue: ACM ToCHI
 haptic_category:
     - Skin Stretch/Compression
 body_position:
-    - Various
+    - N/A
 use_case:
     - Hardware Control
 hardware_abstraction: Class
