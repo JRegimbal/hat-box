@@ -2,7 +2,9 @@ year: <p>The year a tool was first publicly released or discussed in an academic
 platform: <p>The OS or software framework needed to run the tool.</p>
 availability: <p>If the tool can be obtained by the public.</p>
 license: <p>Tye type of license applied to the tool.</p>
+venue: <p>The venue(s) for publications.</p>
 hapticCategory: <p>The general types of haptic output devices controlled by the tool.</p>
+use_case: <p>The primary purposes for which the tool was developed.</p>
 hardwareAbstraction: |
   <p>How broad the type of hardware support is for a tool.</p>
   <ul>
@@ -10,6 +12,8 @@ hardwareAbstraction: |
   <li>Consumer: Support is limited to a specific commercial device or a family of devices.</li>
   <li>Class: Any device with the same affordances can be used, possibly with some configuration required.</li>
   </ul>
+device_names: <p>The hardware supported by the tool. This may be incomplete.</p>
+body_position: <p>Parts of the body where stimuli are felt, if the tool explicitly shows this.<p>
 drivingFeature: <p>If haptic content is controlled over time, by other actions, or both.</p>
 effectLocalization: |
   <p>How the desired location of stimuli is mapped to the device.</p>
@@ -42,3 +46,5 @@ interactionMetaphors: |
 generalPurpose: <p>Meta-information about the tool.</p>
 hardwareControl: <p>Aspects of the tool related to supported haptic hardware.</p>
 iAndI: <p>Aspects of the tool related to the creation of haptic effects.</p>
+storage: <p>How data is stored for import/export or internally to the software.</p>
+connectivity: <p>How the tool can be extended to support new data, devices, and software.</p>
