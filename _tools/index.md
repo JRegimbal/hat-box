@@ -22,8 +22,10 @@ has_toc: false
 {% assign das = "" | split: "," %}
 {% assign ims = "" | split: "," %}
 {% assign bps = "" | split: "," %}
-{% assign int = "" | split: "," %}
-{% assign prp = "" | split: "," %}
+{% assign ucs = "" | split: "," %}
+{% assign dns = "" | split: "," %}
+{% assign str = "" | split: "," %}
+{% assign con = "" | split: "," %}
 {% assign ven = "" | split: "," %}
 {% for tool in site.tools %}
     {% if tool.title != "Tools" %}
@@ -32,15 +34,20 @@ has_toc: false
         {% assign li = tool.license | split: "(" | first | trim %}
         {% assign lic = lic | push: li | uniq %}
         {% assign avs = avs | push: tool.availability | uniq | sort %}
+        {% assign ven = ven | concat: tool.venue | uniq | sort %}
+        {% assign ucs = ucs | concat: tool.use_case | uniq | sort %}
         {% assign hcs = hcs | concat: tool.haptic_category | uniq %}
-        {% assign ha = tool.hardware_abstraction | split: " (" | first | trim %}
-        {% assign has = has | push: ha | uniq %}
+        {% assign has = has | push: tool.hardware_abstraction | uniq %}
+        {% assign bps = bps | concat: tool.body_position | uniq | sort %}
+        {% assign dns = dns | concat: tool.device_names | uniq | sort %}
         {% assign dfs = dfs | concat: tool.driving_feature | uniq %}
         {% assign els = els | push: tool.effect_localization | uniq %}
         {% assign mss = mss | concat: tool.media_support | uniq %}
         {% assign ips = ips | push: tool.iterative_playback | uniq %}
         {% assign das = das | concat: tool.design_approaches | uniq %}
         {% assign ims = ims | concat: tool.interaction_metaphors | uniq | sort %}
+        {% assign str = str | concat: tool.storage | uniq | sort %}
+        {% assign con = con | concat: tool.connectivity | uniq | sort %}
     {% endif %}
 {% endfor %}
 
@@ -115,6 +122,36 @@ has_toc: false
             {% endfor %}
             </div>
         </fieldset>
+        <fieldset>
+            <legend aria-describedby="venuetip">Venue (&#x2228;)&#9432;</legend>
+            <div role="tooltip" id="venuetip">
+                {{ site.data.short.venue }}
+            </div>
+            <div class="optiongroup">
+            {% for ve in ven %}
+                {% assign tmp = ve | split: " " | join: "-" | downcase | prepend: "ve:" %}
+                <div>
+                    <input class="filter-input filter-input-ve" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                    <label for="{{ tmp }}">{{ ve }}</label>
+                </div>
+            {% endfor %}
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend aria-describedby="uctip">Intended Use Case (&#x2228;)&#9432;</legend>
+            <div role="tooltip" id="uctip">
+                {{ site.data.short.use_case }}
+            </div>
+            <div class="optiongroup">
+            {% for uc in ucs %}
+                {% assign tmp = uc | split: " " | join: "-" | downcase | prepend: "uc:" %}
+                <div>
+                    <input class="filter-input filter-input-uc" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                    <label for="{{ tmp }}">{{ uc }}</label>
+                </div>
+            {% endfor %}
+            </div>
+        </fieldset>
     </details>
     <details>
         <summary>Hardware Control <span aria-describedby="hctip">&#9432;</span>
@@ -148,6 +185,36 @@ has_toc: false
                 <div>
                     <input class="filter-input filter-input-ha" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
                     <label for="{{ tmp }}">{{ ha }}</label>
+                </div>
+            {% endfor %}
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend aria-describedby="dntip">Device Names (&#x2228;)&#9432;</legend>
+            <div role="tooltip" id="dntip">
+                {{ site.data.short.device_names }}
+            </div>
+            <div class="optiongroup">
+            {% for dn in dns %}
+                {% assign tmp = dn | split: " " | join: "-" | downcase | prepend: "dn:" %}
+                <div>
+                    <input class="filter-input filter-input-dn" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                    <label for="{{ tmp }}">{{ dn }}</label>
+                </div>
+            {% endfor %}
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend aria-describedby="bptip">Body Position (&#x2228;)&#9432;</legend>
+            <div role="tooltip" id="bptip">
+                {{ site.data.short.body_position }}
+            </div>
+            <div class="optiongroup">
+            {% for bp in bps %}
+                {% assign tmp = bp | downcase | prepend: "bp:" %}
+                <div>
+                    <input class="filter-input filter-input-bp" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                    <label for="{{ tmp }}">{{ bp }}</label>
                 </div>
             {% endfor %}
             </div>
@@ -249,6 +316,36 @@ has_toc: false
             {% endfor %}
             </div>
         </fieldset>
+        <fieldset>
+            <legend aria-describedby="storagetip">Storage (&#x2228;)&#9432;</legend>
+            <div role="tooltip" id="storagetip">
+                {{ site.data.short.storage }}
+            </div>
+            <div class="optiongroup">
+            {% for st in str %}
+                {% assign tmp = st | downcase | prepend: "st:" %}
+                <div>
+                    <input class="filter-input filter-input-st" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                    <label for="{{ tmp }}">{{ st }}</label>
+                </div>
+            {% endfor %}
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend aria-describedby="conntip">Connectivity (&#x2228;)&#9432;</legend>
+            <div role="tooltip" id="conntip">
+                {{ site.data.short.connectivity }}
+            </div>
+            <div class="optiongroup">
+            {% for co in con %}
+                {% assign tmp = co | downcase | prepend: "co:" %}
+                <div>
+                    <input class="filter-input filter-input-co" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                    <label for="{{ tmp }}">{{ co }}</label>
+                </div>
+            {% endfor %}
+            </div>
+        </fieldset>
     </details>
     <button id="resetFilters">Reset Filters</button>
 </section>
@@ -265,8 +362,11 @@ has_toc: false
             {% for pl in tool.platform %}pl:{{ pl | downcase | split: " " | join: "-" }} {% endfor %}
             av:{{ tool.availability | split: "(" | first | trim | split: " " | join: "-" | downcase }}
             li:{{ tool.license | split: "(" | first | trim | split: " " | join: "-" | downcase }}
+            {% for ve in tool.venue %}ve:{{ ve | downcase | split: " " | join: "-" }} {% endfor %}
+            {% for uc in tool.use_case %}uc:{{ uc | downcase | split: " " | join: "-" }} {% endfor %}
             {% for hc in tool.haptic_category %}hc:{{ hc | replace: "Vibrotactile", "vt" | replace: "Force Feedback", "ff" | replace: "Temperature", "temp" | replace: "Skin Stretch/Compression", "ssc" }} {% endfor %}
             ha:{{ tool.hardware_abstraction | split: "(" | first | trim | downcase }}
+            {% for dn in tool.device_names %}dn:{{ dn | downcase | split: " " | join: "-"}} {% endfor %}
             {% for df in tool.driving_feature %}df:{{ df | downcase }} {% endfor %}
             el:{{ tool.effect_localization | downcase }}
             {% for ms in tool.media_support %}ms:{{ ms | downcase }} {% endfor %}

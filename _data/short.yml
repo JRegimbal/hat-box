@@ -13,7 +13,7 @@ hardwareAbstraction: |
   <li>Class: Any device with the same affordances can be used, possibly with some configuration required.</li>
   </ul>
 device_names: <p>The hardware supported by the tool. This may be incomplete.</p>
-body_position: <p>Parts of the body where stimuli are felt, if the tool explicitly shows this.<p>
+body_position: <p>Parts of the body where stimuli are felt, if the tool explicitly shows this.</p>
 drivingFeature: <p>If haptic content is controlled over time, by other actions, or both.</p>
 effectLocalization: |
   <p>How the desired location of stimuli is mapped to the device.</p>

@@ -118,6 +118,54 @@ function updateToolFilter() {
         }
     }
 
+    // Venue (OR)
+    const venFilter = []
+    const veInputs = Array.from(document.getElementsByClassName("filter-input-ve"));
+    for (const input of veInputs) {
+        if (input.checked) {
+            venFilter.push(input.value);
+        }
+    }
+    if (venFilter.length !== 0) {
+        for (const tool of tools) {
+            if (tool.classList.contains("hidden")) continue;
+            let hide = true;
+            for (const filter of venFilter) {
+                if (tool.classList.contains(filter)) {
+                    hide = false;
+                    break;
+                }
+            }
+            if (hide) {
+                tool.classList.add("hidden");
+            }
+        }
+    }
+
+    // Use Case (OR)
+    const ucsFilter = []
+    const ucInputs = Array.from(document.getElementsByClassName("filter-input-uc"));
+    for (const input of ucInputs) {
+        if (input.checked) {
+            ucsFilter.push(input.value);
+        }
+    }
+    if (ucsFilter.length !== 0) {
+        for (const tool of tools) {
+            if (tool.classList.contains("hidden")) continue;
+            let hide = true;
+            for (const filter of ucsFilter) {
+                if (tool.classList.contains(filter)) {
+                    hide = false;
+                    break;
+                }
+            }
+            if (hide) {
+                tool.classList.add("hidden");
+            }
+        }
+    }
+
     // Haptic Categories (OR)
     const hcsFilter = [];
     const hcInputs = Array.from(document.getElementsByClassName("filter-input-hc"));
@@ -155,6 +203,30 @@ function updateToolFilter() {
             if (tool.classList.contains("hidden")) continue;
             let hide = true;
             for (const filter of hasFilter) {
+                if (tool.classList.contains(filter)) {
+                    hide = false;
+                    break;
+                }
+            }
+            if (hide) {
+                tool.classList.add("hidden");
+            }
+        }
+    }
+
+    // Device Names(OR)
+    const dnsFilter = [];
+    const dnInputs = Array.from(document.getElementsByClassName("filter-input-dn"));
+    for (const input of dnInputs) {
+        if (input.checked) {
+            dnsFilter.push(input.value);
+        }
+    }
+    if (dnsFilter.length !== 0) {
+        for (const tool of tools) {
+            if (tool.classList.contains("hidden")) continue;
+            let hide = true;
+            for (const filter of dnsFilter) {
                 if (tool.classList.contains(filter)) {
                     hide = false;
                     break;
