@@ -12,7 +12,7 @@ haptic_category:
 venue:
     - N/A
 use_case:
-    - Mobile
+    - Haptic Augmentation
 hardware_abstraction: Consumer
 device_names:
     - Android

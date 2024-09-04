@@ -14,7 +14,7 @@ venue:
 body_position:
     - N/A
 use_case:
-    - Product Demonstration
+    - Hardware Control
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Consumer

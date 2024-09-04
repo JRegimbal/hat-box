@@ -13,7 +13,7 @@ venue:
     - N/A
 use_case:
     - Virtual Reality
-    - Games
+    - Gaming
 hardware_abstraction: Consumer (bHaptic Devices)
 device_names:
     - bHaptics Devices

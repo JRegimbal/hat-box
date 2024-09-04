@@ -8,7 +8,7 @@ platform:
 availability: Available
 license: Open Source (AGPL 3)
 venue:
-    - IEEE UIST
+    - ACM UIST
 use_case:
     - Virtual Reality
     - Prototyping

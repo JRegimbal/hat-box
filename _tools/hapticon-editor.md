@@ -16,7 +16,7 @@ haptic_category:
     - Force Feedback
 hardware_abstraction: Class
 device_names:
-    - 1 DoF knob
+    - 1 DoF Knob
 body_position:
     - N/A
 driving_feature:

@@ -19,7 +19,7 @@ hardware_abstraction: Consumer
 device_names:
     - Thalmic Myo
     - Subpack M2
-    - Oculus VR Controller
+    - Oculus Touch
     - Dyson Pure Cool Link
 body_position:
     - Head

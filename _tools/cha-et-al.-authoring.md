@@ -10,7 +10,7 @@ license: Unknown
 venue:
     - IEEE WHC
 use_case:
-    - Broadcasting
+    - Haptic Augmentation
 body_position:
     - Hand
 haptic_category:
@@ -19,7 +19,7 @@ haptic_category:
 hardware_abstraction: Bespoke
 device_names:
     - 76-Tactor Glove
-    - PHANTOM
+    - Phantom
 driving_feature:
     - Time
 effect_localization: Location-aware

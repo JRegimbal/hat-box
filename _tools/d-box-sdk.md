@@ -10,8 +10,8 @@ venue:
     - N/A
 use_case:
     - Simulation
-    - Games
-    - Entertainment
+    - Gaming
+    - Haptic Augmentation
 license: Proprietary
 haptic_category:
     - Force Feedback

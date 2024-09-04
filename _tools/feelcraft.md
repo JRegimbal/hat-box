@@ -4,7 +4,7 @@ layout: tool
 title: FeelCraft
 year: '2014'
 venue:
-    - UIST
+    - ACM UIST
     - AsiaHaptics
 platform:
     - Java

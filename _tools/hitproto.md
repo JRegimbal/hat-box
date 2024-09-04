@@ -11,7 +11,7 @@ venue:
     - IEEE Haptics Symposium
     - Computers & Graphics
 use_case:
-    - Data Visualization
+    - Accessibility
 haptic_category:
     - Force Feedback
 hardware_abstraction: Consumer
@@ -41,4 +41,4 @@ HITPROTO uses a visual programming interface to let users specify the content an
 Basic programming functionality, such as loops and conditional logic, are included in the environment.
 Basic haptic interactions (e.g., spring effects, guidance along a path) are present to aid a user in creating haptic data visualizations.
 
-For more information, consult the [2010 Haptics Symposium paper](https://doi.org/10.1109/HAPTIC.2010.5444647) and the [2013 Computers & Graphics paper](10.1016/j.cag.2013.01.009).
+For more information, consult the [2010 Haptics Symposium paper](https://doi.org/10.1109/HAPTIC.2010.5444647) and the [2013 Computers & Graphics paper](https://doi.org/10.1016/j.cag.2013.01.009).
