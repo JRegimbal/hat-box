@@ -35,8 +35,10 @@ interaction_metaphors:
     - Track
     - Keyframe
 image: /assets/tools/posVibEditor.png
-connectivity: None
-storage: posVibEditor XML
+connectivity:
+    - None
+storage:
+    - posVibEditor XML
 ---
 The posVibEditor supports the creation of vibration patterns across multiple ERM motors.
 Vibration assets can be created by manipulating keyframes in a vibration intensity over time visualization.

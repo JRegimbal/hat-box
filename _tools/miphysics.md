@@ -7,7 +7,8 @@ platform:
     - Processing
 availability: Available
 license: Open Source (GPL 3)
-venue: HAID
+venue:
+    - HAID
 use_case:
     - Music
     - Simulation
@@ -31,8 +32,10 @@ design_approaches:
 interaction_metaphors:
     - N/A
 image: /assets/tools/miphysics.png
-storage: None
-connectivity: API
+storage:
+    - None
+connectivity:
+    - API
 ---
 miPhysics is a physical modelling framework built on [Processing](https://www.processing.org).
 Users can specify a mass-interaction system in the code and interact with it using a Haply 2DIY or other [hAPI](https://hapi.haply.co/docs/)-compatible device.

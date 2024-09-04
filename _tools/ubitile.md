@@ -7,7 +7,8 @@ platform:
     - Unknown
 availability: Unavailable
 license: Unknown
-venue: ACM NordiCHI
+venue:
+    - ACM NordiCHI
 use_case:
     - Prototyping
 haptic_category:
@@ -28,8 +29,10 @@ design_approaches:
 interaction_metaphors:
     - Demonstration
 image: /assets/tools/ubitile.png
-storage: Unknown
-connectivity: None
+storage:
+    - Unknown
+connectivity:
+    - None
 ---
 Users of Ubitile wear a vibrotactile actuator and gyroscope on their pointer finger.
 Vibration patterns are created by moving this finger between three points: A, B and C.

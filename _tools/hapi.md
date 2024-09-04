@@ -9,7 +9,8 @@ platform:
     - Python
 availability: Available
 license: Open Source (GPL 3)
-venue: N/A
+venue:
+    - N/A
 use_case:
     - Simulation
     - Education
@@ -30,8 +31,10 @@ design_approaches:
     - DPC
 interaction_metaphors:
     - N/A
-connectivity: API
-storage: None
+connectivity:
+    - API
+storage:
+    - None
 #image: /assets/tools/hapi.png
 ---
 hAPI is a low-level API for controlling the Haply 2DIY device.

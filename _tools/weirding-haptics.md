@@ -7,7 +7,8 @@ platform:
     - Unity
 availability: Available
 license: Open Source (AGPL 3)
-venue: IEEE UIST
+venue:
+    - IEEE UIST
 use_case:
     - Virtual Reality
     - Prototyping
@@ -30,8 +31,10 @@ design_approaches:
     - Process
 interaction_metaphors:
     - Demonstration
-connectivity: None
-storage: None
+connectivity:
+    - None
+storage:
+    - None
 image: /assets/tools/weirding-haptics.png
 ---
 Weirding Haptics is a design tool for and within virtual reality environments where vocalizations are mapped to vibration patterns attached to virtual objects.

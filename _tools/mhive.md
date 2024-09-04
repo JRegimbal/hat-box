@@ -7,7 +7,8 @@ platform:
     - Android
 availability: Available
 license: Open Source (BSD 3-Clause)
-venue: IEEE Haptics Symposium
+venue:
+    - IEEE Haptics Symposium
 use_case:
     - Collaboration
     - Prototyping
@@ -31,8 +32,10 @@ interaction_metaphors:
     - Keyframe
     - Demonstration
 image: /assets/tools/mHIVE.png
-storage: Internal
-connectivity: None
+storage:
+    - Internal
+connectivity:
+    - None
 ---
 mHIVE is a haptic instrument where the user interacts with a tablet's touchscreen to create vibrotactile output over audio.
 Most of the screen is devoted to a region where frequency is mapped to the touch along the x-axis and amplitude is mapped to the y-axis.

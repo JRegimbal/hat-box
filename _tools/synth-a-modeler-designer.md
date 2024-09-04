@@ -37,7 +37,8 @@ image: /assets/tools/synth-a-modeler.jpg
 storage:
     - Faust DSP File
     - SAM Model File
-connectivity: None
+connectivity:
+    - None
 ---
 The Synth-A-Modeler Designer is designed for physical modeling for sound synthesis and can be connected to force-feedback devices as inputs.
 Models can be constructed using mass-interaction and waveguide modeling through graphical elements.

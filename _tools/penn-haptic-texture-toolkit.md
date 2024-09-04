@@ -7,7 +7,8 @@ platform:
     - HDAPI
 availability: Available
 license: Non-Commercial Research Use Only
-venue: IEEE Haptics Symposium
+venue:
+    - IEEE Haptics Symposium
 use_case:
     - Simulation
 haptic_category:
@@ -28,8 +29,10 @@ design_approaches:
 interaction_metaphors:
     - 'N/A'
 image: /assets/tools/penn.jpg
-storage: HaTT XML
-connectivity: API
+storage:
+    - HaTT XML
+connectivity:
+    - API
 ---
 The Penn Haptic Texture Toolkit consists of texture and friction models recorded from 100 surfaces.
 The data used to create the models and sample code for displaying the textures on the Phantom Omni are included as part of the toolkit.

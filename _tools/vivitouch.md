@@ -7,7 +7,8 @@ platform:
     - Unknown
 availability: Unavailable
 license: Unknown
-venue: IEEE WHC
+venue:
+    - IEEE WHC
 use_case:
     - Haptic Augmentation
     - Prototyping
@@ -36,7 +37,8 @@ interaction_metaphors:
 storage:
     - MKV
     - ViviTouch XML
-connectivity: None
+connectivity:
+    - None
 image: /assets/tools/vivitouch.png
 ---
 Vivitouch is meant to support prototyping of vibrotactile haptics aligned to audio-visual content.

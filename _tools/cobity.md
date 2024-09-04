@@ -7,7 +7,8 @@ platform:
     - Unity
 availability: Available
 license: Open Source (MIT)
-venue: Mensch und Computer
+venue:
+    - Mensch und Computer
 body_position:
     - N/A
 use_case:
@@ -29,8 +30,10 @@ design_approaches:
 interaction_metaphors:
     - Generic Menu
 image: /assets/tools/cobity.png
-connectivity: None
-storage: None
+connectivity:
+    - None
+storage:
+    - None
 ---
 Cobity is a Unity plugin for controlling a cobot in VR.
 The robot's end effector and position tracking parameters can be modified within the plugin.

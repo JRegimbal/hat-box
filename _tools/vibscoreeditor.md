@@ -7,7 +7,8 @@ platform:
     - Windows
 availability: Unavailable
 license: Unknown
-venue: IEEE WHC
+venue:
+    - IEEE WHC
 use_case:
     - Prototyping
 haptic_category:
@@ -33,8 +34,10 @@ interaction_metaphors:
     - Keyframe
     - Score
 image: /assets/tools/vibscoreeditor.png
-storage: VibScoreEditor XML
-connectivity: Device Template
+storage:
+    - VibScoreEditor XML
+connectivity:
+    - Device Template
 ---
 VibScoreEditor applies uses music notation as a metaphor for vibrotactile editing.
 In this system, a "vibrotactile clef" determines the frequency and waveform assigned to each "pitch" occupying a position on the staff.

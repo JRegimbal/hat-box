@@ -7,7 +7,8 @@ platform:
     - Unity
 availability: Unavailable
 license: Unknown
-venue: ACM VRST
+venue:
+    - ACM VRST
 use_case:
     - Virtual Reality
 haptic_category:
@@ -43,8 +44,10 @@ interaction_metaphors:
     - Track
     - Demonstration
 image: /assets/tools/hfx-studio.png
-connectivity: None
-storage: Unknown
+connectivity:
+    - None
+storage:
+    - Unknown
 ---
 HFX studio allows for authoring haptic effects directly on the body or attaching them to objects in a VR environment.
 Perceptual models are used to encode and render the desired effects to the extent supported by the connected hardware.

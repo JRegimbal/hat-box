@@ -7,7 +7,8 @@ platform:
     - NodeJS
 availability: Available
 license: Open Source (GPL 3)
-venue: ACM UIST
+venue:
+    - ACM UIST
 use_case:
     - Virtual Reality
     - Hardware Control
@@ -31,8 +32,10 @@ design_approaches:
 interaction_metaphors:
     - Generic Menu
 image: /assets/tools/vibraterial.png
-connectivity: None
-storage: vibrAteRial JSON
+connectivity:
+    - None
+storage:
+    - vibrAteRial JSON
 ---
 VibrAteRial is designed to create underfoot material effects in VR for the bARefoot shoe system.
 Each bARefoot contains a pressure sensor and vibrotactile actuators.

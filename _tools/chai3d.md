@@ -9,7 +9,8 @@ platform:
     - Linux
 availability: Available
 license: Open Source (BSD 3-Clause)
-venue: EuroHaptics
+venue:
+    - EuroHaptics
 use_case:
     - Simulation
 haptic_category:
@@ -41,7 +42,8 @@ image: /assets/tools/chai3d.png
 connectivity:
     - API
     - Device Template
-storage: None
+storage:
+    - None
 ---
 CHAI3D is a C++ framework for 3D haptics.
 Users can initialize a scene, populate it with virtual objects, and set the properties of those objects using built-in haptic effects, such as "viscosity" and "magnet".

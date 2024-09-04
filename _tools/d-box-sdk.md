@@ -6,7 +6,8 @@ year: '2008'
 platform:
     - Windows
 availability: Available
-venue: N/A
+venue:
+    - N/A
 use_case:
     - Simulation
     - Games
@@ -30,8 +31,10 @@ design_approaches:
     - Process
 interaction_metaphors:
     - 'N/A'
-connectivity: API
-storage: None
+connectivity:
+    - API
+storage:
+    - None
 ---
 The D-BOX LiveMotion SDK is used to create motion effects on a D-BOX chair in response to events, such as those in a simulation or game.
 Telemetry information concerning the user's avatar, vehicles, or surrounding environment must be sent when updates occur.

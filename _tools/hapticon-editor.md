@@ -3,7 +3,8 @@ parent: Tools
 layout: tool
 title: Hapticon Editor
 year: '2003'
-venue: IEEE Haptics Symposium
+venue:
+    - IEEE Haptics Symposium
 use_case:
     - Prototyping
     - Psychophysics
@@ -34,8 +35,10 @@ interaction_metaphors:
     - Keyframe
     - Demonstration
 image: /assets/tools/hapticon.jpg
-storage: CSV
-connectivity: None
+storage:
+    - CSV
+connectivity:
+    - None
 ---
 The Hapticon Editor is intended to create haptic icons for 1 DoF force-feedback devices by directly recording a user's motions on the device and by combining waveforms.
 While recording only allows for mapping motion over time, waveforms can be used as functions of force over position and time.

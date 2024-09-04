@@ -3,7 +3,8 @@ parent: Tools
 layout: tool
 title: Feellustrator
 year: '2023'
-venue: ACM CHI
+venue:
+    - ACM CHI
 platform:
     - Unknown
 use_case:
@@ -38,7 +39,8 @@ interaction_metaphors:
 storage:
     - Feellustrator JSON
     - CSV
-connectivity: None
+connectivity:
+    - None
 #image: /assets/tools/cobity.png
 ---
 Feellustrator is a design tool for ultrasound mid-air haptics that allows users to sketch out paths for sensations to follow, control how the focal point will move along this path, and combine them together over time to create more complex experiences.

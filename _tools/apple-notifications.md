@@ -10,7 +10,8 @@ license: Proprietary
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Consumer
-venue: N/A
+venue:
+    - N/A
 use_case:
     - Notifications
 body_position:
@@ -27,8 +28,10 @@ design_approaches:
     - Process
 interaction_metaphors:
     - Demonstration
-storage: None
-connectivity: None
+storage:
+    - None
+connectivity:
+    - None
 ---
 New vibration patterns for notifications can be added on supported devices through the settings menu.
 The user taps out the desired pattern on the touchscreen, can play the recorded pattern back, and save it for later use.

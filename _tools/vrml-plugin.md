@@ -6,7 +6,8 @@ year: '2003'
 platform:
     - Windows
 availability: Unavailable
-venue: IEEE Haptics Symposium
+venue:
+    - IEEE Haptics Symposium
 use_case:
     - Haptic Augmentation
 license: Unknown
@@ -27,8 +28,10 @@ design_approaches:
     - Process
 interaction_metaphors:
     - 'N/A'
-storage: VRML
-cnnectivity: None
+storage:
+    - VRML
+connectivity:
+    - None
 image: /assets/tools/vrml-plugin.png
 ---
 This system is a Virtual Reality Modeling Language (VRML) plugin that adds force-feedback effects to a subset of VRML.

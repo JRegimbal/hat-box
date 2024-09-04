@@ -7,7 +7,8 @@ platform:
     - Android
 availability: Available
 license: Unknown
-venue: IEEE ToH
+venue:
+    - IEEE ToH
 use_case:
     - Simulation
 haptic_category:
@@ -28,8 +29,10 @@ design_approaches:
 interaction_metaphors:
     - 'N/A'
 image: /assets/tools/physvib.jpg
-connectivity: API
-storage: None
+connectivity:
+    - API
+storage:
+    - None
 ---
 PhysVib is an extension to the Android-based AndEngine physics engine.
 Certain objects in the engine are treated as being manipulated by the user (in the "haptic camera"), and collisions involving these objects generate vibrotactile feedback.

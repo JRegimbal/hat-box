@@ -5,7 +5,8 @@ title: Compressables Haptic Designer
 year: '2021'
 platform:
     - Web
-venue: ACM DIS
+venue:
+    - ACM DIS
 availability: Available
 license: Open Source (MIT)
 body_position:
@@ -33,8 +34,10 @@ design_approaches:
     - Process
 interaction_metaphors:
     - Demonstration
-storage: Internal
-connectivity: None
+storage:
+    - Internal
+connectivity:
+    - None
 image: /assets/tools/compressables.png
 ---
 The Compressables Haptic Designer is a web app for controlling the Compressables family of pneumatic wearables.

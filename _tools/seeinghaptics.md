@@ -7,7 +7,8 @@ platform:
     - Unity
 availability: Unavailable
 license: Unknown
-venue: ACM MobileHCI
+venue:
+    - ACM MobileHCI
 use_case:
     - Virtual Reality
 haptic_category:
@@ -30,8 +31,10 @@ design_approaches:
 interaction_metaphors:
     - Generic Menu
 image: /assets/tools/seeinghaptics.png
-storage: Unknown
-connectivity: None
+storage:
+    - Unknown
+connectivity:
+    - None
 ---
 SeeingHaptics allows users to attach haptic feedback of various types to different virtual objects.
 These interactions are represented in the VR environment using different visual icons.

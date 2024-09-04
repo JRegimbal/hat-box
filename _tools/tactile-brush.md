@@ -5,7 +5,8 @@ title: Tactile Brush
 year: '2011'
 platform:
     - Pure Data
-venue: ACM CHI
+venue:
+    - ACM CHI
 use_case:
     - Hardware Control
 availability: Unavailable
@@ -28,8 +29,10 @@ design_approaches:
 interaction_metaphors:
     - 'N/A'
 image: /assets/tools/tactile-brush.jpg
-storage: None
-connectivity: Tactile Brush UDP
+storage:
+    - None
+connectivity:
+    - Tactile Brush UDP
 ---
 The Tactile Brush is an algorithm to create tactile animations on discrete vibrotactile arrays.
 The algorithm allows for the creation of stationary or moving tactile objects within the limits of a tactile array.

@@ -7,7 +7,8 @@ platform:
     - Android
 availability: Unavailable
 license: Unknown
-venue: ACM CHI
+venue:
+    - ACM CHI
 use_case:
     - Communication
 haptic_category:
@@ -30,8 +31,10 @@ design_approaches:
 interaction_metaphors:
     - Generic Menu
 image: /assets/tools/feel-messenger.png
-storage: Unspecified
-connectivity: None
+storage:
+    - Unspecified
+connectivity:
+    - None
 ---
 Feel Messenger is a haptically augmented text messaging application structured around families of "feel effects".
 Feel widgets or "feelgits" are types of effects that can be varied by a set of parameters, or "feelbits".

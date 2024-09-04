@@ -7,7 +7,8 @@ platform:
     - Web
 availability: Available
 license: Open Source (BSD 3-Clause)
-venue: IEEE WHC
+venue:
+    - IEEE WHC
 use_case:
     - Prototyping
 haptic_category:
@@ -29,8 +30,10 @@ design_approaches:
 interaction_metaphors:
     - Generic Menu
 image: /assets/tools/vibviz.png
-connectivity: None
-storage: WAV
+connectivity:
+    - None
+storage:
+    - WAV
 ---
 VibViz is a library of vibrotactile effects and associated filtering and visualization tools to find elements within it.
 Each effect is associated with various tags representing emotions ("angry"), metaphors ("heartbeat"), and possible uses ("alarm") that can be used to filter the library.

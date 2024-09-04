@@ -7,7 +7,8 @@ platform:
     - Windows
 availability: Available
 license: Open Source (MIT)
-venue: UAHCI
+venue:
+    - UAHCI
 use_case:
     - Collaboration
 haptic_category:
@@ -32,8 +33,10 @@ interaction_metaphors:
     - Track
     - Keyframe
 image: /assets/tools/beadbox.jpg
-connectivity: None
-storage: MIDI
+connectivity:
+    - None
+storage:
+    - MIDI
 ---
 Beadbox allows users to place and connect beads across different tracks, representing different physical actuators.
 Each bead provides a visual representation of vibration frequency and intensity.

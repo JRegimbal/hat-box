@@ -32,8 +32,10 @@ design_approaches:
     - Process
 interaction_metaphors:
     - Dataflow
-storage: Unknown
-connectivity: None
+storage:
+    - Unknown
+connectivity:
+    - None
 image: /assets/tools/genesis.png
 ---
 GENESIS is a physical modelling system that uses the [CORDIS-ANIMA](https://www.jstor.org/stable/3680567) framework to create virtual musical instruments.

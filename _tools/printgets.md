@@ -8,7 +8,8 @@ platform:
     - Raspberry Pi
 availability: Available
 license: Open Source (LGPL 3)
-venue: HAID
+venue:
+    - HAID
 use_case:
     - Hardware Control
 haptic_category:
@@ -30,8 +31,10 @@ design_approaches:
 interaction_metaphors:
     - Dataflow
 image: /assets/tools/printgets.jpg
-connectivity: API
-storage: None
+connectivity:
+    - API
+storage:
+    - None
 ---
 Printgets is a library to develop printed vibrotactile widgets for piezoelectric actuators that are triggered by capacitive input devices.
 Input and output devices are connected to a computer, such as a Raspberry Pi, and parameters mapping inputs to outputs can be controlled using Purr Data, a fork of Pure Data.

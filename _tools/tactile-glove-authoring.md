@@ -6,7 +6,8 @@ year: '2010'
 platform:
     - Windows
 availability: Unavailable
-venue: IEEE MultiMedia
+venue:
+    - IEEE MultiMedia
 use_case:
     - Haptic Augmentation
 license: Unknown
@@ -31,7 +32,8 @@ interaction_metaphors:
 image: /assets/tools/tactile-glove.png
 storage:
     - MPEG-4 BIFS
-connectivity: None
+connectivity:
+    - None
 ---
 This authoring tool allows for the design of video-synchronized tactile effects to be rendered using the actuators along the fingers and palm of the tactile glove.
 Frames of the video are shown in the GUI and it is possible to draw tactile lines across them that will be mapped to the array on the glove.

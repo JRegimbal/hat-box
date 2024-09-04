@@ -7,7 +7,8 @@ platform:
     - NodeJS
 availability: Available
 license: Unknown
-venue: ACM DIS
+venue:
+    - ACM DIS
 use_case:
     - Prototyping
     - Communication
@@ -28,8 +29,10 @@ design_approaches:
     - Process
 interaction_metaphors:
     - Demonstration
-storage: None
-connectivity: None
+storage:
+    - None
+connectivity:
+    - None
 image: /assets/tools/voodle.png
 ---
 While Voodle is primarily meant to control 1 DoF robots called "CuddleBits", it can also be used for haptic prototyping.

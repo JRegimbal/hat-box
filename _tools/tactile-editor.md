@@ -5,7 +5,8 @@ title: Tactile Editor
 year: '2008'
 platform:
     - macOS
-venue: N/A
+venue:
+    - N/A
 use_case:
     - Prototyping
 availability: Unavailable
@@ -30,8 +31,10 @@ design_approaches:
 interaction_metaphors:
     - Track
 image: /assets/tools/tactile-editor.jpg
-connectivity: Open Sound Control
-storage: Unknown
+connectivity:
+    - Open Sound Control
+storage:
+    - Unknown
 ---
 Tactile Editor is an application that allows users to create vibration patterns for motors.
 "Motor objects" represent the basic unit of these patterns and include parameters for physical motor assignment, start time, duration, and intensity.

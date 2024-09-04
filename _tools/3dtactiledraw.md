@@ -7,7 +7,8 @@ platform:
     - Unknown
 availability: Unavailable
 license: Unknown
-venue: ACM CHI
+venue:
+    - ACM CHI
 body_position:
     - Head
 use_case:
@@ -29,8 +30,10 @@ design_approaches:
 interaction_metaphors:
     - Keyframe
     - Demonstration
-storage: Unknown
-connectivity: Unknown
+storage:
+    - Unknown
+connectivity:
+    - None
 image: /assets/tools/3dtactiledraw.jpg
 ---
 3DTactileDraw supports control of an a 24-actuator array using the HapticHead helmet.

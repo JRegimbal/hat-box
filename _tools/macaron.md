@@ -7,7 +7,8 @@ platform:
     - Web
 availability: Available
 license: Unknown
-venue: IEEE Haptics Symposium
+venue:
+    - IEEE Haptics Symposium
 use_case:
     - Prototyping
 haptic_category:
@@ -34,7 +35,8 @@ image: /assets/tools/macaron.png
 storage:
     - Macaron JSON
     - WAV
-connectivity: None
+connectivity:
+    - None
 ---
 Macaron uses web audio to drive an actuator connected to the user's computer.
 A library of vibrotactile effects are available for playback that are visualized as waveforms expressing amplitude and frequency over time.

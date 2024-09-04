@@ -3,7 +3,8 @@ parent: Tools
 layout: tool
 title: Haptic Icon Prototyper
 year: '2006'
-venue: IEEE Haptics Symposium
+venue:
+    - IEEE Haptics Symposium
 platform:
     - Linux
 availability: Unavailable
@@ -32,8 +33,10 @@ interaction_metaphors:
     - Track
     - Keyframe
 image: /assets/tools/hip.png
-storage: Unknown
-connectivity: None
+storage:
+    - Unknown
+connectivity:
+    - None
 ---
 The Haptic Icon Prototyper consists of a waveform editor used to adjust the magnitude of a force-feedback effect over position or time.
 Waveforms can be refined by manipulating keyframes on visualizations of them and adjusting until a desired result is achieved.

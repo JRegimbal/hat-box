@@ -3,7 +3,8 @@ parent: Tools
 layout: tool
 title: ForceHost
 year: '2022'
-venue: NIME
+venue:
+    - NIME
 use_case:
     - Music
 platform:
@@ -28,8 +29,10 @@ design_approaches:
     - Process
 interaction_metaphors:
     - Demonstration
-storage: None
-connectivity: OSC
+storage:
+    - None
+connectivity:
+    - OSC
 image: /assets/tools/forcehost.png
 ---
 ForceHost is a toolchain for embedded physical modelling of audio-haptic effects for digital musical instruments.

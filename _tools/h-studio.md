@@ -9,7 +9,8 @@ use_case:
     - Haptic Augmentation
 availability: Unavailable
 license: Unknown
-venue: ACM UIST
+venue:
+    - ACM UIST
 haptic_category:
     - Force Feedback
     - Vibrotactile
@@ -34,8 +35,10 @@ interaction_metaphors:
     - Keyframe
     - Demonstration
 image: /assets/tools/hstudio.png
-connectivity: IMU Sensor
-storage: Unknown
+connectivity:
+    - IMU Sensor
+storage:
+    - Unknown
 ---
 H-Studio is a tool meant to add haptic effects, primarily motion effects, to a pre-existing video file.
 Its primary interface provides a preview of the original audio-visual content, tracks of the different parameters that can be edited in H-Studio, and a visual preview of a selected motion effect.

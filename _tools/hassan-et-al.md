@@ -6,7 +6,8 @@ year: '2020'
 platform:
     - Unknown
 availability: Unavailable
-venue: IEEE TIE
+venue:
+    - IEEE TIE
 use_case:
     - Simulation
 license: Unknown
@@ -28,8 +29,10 @@ design_approaches:
 interaction_metaphors:
     - N/A
 image: /assets/tools/hassan-et-al.jpg
-connectivity: None
-storage: None
+connectivity:
+    - None
+storage:
+    - None
 ---
 Hassan, Abdulali, and Jeon created an affective authoring space for textures based on 25 models of real materials.
 These were positioned on an affective space defined by two axes, hard-soft and rough-smooth.

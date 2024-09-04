@@ -9,7 +9,8 @@ platform:
     - Linux
 availability: Available
 license: Open Source (GPL 3)
-venue: ACM ToCHI
+venue:
+    - ACM ToCHI
 haptic_category:
     - Skin Stretch/Compression
 body_position:
@@ -33,8 +34,10 @@ interaction_metaphors:
     - Track
     - Keyframe
     - Demonstration
-storage: STL File
-connectivity: None
+storage:
+    - STL File
+connectivity:
+    - None
 image: /assets/tools/anisma.jpg
 ---
 ANISMA is a toolkit to prototype wearable haptic devices using shape-memory alloys (SMAs).

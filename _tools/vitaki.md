@@ -8,7 +8,8 @@ platform:
     - Linux
 availability: Unavailable
 license: Unknown
-venue: Journal of HCI
+venue:
+    - Journal of HCI
 use_case:
     - Virtual Reality
     - Gaming
@@ -34,8 +35,10 @@ interaction_metaphors:
     - Track
     - Keyframe
 image: /assets/tools/vitaki.jpg
-connectivity: API
-storage: Unknown
+connectivity:
+    - API
+storage:
+    - Unknown
 ---
 VITAKI supports controlling ERM motors in various configurations.
 A photo of the output device's configuration can be loaded into VITAKI and annotated with the locations of each actuator.

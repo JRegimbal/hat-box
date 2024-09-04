@@ -7,7 +7,8 @@ platform:
     - Electron
 availability: Available
 license: Open Source (MIT, CC-BY-4.0)
-venue: ACM TEI
+venue:
+    - ACM TEI
 use_case:
     - Collaboration
     - Prototyping
@@ -35,8 +36,10 @@ design_approaches:
 interaction_metaphors:
     - Demonstration
 image: /assets/tools/tactjam.png
-connectivity: None
-storage: Internal
+connectivity:
+    - None
+storage:
+    - Internal
 ---
 TactJam consists of a hardware component, client software component, and server component.
 The hardware includes eight ERM motors each connected to a board with push buttons corresponding to each.

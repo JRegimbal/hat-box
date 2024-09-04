@@ -8,7 +8,8 @@ platform:
     - macOS
 availability: Unavailable
 license: Proprietary
-venue: N/A
+venue:
+    - N/A
 use_case:
     - Haptic Augmentation
     - Collaboration
@@ -38,7 +39,8 @@ connectivity: API
 storage:
     - WAV
     - Internal
-connectivity: API
+connectivity:
+    - API
 ---
 Lofelt Studio allows users to load an audio file into the tool.
 This automatically creates an initial vibrotactile experience.

@@ -7,7 +7,8 @@ platform:
     - Unknown
 availability: Unavailable
 license: Unknown
-venue: IEEE ICACT
+venue:
+    - IEEE ICACT
 use_case:
     - Communication
 haptic_category:
@@ -30,8 +31,10 @@ design_approaches:
 interaction_metaphors:
     - Track
 image: /assets/tools/touchcon-tool.gif
-storage: TouchCon XML
-connectivity: Device Template
+storage:
+    - TouchCon XML
+connectivity:
+    - Device Template
 ---
 The TouchCon Editor is meant to design tactile effects for use in instant messaging.
 Effects can be created using multiple supported output devices, each described to the system using an XML file, by arranging individual sensations along a timeline.

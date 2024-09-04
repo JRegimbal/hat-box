@@ -40,8 +40,10 @@ design_approaches:
 interaction_metaphors:
     - N/A
 image: /assets/tools/dimple.jpg
-storage: None
-connectivity: Open Sound Control
+storage:
+    - None
+connectivity:
+    - Open Sound Control
 ---
 DIMPLE is a framework to connect visual, audio, and haptic simulations of a scene using OSC.
 Haptics support is provided via [CHAI3D](./chai3d.html).

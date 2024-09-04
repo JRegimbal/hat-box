@@ -7,7 +7,8 @@ platform:
     - Windows
 availability: Available
 license: Proprietary
-venue: N/A
+venue:
+    - N/A
 use_case:
     - Virtual Reality
     - Gaming
@@ -43,7 +44,8 @@ image: /assets/tools/interhaptics.png
 storage:
     - Interhaptics JSON
     - WAV
-connectivity: API
+connectivity:
+    - API
 ---
 The Interhaptics Haptic Composer focuses on the creation of different materials for VR.
 Vibration can be added to a material by adding different regular waveforms and constants together.

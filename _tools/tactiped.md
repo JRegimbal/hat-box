@@ -7,7 +7,8 @@ platform:
     - Windows
 availability: Unavailable
 license: Unknown
-venue: INTERACT
+venue:
+    - INTERACT
 use_case:
     - Prototyping
 haptic_category:
@@ -31,7 +32,8 @@ interaction_metaphors:
 image: /assets/tools/tactiped.jpg
 connectivity:
     - Device Template
-storage: TactiPEd XML
+storage:
+    - TactiPEd XML
 ---
 Users of TactiPEd would first create a template file specifying the hardware device they are using and its layout of actuators.
 This layout will then be preserved in the main editor interface, where sequences of vibrotactile patterns can be created and assigned to different actuators.

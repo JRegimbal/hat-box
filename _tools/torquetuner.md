@@ -7,7 +7,8 @@ platform:
     - libmapper
 availability: Available
 license: Open Source (MIT)
-venue: NIME
+venue:
+    - NIME
 use_case:
     - Hardware Control
     - Music
@@ -30,8 +31,10 @@ design_approaches:
 interaction_metaphors:
     - N/A
 image: /assets/tools/torquetuner.png
-connectivity: Open Sound Control
-storage: None
+connectivity:
+    - Open Sound Control
+storage:
+    - None
 ---
 TorqueTuner is a standalone 1-DoF haptic module that can be used as a standalone device or connected to a digital musical instrument such as the T-Stick.
 It contains a set of embedded effects that can be modified through inputs sent using OSC through [libmapper](https://libmapper.github.io/).

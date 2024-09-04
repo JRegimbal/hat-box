@@ -7,7 +7,8 @@ platform:
     - Android
 availability: Unavailable
 license: Unknown
-venue: ACM TEI
+venue:
+    - ACM TEI
 use_case:
     - Prototyping
 haptic_category:
@@ -29,8 +30,10 @@ design_approaches:
 interaction_metaphors:
     - Demonstration
 image: /assets/tools/hong-et-al.jpg
-connectivity: None
-storage: None
+connectivity:
+    - None
+storage:
+    - None
 ---
 This authoring tool supports the creation of vibration patterns through finger tapping on a touch screen.
 Duration of a touch is mapped to the duration of a vibration while touch area is mapped to intensity.

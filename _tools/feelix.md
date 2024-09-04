@@ -38,8 +38,10 @@ interaction_metaphors:
     - Demonstration
     - Dataflow
 image: /assets/tools/feelix.jpg
-storage: Feelix Effect File
-connectivity: API
+storage:
+    - Feelix Effect File
+connectivity:
+    - API
 ---
 Feelix supports the creation of effects on a 1 DoF motor through two main interfaces.
 The first allows for force-feedback effects to be sketched out over either motor position or time.

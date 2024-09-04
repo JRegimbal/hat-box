@@ -9,7 +9,8 @@ platform:
     - Linux
 availability: Available
 license: Open Source (GPL 2)
-venue: N/A
+venue:
+    - N/A
 use_case:
     - Simulation
 haptic_category:
@@ -34,8 +35,10 @@ design_approaches:
     - Process
 interaction_metaphors:
     - N/A
-connectivity: API
-storage: None
+connectivity:
+    - API
+storage:
+    - None
 #image: /assets/tools/h3d.png
 ---
 H3D API is a framework that lets users design haptic scenes using X3D.

@@ -31,8 +31,10 @@ design_approaches:
 interaction_metaphors:
     - Demonstration
 image: /assets/tools/techtile.jpg
-storage: WAV
-connectivity: None
+storage:
+    - WAV
+connectivity:
+    - None
 ---
 The TECHTILE Toolkit consists of a vibrotactile recorder and actuator that allows users to record real-world vibrations and then play them back.
 This is meant to permit the sharing of effects by users without strong technical backgrounds, including elementary school children.

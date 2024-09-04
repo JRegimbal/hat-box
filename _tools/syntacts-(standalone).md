@@ -9,7 +9,8 @@ platform:
     - Linux
 availability: Available
 license: Open Source (MIT)
-venue: IEEE ToH
+venue:
+    - IEEE ToH
 use_case:
     - Hardware Control
 haptic_category:
@@ -17,6 +18,8 @@ haptic_category:
 hardware_abstraction: Class
 device_names:
     - Voice Coil
+body_position:
+    - N/A
 driving_feature:
     - Time
 effect_localization: Location-aware
@@ -31,7 +34,8 @@ interaction_metaphors:
     - Track
     - Keyframe
 image: /assets/tools/syntacts.png
-connectivity: API
+connectivity:
+    - API
 storage:
     - WAV
     - AIFF
