@@ -293,7 +293,7 @@ has_toc: false
             </div>
             <div class="optiongroup">
             {% for da in das %}
-                {% assign tmp = da | downcase | prepend: "da:" %}
+                {% assign tmp = da | split: " " | join: "-" | downcase | prepend: "da:" %}
                 <div>
                     <input class="filter-input filter-input-da" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
                     <label for="{{ tmp }}">{{ da }}</label>
@@ -308,7 +308,7 @@ has_toc: false
             </div>
             <div class="optiongroup">
             {% for im in ims %}
-                {% assign tmp = im | downcase | prepend: "im:" %}
+                {% assign tmp = im | split: " " | join: "-" | downcase | prepend: "im:" %}
                 <div>
                     <input class="filter-input filter-input-im" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
                     <label for="{{ tmp }}">{{ im }}</label>
@@ -323,7 +323,7 @@ has_toc: false
             </div>
             <div class="optiongroup">
             {% for st in str %}
-                {% assign tmp = st | downcase | prepend: "st:" %}
+                {% assign tmp = st | split: " " | join: "-" | downcase | prepend: "st:" %}
                 <div>
                     <input class="filter-input filter-input-st" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
                     <label for="{{ tmp }}">{{ st }}</label>
@@ -338,7 +338,7 @@ has_toc: false
             </div>
             <div class="optiongroup">
             {% for co in con %}
-                {% assign tmp = co | downcase | prepend: "co:" %}
+                {% assign tmp = co | split: " " | join: "-" | downcase | prepend: "co:" %}
                 <div>
                     <input class="filter-input filter-input-co" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
                     <label for="{{ tmp }}">{{ co }}</label>
@@ -367,12 +367,15 @@ has_toc: false
             {% for hc in tool.haptic_category %}hc:{{ hc | replace: "Vibrotactile", "vt" | replace: "Force Feedback", "ff" | replace: "Temperature", "temp" | replace: "Skin Stretch/Compression", "ssc" }} {% endfor %}
             ha:{{ tool.hardware_abstraction | split: "(" | first | trim | downcase }}
             {% for dn in tool.device_names %}dn:{{ dn | downcase | split: " " | join: "-"}} {% endfor %}
+            {% for bp in tool.body_position %}bp:{{ bp | downcase | split: " " | join: "-" }} {% endfor %}
             {% for df in tool.driving_feature %}df:{{ df | downcase }} {% endfor %}
             el:{{ tool.effect_localization | downcase }}
             {% for ms in tool.media_support %}ms:{{ ms | downcase }} {% endfor %}
             ip:{{ tool.iterative_playback | split: " " | join: "-" | downcase }}
-            {% for da in tool.design_approaches %}da:{{ da | downcase }} {% endfor %}
-            {% for im in tool.interaction_metaphors %}im:{{ im | downcase }} {% endfor %}
+            {% for da in tool.design_approaches %}da:{{ da | downcase | split: " " | join: "-" }} {% endfor %}
+            {% for im in tool.interaction_metaphors %}im:{{ im | downcase | split: " " | join: "-" }} {% endfor %}
+            {% for st in tool.storage %}st:{{ st | downcase | split: " " | join: "-" }} {% endfor %}
+            {% for co in tool.connectivity %}co:{{ co | downcase | split: " " | join: "-" }} {% endfor %}
         ">
         <div class="tools-int-div">
             <div class="tools-img-div">

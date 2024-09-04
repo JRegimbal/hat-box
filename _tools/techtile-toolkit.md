@@ -25,7 +25,7 @@ driving_feature:
 effect_localization: Device-centric
 media_support:
     - None
-iterative_playback: 'Unknown'
+iterative_playback: 'Yes'
 design_approaches:
     - Process
 interaction_metaphors:

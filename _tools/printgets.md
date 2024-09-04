@@ -18,7 +18,7 @@ hardware_abstraction: Class
 device_names:
     - Electroactive Polymer
 body_position:
-    - None
+    - N/A
 driving_feature:
     - Action
 effect_localization: Device-centric

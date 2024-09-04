@@ -46,338 +46,76 @@ function updateToolFilter() {
         }
     }
 
-    // Platform (AND)
-    const plsFilter = [];
-    const plInputs = Array.from(document.getElementsByClassName("filter-input-pl"));
-    for (const input of plInputs) {
-        if (input.checked) {
-            plsFilter.push(input.value);
-        }
-    }
-    if (plsFilter.length !== 0) {
-        for (const tool of tools) {
-            if (tool.classList.contains("hidden")) continue;
-            let hide = false;
-            for (const filter of plsFilter) {
-                if (!tool.classList.contains(filter)) {
-                    hide = true;
-                    break;
-                }
+    // Filtering where tools much match ALL selected criteria
+    const andClass = [
+        "filter-input-pl",
+        "filer-input-df",
+    ];
+    // Filtering where tools must match ANY selected criteria
+    const orClass = [
+        "filter-input-av",
+        "filter-input-li",
+        "filter-input-ve",
+        "filter-input-uc",
+        "filter-input-hc",
+        "filter-input-ha",
+        "filter-input-dn",
+        "filter-input-bp",
+        "filter-input-el",
+        "filter-input-ms",
+        "filter-input-ip",
+        "filter-input-da",
+        "filter-input-im",
+        "filter-input-st",
+        "filter-input-co"
+    ];
+
+    for (const cls of andClass) {
+        const filterInputs = [];
+        const inputs = Array.from(document.getElementsByClassName(cls));
+        for (const input of inputs) {
+            if (input.checked) {
+                filterInputs.push(input.value);
             }
-            if (hide) {
-                tool.classList.add("hidden");
+        }
+        if (filterInputs.length !== 0) {
+            for (const tool of tools) {
+                if (tool.classList.contains("hidden")) continue;
+                let hide = false;
+                for (const flt of filterInputs) {
+                    if (!tool.classList.contains(flt)) {
+                        hide = true;
+                        break;
+                    }
+                }
+                if (hide) {
+                    tool.classList.add("hidden");
+                }
             }
         }
     }
 
-    // Availability (OR)
-    const avsFilter = [];
-    const avInputs = Array.from(document.getElementsByClassName("filter-input-av"));
-    for (const input of avInputs) {
-        if (input.checked) {
-            avsFilter.push(input.value);
+    for (const cls of orClass) {
+        const filterInputs = [];
+        const inputs = Array.from(document.getElementsByClassName(cls));
+        for (const input of inputs) {
+            if (input.checked) {
+                filterInputs.push(input.value);
+            }
         }
-    }
-    if (avsFilter.length !== 0) {
-        for (const tool of tools) {
-            if (tool.classList.contains("hidden")) continue;
-            let hide = true;
-            for (const filter of avsFilter) {
-                if (tool.classList.contains(filter)) {
-                    hide = false;
-                    break;
+        if (filterInputs.length !== 0) {
+            for (const tool of tools) {
+                if (tool.classList.contains("hidden")) continue;
+                let hide = true;
+                for (const flt of filterInputs) {
+                    if (tool.classList.contains(flt)) {
+                        hide = false;
+                        break;
+                    }
                 }
-            }
-            if (hide) {
-                tool.classList.add("hidden");
-            }
-        }
-    }
-
-    // License (OR)
-    const licFilter = []
-    const liInputs = Array.from(document.getElementsByClassName("filter-input-li"));
-    for (const input of liInputs) {
-        if (input.checked) {
-            licFilter.push(input.value);
-        }
-    }
-    if (licFilter.length !== 0) {
-        for (const tool of tools) {
-            if (tool.classList.contains("hidden")) continue;
-            let hide = true;
-            for (const filter of licFilter) {
-                if (tool.classList.contains(filter)) {
-                    hide = false;
-                    break;
+                if (hide) {
+                    tool.classList.add("hidden");
                 }
-            }
-            if (hide) {
-                tool.classList.add("hidden");
-            }
-        }
-    }
-
-    // Venue (OR)
-    const venFilter = []
-    const veInputs = Array.from(document.getElementsByClassName("filter-input-ve"));
-    for (const input of veInputs) {
-        if (input.checked) {
-            venFilter.push(input.value);
-        }
-    }
-    if (venFilter.length !== 0) {
-        for (const tool of tools) {
-            if (tool.classList.contains("hidden")) continue;
-            let hide = true;
-            for (const filter of venFilter) {
-                if (tool.classList.contains(filter)) {
-                    hide = false;
-                    break;
-                }
-            }
-            if (hide) {
-                tool.classList.add("hidden");
-            }
-        }
-    }
-
-    // Use Case (OR)
-    const ucsFilter = []
-    const ucInputs = Array.from(document.getElementsByClassName("filter-input-uc"));
-    for (const input of ucInputs) {
-        if (input.checked) {
-            ucsFilter.push(input.value);
-        }
-    }
-    if (ucsFilter.length !== 0) {
-        for (const tool of tools) {
-            if (tool.classList.contains("hidden")) continue;
-            let hide = true;
-            for (const filter of ucsFilter) {
-                if (tool.classList.contains(filter)) {
-                    hide = false;
-                    break;
-                }
-            }
-            if (hide) {
-                tool.classList.add("hidden");
-            }
-        }
-    }
-
-    // Haptic Categories (OR)
-    const hcsFilter = [];
-    const hcInputs = Array.from(document.getElementsByClassName("filter-input-hc"));
-    for (const input of hcInputs) {
-        if (input.checked) {
-            hcsFilter.push(input.value);
-        }
-    }
-    if (hcsFilter.length !== 0) {
-        for (const tool of tools) {
-            if (tool.classList.contains("hidden")) continue;
-            let hide = true;
-            for (const filter of hcsFilter) {
-                if (tool.classList.contains(filter)) {
-                    hide = false;
-                    break;
-                }
-            }
-            if (hide) {
-                tool.classList.add("hidden");
-            }
-        }
-    }
-
-    // Hardware Abstraction (OR)
-    const hasFilter = [];
-    const haInputs = Array.from(document.getElementsByClassName("filter-input-ha"));
-    for (const input of haInputs) {
-        if (input.checked) {
-            hasFilter.push(input.value);
-        }
-    }
-    if (hasFilter.length !== 0) {
-        for (const tool of tools) {
-            if (tool.classList.contains("hidden")) continue;
-            let hide = true;
-            for (const filter of hasFilter) {
-                if (tool.classList.contains(filter)) {
-                    hide = false;
-                    break;
-                }
-            }
-            if (hide) {
-                tool.classList.add("hidden");
-            }
-        }
-    }
-
-    // Device Names(OR)
-    const dnsFilter = [];
-    const dnInputs = Array.from(document.getElementsByClassName("filter-input-dn"));
-    for (const input of dnInputs) {
-        if (input.checked) {
-            dnsFilter.push(input.value);
-        }
-    }
-    if (dnsFilter.length !== 0) {
-        for (const tool of tools) {
-            if (tool.classList.contains("hidden")) continue;
-            let hide = true;
-            for (const filter of dnsFilter) {
-                if (tool.classList.contains(filter)) {
-                    hide = false;
-                    break;
-                }
-            }
-            if (hide) {
-                tool.classList.add("hidden");
-            }
-        }
-    }
-
-    // Driving Feature (AND)
-    const dfsFilter = [];
-    const dfInputs = Array.from(document.getElementsByClassName("filter-input-df"));
-    for (const input of dfInputs) {
-        if (input.checked) {
-            dfsFilter.push(input.value);
-        }
-    }
-    if (dfsFilter.length !== 0) {
-        for (const tool of tools) {
-            if (tool.classList.contains("hidden")) continue;
-            let hide = false;
-            for (const filter of dfsFilter) {
-                if (!tool.classList.contains(filter)) {
-                    hide = true;
-                    break;
-                }
-            }
-            if (hide) {
-                tool.classList.add("hidden");
-            }
-        }
-    }
-
-    // Effect Localization (OR)
-    const elsFilter = [];
-    const elInputs = Array.from(document.getElementsByClassName("filter-input-el"));
-    for (const input of elInputs) {
-        if (input.checked) {
-            elsFilter.push(input.value);
-        }
-    }
-    if (elsFilter.length !== 0) {
-        for (const tool of tools) {
-            if (tool.classList.contains("hidden")) continue;
-            let hide = true;
-            for (const filter of elsFilter) {
-                if (tool.classList.contains(filter)) {
-                    hide = false;
-                    break;
-                }
-            }
-            if (hide) {
-                tool.classList.add("hidden");
-            }
-        }
-    }
-
-    // Media Support (OR)
-    const mssFilter = [];
-    const msInputs = Array.from(document.getElementsByClassName("filter-input-ms"));
-    for (const input of msInputs) {
-        if (input.checked) {
-            mssFilter.push(input.value);
-        }
-    }
-    if (mssFilter.length !== 0) {
-        for (const tool of tools) {
-            if (tool.classList.contains("hidden")) continue;
-            let hide = true;
-            for (const filter of mssFilter) {
-                if (tool.classList.contains(filter)) {
-                    hide = false;
-                    break;
-                }
-            }
-            if (hide) {
-                tool.classList.add("hidden");
-            }
-        }
-    }
-
-    // Iterative Playback (OR)
-    const ipsFilter = [];
-    const ipInputs = Array.from(document.getElementsByClassName("filter-input-ip"));
-    for (const input of ipInputs) {
-        if (input.checked) {
-            ipsFilter.push(input.value);
-        }
-    }
-    if (ipsFilter.length !== 0) {
-        for (const tool of tools) {
-            if (tool.classList.contains("hidden")) continue;
-            let hide = true;
-            for (const filter of ipsFilter) {
-                if (tool.classList.contains(filter)) {
-                    hide = false;
-                    break;
-                }
-            }
-            if (hide) {
-                tool.classList.add("hidden");
-            }
-        }
-    }
-
-    // Design Approaches (OR)
-    const dasFilter = [];
-    const daInputs = Array.from(document.getElementsByClassName("filter-input-da"));
-    for (const input of daInputs) {
-        if (input.checked) {
-            dasFilter.push(input.value);
-        }
-    }
-    if (dasFilter.length !== 0) {
-        for (const tool of tools) {
-            if (tool.classList.contains("hidden")) continue;
-            let hide = true;
-            for (const filter of dasFilter) {
-                if (tool.classList.contains(filter)) {
-                    hide = false;
-                    break;
-                }
-            }
-            if (hide) {
-                tool.classList.add("hidden");
-            }
-        }
-    }
-
-    // Interaction Metaphors (OR)
-    const imsFilter = [];
-    const imInputs = Array.from(document.getElementsByClassName("filter-input-im"));
-    for (const input of imInputs) {
-        if (input.checked) {
-            imsFilter.push(input.value);
-        }
-    }
-    if (imsFilter.length !== 0) {
-        for (const tool of tools) {
-            if (tool.classList.contains("hidden")) continue;
-            let hide = true;
-            for (const filter of imsFilter) {
-                if (tool.classList.contains(filter)) {
-                    hide = false;
-                    break;
-                }
-            }
-            if (hide) {
-                tool.classList.add("hidden");
             }
         }
     }
