@@ -13,7 +13,7 @@ body_position:
     - Head
     - Hand
     - Arm
-    - Thigh
+    - Leg
     - Torso
 use_case:
     - Hardware Control

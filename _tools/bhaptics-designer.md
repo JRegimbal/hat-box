@@ -19,10 +19,10 @@ device_names:
     - bHaptics Devices
 body_position:
     - Torso
-    - Arms
-    - Face
-    - Hands
-    - Feet
+    - Arm
+    - Head
+    - Hand
+    - Foot
 driving_feature:
     - Time
 effect_localization: Location-aware
