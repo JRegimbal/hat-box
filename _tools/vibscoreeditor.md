@@ -35,7 +35,7 @@ interaction_metaphors:
     - Score
 image: /assets/tools/vibscoreeditor.png
 storage:
-    - VibScoreEditor XML
+    - Custom XML
 connectivity:
     - Device Template
 ---

@@ -33,7 +33,7 @@ interaction_metaphors:
     - Keyframe
 image: /assets/tools/macaron.png
 storage:
-    - Macaron JSON
+    - Custom JSON
     - WAV
 connectivity:
     - None

@@ -37,7 +37,7 @@ interaction_metaphors:
     - Keyframe
     - Demonstration
 storage:
-    - Feellustrator JSON
+    - Custom JSON
     - CSV
 connectivity:
     - None

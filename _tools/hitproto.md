@@ -33,7 +33,7 @@ interaction_metaphors:
     - Dataflow
 image: /assets/tools/hitproto.png
 storage:
-    - HITPROTO XML
+    - Custom XML
 connectivity:
     - None
 ---

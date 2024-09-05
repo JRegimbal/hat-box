@@ -34,7 +34,7 @@ interaction_metaphors:
     - Dataflow
 image: /assets/tools/actronika-effects-player.png
 storage:
-    - Audio File
+    - WAV
 connectivity:
     - None
 ---

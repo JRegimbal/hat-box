@@ -32,7 +32,7 @@ interaction_metaphors:
     - Generic Menu
 image: /assets/tools/feel-messenger.png
 storage:
-    - Unspecified
+    - Unknown
 connectivity:
     - None
 ---

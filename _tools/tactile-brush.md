@@ -32,7 +32,7 @@ image: /assets/tools/tactile-brush.jpg
 storage:
     - None
 connectivity:
-    - Tactile Brush UDP
+    - Custom UDP
 ---
 The Tactile Brush is an algorithm to create tactile animations on discrete vibrotactile arrays.
 The algorithm allows for the creation of stationary or moving tactile objects within the limits of a tactile array.

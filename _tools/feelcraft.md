@@ -37,7 +37,7 @@ image: /assets/tools/feelcraft.jpg
 connectivity:
     - API
 storage:
-    - Feel Effect JSON
+    - Custom JSON
 ---
 FeelCraft is a technical architecture where libraries of haptic effects (feel effects) are triggered by events in pre-existing media applications through the use of the FeelCraft plugin.
 The implemented example connects to the event system of a Minecraft server.

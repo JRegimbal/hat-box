@@ -35,7 +35,7 @@ image: /assets/tools/vibraterial.png
 connectivity:
     - None
 storage:
-    - vibrAteRial JSON
+    - Custom JSON
 ---
 VibrAteRial is designed to create underfoot material effects in VR for the bARefoot shoe system.
 Each bARefoot contains a pressure sensor and vibrotactile actuators.

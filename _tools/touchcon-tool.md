@@ -32,7 +32,7 @@ interaction_metaphors:
     - Track
 image: /assets/tools/touchcon-tool.gif
 storage:
-    - TouchCon XML
+    - Custom XML
 connectivity:
     - Device Template
 ---

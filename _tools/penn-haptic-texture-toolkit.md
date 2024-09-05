@@ -30,7 +30,7 @@ interaction_metaphors:
     - 'N/A'
 image: /assets/tools/penn.jpg
 storage:
-    - HaTT XML
+    - Custom XML
 connectivity:
     - API
 ---

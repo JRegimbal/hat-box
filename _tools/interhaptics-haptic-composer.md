@@ -42,7 +42,7 @@ interaction_metaphors:
     - Track
 image: /assets/tools/interhaptics.png
 storage:
-    - Interhaptics JSON
+    - Custom JSON
     - WAV
 connectivity:
     - API

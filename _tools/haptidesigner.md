@@ -31,7 +31,7 @@ interaction_metaphors:
     - Generic Menu
 image: /assets/tools/haptidesigner.jpg
 storage:
-    - HaptiDesigner XML
+    - Custom XML
 connectivity:
     - None
 ---

@@ -34,7 +34,7 @@ interaction_metaphors:
     - Demonstration
 image: /assets/tools/mango.png
 storage:
-    - Mango JSON
+    - Custom JSON
 connectivity:
     - None
 ---

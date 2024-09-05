@@ -32,7 +32,7 @@ interaction_metaphors:
 storage:
     - None
 connectivity:
-    - OSC
+    - Open Sound Control
 image: /assets/tools/forcehost.png
 ---
 ForceHost is a toolchain for embedded physical modelling of audio-haptic effects for digital musical instruments.

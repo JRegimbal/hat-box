@@ -36,7 +36,7 @@ interaction_metaphors:
     - Keyframe
 storage:
     - MKV
-    - ViviTouch XML
+    - Custom XML
 connectivity:
     - None
 image: /assets/tools/vivitouch.png
