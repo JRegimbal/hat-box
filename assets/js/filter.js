@@ -1,4 +1,4 @@
-let arrayChecked, selStartYear, selEndYear = null;
+let arrayChecked, arraySelected, selStartYear, selEndYear = null;
 
 const store = Boolean(window.sessionStorage);
 
@@ -7,6 +7,10 @@ if (store) {
     arrayChecked = sessionStorage.getItem("checkedInputs");
     if (arrayChecked) {
         arrayChecked = JSON.parse(arrayChecked);
+    }
+    arraySelected = sessionStorage.getItem("selectedInputs");
+    if (arraySelected) {
+        arraySelected = JSON.parse(arraySelected);
     }
     selStartYear = sessionStorage.getItem("selStartYear");
     selEndYear = sessionStorage.getItem("selEndYear");
@@ -21,6 +25,11 @@ if (store) {
     if (arrayChecked) {
         for (const inputId of arrayChecked) {
             document.getElementById(inputId).checked = true;
+        }
+    }
+    if (arraySelected) {
+        for (const optId of arraySelected) {
+            document.getElementById(optId).selected = true;
         }
     }
 } else {
@@ -74,7 +83,7 @@ function updateToolFilter() {
         const filterInputs = [];
         const inputs = Array.from(document.getElementsByClassName(cls));
         for (const input of inputs) {
-            if (input.checked) {
+            if (input.checked || input.selected) {
                 filterInputs.push(input.value);
             }
         }
@@ -99,7 +108,7 @@ function updateToolFilter() {
         const filterInputs = [];
         const inputs = Array.from(document.getElementsByClassName(cls));
         for (const input of inputs) {
-            if (input.checked) {
+            if (input.checked || input.selected) {
                 filterInputs.push(input.value);
             }
         }
@@ -128,6 +137,29 @@ Array.from(document.getElementsByClassName("filter-input")).forEach(input => { i
             } else if (input.id === "end-year") {
                 selEndYear = input.value;
                 sessionStorage.setItem("selEndYear", selEndYear);
+            } else if (input.nodeName === "SELECT") {
+                const options = input.getElementsByTagName("option");
+                for (const opt of options) {
+                    console.log(opt)
+                    if (opt.selected) {
+                        console.log("Selected!")
+                        if (!arraySelected) {
+                            arraySelected = [];
+                        }
+                        arraySelected.push(opt.id);
+                        sessionStorage.setItem("selectedInputs", JSON.stringify(arraySelected));
+                    } else {
+                        if (arraySelected) {
+                            if (arraySelected.indexOf(opt.id) >= 0) {
+                                arraySelected.splice(arraySelected.indexOf(opt.id), 1);
+                                sessionStorage.setItem("selectedInputs", JSON.stringify(arraySelected));
+                            }
+                        } else {
+                            console.warn("arraySelected was empty when removing input of ID " + input.id);
+                        }
+                    }
+                    console.log(arraySelected);
+                }
             } else {
                 if (input.checked) {
                     if (!arrayChecked) {
@@ -137,8 +169,10 @@ Array.from(document.getElementsByClassName("filter-input")).forEach(input => { i
                     sessionStorage.setItem("checkedInputs", JSON.stringify(arrayChecked));
                 } else {
                     if (arrayChecked) {
-                        arrayChecked.splice(arrayChecked.indexOf(input.id), 1);
-                        sessionStorage.setItem("checkedInputs", JSON.stringify(arrayChecked));
+                        if (arrayChecked.indexOf(input.id) >= 0) {
+                            arrayChecked.splice(arrayChecked.indexOf(input.id), 1);
+                            sessionStorage.setItem("checkedInputs", JSON.stringify(arrayChecked));
+                        }
                     } else {
                         console.warn("arrayChecked was empty when removing input of ID " + input.id);
                     }
@@ -154,15 +188,21 @@ document.getElementById("resetFilters").addEventListener("click", () => {
             input.checked = input.defaultChecked;
         } else if (input.type === "number") {
             input.value = input.defaultValue;
+        } else if (input.nodeName === "SELECT") {
+            Array.from(input.getElementsByTagName("option")).forEach(
+                opt => opt.selected = opt.defaultSelected
+            );
         }
     });
     if (store) {
         arrayChecked = null;
+        arraySelected = null;
         selStartYear = null;
         selEndYear = null;
         sessionStorage.removeItem("checkedInputs");
         sessionStorage.removeItem("selStartYear");
         sessionStorage.removeItem("selEndYear");
+        sessionStorage.removeItem("selectedInputs");
     }
     updateToolFilter();
 });

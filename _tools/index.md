@@ -86,7 +86,7 @@ has_toc: false
             {% for pl in pls %}
                 {% assign tmp = pl | downcase | split: " " | join: "-" | prepend: "pl:" %}
                 <div>
-                    <input class="filter-input filter-input-pl" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                    <input class="filter-input-pl filter-input" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
                     <label for="{{ tmp }}">{{ pl }}</label>
                 </div>
             {% endfor %}
@@ -127,15 +127,14 @@ has_toc: false
             <div role="tooltip" id="venuetip">
                 {{ site.data.short.venue }}
             </div>
-            <div class="optiongroup">
+            <select class="optiongroup filter-input" multiple name="venue">
             {% for ve in ven %}
                 {% assign tmp = ve | split: " " | join: "-" | downcase | prepend: "ve:" %}
-                <div>
-                    <input class="filter-input filter-input-ve" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
-                    <label for="{{ tmp }}">{{ ve }}</label>
-                </div>
+                <option class="filter-input-ve" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                    {{ ve }}
+                </option>
             {% endfor %}
-            </div>
+            </select>
         </fieldset>
         <fieldset>
             <legend aria-describedby="uctip">Intended Use Case (&#x2228;)&#9432;</legend>
@@ -194,15 +193,14 @@ has_toc: false
             <div role="tooltip" id="dntip">
                 {{ site.data.short.device_names }}
             </div>
-            <div class="optiongroup">
+            <select multiple class="optiongroup filter-input">
             {% for dn in dns %}
                 {% assign tmp = dn | split: " " | join: "-" | downcase | prepend: "dn:" %}
-                <div>
-                    <input class="filter-input filter-input-dn" type="checkbox" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
-                    <label for="{{ tmp }}">{{ dn }}</label>
-                </div>
+                <option class="filter-input-dn" id="{{ tmp }}" name="{{ tmp }}" value="{{ tmp }}">
+                    {{ dn }}
+                </option>
             {% endfor %}
-            </div>
+            </select>
         </fieldset>
         <fieldset>
             <legend aria-describedby="bptip">Body Position (&#x2228;)&#9432;</legend>
