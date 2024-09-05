@@ -140,9 +140,7 @@ Array.from(document.getElementsByClassName("filter-input")).forEach(input => { i
             } else if (input.nodeName === "SELECT") {
                 const options = input.getElementsByTagName("option");
                 for (const opt of options) {
-                    console.log(opt)
                     if (opt.selected) {
-                        console.log("Selected!")
                         if (!arraySelected) {
                             arraySelected = [];
                         }
@@ -158,7 +156,6 @@ Array.from(document.getElementsByClassName("filter-input")).forEach(input => { i
                             console.warn("arraySelected was empty when removing input of ID " + input.id);
                         }
                     }
-                    console.log(arraySelected);
                 }
             } else {
                 if (input.checked) {
