@@ -22,7 +22,7 @@ device_names:
     - Ultraleap STRATOS Explore
 driving_feature:
     - Time
-    - Event
+    - Action
 effect_localization: Target-centric
 media_support:
     - None
@@ -30,11 +30,11 @@ iterative_playback: 'Yes'
 design_approaches:
     - DPC
     - Process
+    - Library
 interaction_metaphors:
     - Keyframe
     - Demonstration
     - Track
-    - Library
 storage:
     - Custom JSON
 connectivity:

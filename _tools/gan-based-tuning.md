@@ -19,7 +19,7 @@ hardware_abstraction: Class
 device_names:
     - Voice Coil
 driving_feature:
-    - Event
+    - Action
 effect_localization: Location-aware
 media_support:
     - None

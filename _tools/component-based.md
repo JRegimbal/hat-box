@@ -19,7 +19,7 @@ hardware_abstraction: Consumer
 device_names:
     - Novint Falcon
 driving_feature:
-    - Event
+    - Action
 effect_localization: Target-centric
 media_support:
     - Audio

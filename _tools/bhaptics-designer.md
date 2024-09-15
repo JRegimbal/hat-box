@@ -14,7 +14,7 @@ venue:
 use_case:
     - Virtual Reality
     - Gaming
-hardware_abstraction: Consumer (bHaptic Devices)
+hardware_abstraction: Consumer
 device_names:
     - bHaptics Devices
 body_position:

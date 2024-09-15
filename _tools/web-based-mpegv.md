@@ -25,7 +25,7 @@ device_names:
     - Geomagic Touch
     - Moog HapticMaster
 driving_feature:
-    - Event
+    - Action
 effect_localization: Target-centric
 media_support:
     - Visual
