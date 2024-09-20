@@ -10,7 +10,7 @@ license: Open Source (MIT)
 venue:
     - UAHCI
 use_case:
-    - Collaboration
+    - Accessibility
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Class
