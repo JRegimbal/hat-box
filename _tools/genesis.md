@@ -8,7 +8,7 @@ platform:
     - macOS
     - Linux
 availability: Unavailable
-license: Proprietary
+license: Unknown
 venue:
     - ICMC
     - Symposium on Computer Music Multidisciplinary Research
