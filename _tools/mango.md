@@ -8,7 +8,7 @@ platform:
 availability: Unavailable
 license: Unknown
 venue:
-    - IEEE Haptics Symposium
+    - ACM UIST
 use_case:
     - Hardware Control
 haptic_category:

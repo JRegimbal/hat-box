@@ -8,7 +8,7 @@ platform:
 availability: Unavailable
 license: Unknown
 venue:
-    - IEEE WHC
+    - IEEE Haptics Symposium
 use_case:
     - Haptic Augmentation
     - Prototyping
