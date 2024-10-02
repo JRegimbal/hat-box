@@ -22,7 +22,7 @@ device_names:
     - Custom Arm Band
 driving_feature:
     - Time
-effect_localization: Device-centric
+effect_localization: Location-aware
 media_support:
     - Visual
     - Audio

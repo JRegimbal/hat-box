@@ -20,7 +20,7 @@ body_position:
     - Torso
 driving_feature:
     - Time
-effect_localization: Device-centric
+effect_localization: Location-aware
 media_support:
     - None
 iterative_playback: 'Yes'
