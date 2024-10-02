@@ -58,7 +58,7 @@ function updateToolFilter() {
     // Filtering where tools much match ALL selected criteria
     const andClass = [
         "filter-input-pl",
-        "filer-input-df",
+        "filter-input-df",
     ];
     // Filtering where tools must match ANY selected criteria
     const orClass = [
