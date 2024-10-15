@@ -2,7 +2,7 @@
 parent: Tools
 layout: tool
 title: CHAI3D
-year: '2004'
+year: '2003'
 platform:
     - Windows
     - macOS
