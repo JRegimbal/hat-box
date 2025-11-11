@@ -48,3 +48,4 @@ hardwareControl: <p>Aspects of the tool related to supported haptic hardware.</p
 iAndI: <p>Aspects of the tool related to the creation of haptic effects.</p>
 storage: <p>How data is stored for import/export or internally to the software.</p>
 connectivity: <p>How the tool can be extended to support new data, devices, and software.</p>
+device_template: <p>Whether support can be easily extended to new types of devices.</p>

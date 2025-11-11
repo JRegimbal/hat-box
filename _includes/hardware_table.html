@@ -1,13 +1,13 @@
 <table>
     <thead>
         <tr>
-            <th colspan="2">Hardware Control Information</th>
+            <th colspan="2">Hardware Information</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <th>
-                <a aria-describedby="categorytip" href="{{ site.baseurl }}/docs/information.html#category">Haptic Category&#9432;</a>
+                <a aria-describedby="categorytip" href="{{ site.baseurl }}/docs/information.html#category">Category&#9432;</a>
                 <div role="tooltip" id="categorytip">
                     {{ site.data.short.hapticCategory }}
                 </div>
@@ -22,7 +22,7 @@
         </tr>
         <tr>
             <th>
-                <a aria-describedby="abstractiontip" href="{{ site.baseurl }}/docs/information.html#abstraction">Hardware Abstraction&#9432;</a>
+                <a aria-describedby="abstractiontip" href="{{ site.baseurl }}/docs/information.html#abstraction">Abstraction&#9432;</a>
                 <div role="tooltip" id="abstractiontip">
                     {{ site.data.short.hardwareAbstraction }}
                 </div>
@@ -47,6 +47,21 @@
                 {{ tool.device_names | join: ", " }}
                 {% else %}
                 {{ page.device_names | join: ", " }}
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <a aria-describedby="templatetip" href="{{ site.baseurl }}/docs/information.html#devices">Device Template&#9432;</a>
+                <div role="tooltip" id="templatetip">
+                    {{ site.data.short.device_template}}
+                </div>
+            </th>
+            <td>
+                {% if tool %}
+                {{ tool.device_template }}
+                {% else %}
+                {{ page.device_template }}
                 {% endif %}
             </td>
         </tr>
