@@ -16,6 +16,7 @@ haptic_category:
 hardware_abstraction: Consumer
 device_names:
     - Phantom
+device_template: 'No'
 driving_feature:
     - Action
 body_position:

@@ -15,6 +15,7 @@ use_case:
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Bespoke
+device_template: 'No'
 device_names:
     - TactJam Hardware
 body_position:

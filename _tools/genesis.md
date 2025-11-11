@@ -18,6 +18,7 @@ use_case:
 haptic_category:
     - Force Feedback
 hardware_abstraction: Bespoke
+device_template: 'No'
 body_position:
     - N/A
 device_names:

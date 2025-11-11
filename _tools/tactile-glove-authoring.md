@@ -16,6 +16,7 @@ haptic_category:
 hardware_abstraction: Bespoke
 device_names:
     - Tactile Glove
+device_template: 'No'
 body_position:
     - Hand
 driving_feature:

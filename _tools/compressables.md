@@ -17,6 +17,7 @@ body_position:
     - Torso
 use_case:
     - Hardware Control
+device_template: 'No'
 haptic_category:
     - Skin Stretch/Compression
 hardware_abstraction: Bespoke

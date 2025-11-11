@@ -16,6 +16,7 @@ haptic_category:
 hardware_abstraction: Class
 device_names:
     - 1 DoF Knob
+device_template: 'No'
 driving_feature:
     - Time
     - Action

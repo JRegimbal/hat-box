@@ -14,6 +14,7 @@ use_case:
     - Prototyping
 haptic_category:
     - Vibrotactile
+device_template: 'No'
 hardware_abstraction: Consumer
 device_names:
     - Oculus Touch

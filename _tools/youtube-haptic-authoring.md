@@ -14,6 +14,7 @@ body_position:
     - Arm
 use_case:
     - Haptic Augmentation
+device_template: 'No'
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Bespoke

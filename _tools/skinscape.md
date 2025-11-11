@@ -17,6 +17,7 @@ hardware_abstraction: Consumer
 device_names:
     - V1220 Transducer
     - Aura Systems Interactor Cushion
+device_template: 'No'
 body_position:
     - Arm
     - Torso

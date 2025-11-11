@@ -18,6 +18,7 @@ haptic_category:
 hardware_abstraction: Bespoke
 device_names:
     - HapticHead
+device_template: 'No'
 driving_feature:
     - Time
 effect_localization: Target-centric

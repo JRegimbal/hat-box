@@ -16,6 +16,7 @@ haptic_category:
 hardware_abstraction: Class
 device_names:
     - Generic VT
+device_template: 'Yes'
 body_position:
     - N/A
 driving_feature:
@@ -31,7 +32,7 @@ interaction_metaphors:
     - Generic Menu
 image: /assets/tools/tactiped.jpg
 connectivity:
-    - Device Template
+    - None
 storage:
     - Custom XML
 ---

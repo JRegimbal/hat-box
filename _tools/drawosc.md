@@ -17,6 +17,7 @@ body_position:
     - Arm
     - Leg
     - Torso
+device_template: 'No'
 hardware_abstraction: Bespoke
 device_names:
     - Ilinx Garment

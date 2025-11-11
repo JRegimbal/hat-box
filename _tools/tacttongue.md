@@ -18,6 +18,7 @@ use_case:
 haptic_category:
     - Electrotactile
 hardware_abstraction: Bespoke
+device_template: 'No'
 device_names:
     - TactTongue
 driving_feature:

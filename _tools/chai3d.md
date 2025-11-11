@@ -25,6 +25,7 @@ device_names:
     - Razer Hydra
 body_position:
     - N/A
+device_template: 'Yes'
 driving_feature:
     - Action
 effect_localization: Target-centric
@@ -41,7 +42,6 @@ interaction_metaphors:
 image: /assets/tools/chai3d.png
 connectivity:
     - API
-    - Device Template
 storage:
     - None
 ---

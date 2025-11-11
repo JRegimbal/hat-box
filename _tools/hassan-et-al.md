@@ -14,6 +14,7 @@ license: Unknown
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Class
+device_template: 'No'
 device_names:
     - Voice Coil
 body_position:

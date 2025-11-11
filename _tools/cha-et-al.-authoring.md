@@ -16,6 +16,7 @@ body_position:
 haptic_category:
     - Vibrotactile
     - Force Feedback
+device_template: 'No'
 hardware_abstraction: Bespoke
 device_names:
     - 76-Tactor Glove

@@ -27,6 +27,7 @@ device_names:
     - Phantom
     - Novint Falcon
     - Razer Hydra
+device_template: 'No'
 driving_feature:
     - Action
 effect_localization: Location-aware

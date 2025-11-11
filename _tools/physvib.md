@@ -16,6 +16,7 @@ haptic_category:
 hardware_abstraction: Class
 device_names:
     - Voice Coil
+device_template: 'No'
 driving_feature:
     - Action
 effect_localization: Target-centric

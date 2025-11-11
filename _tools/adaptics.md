@@ -20,6 +20,7 @@ haptic_category:
 hardware_abstraction: Consumer
 device_names:
     - Ultraleap STRATOS Explore
+device_template: 'No'
 driving_feature:
     - Time
     - Action

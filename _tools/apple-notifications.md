@@ -16,6 +16,7 @@ use_case:
     - Notifications
 body_position:
     - N/A
+device_template: 'No'
 device_names:
     - iPhone
 driving_feature:

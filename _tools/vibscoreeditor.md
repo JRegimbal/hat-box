@@ -14,6 +14,7 @@ use_case:
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Consumer
+device_template: 'Yes'
 device_names:
     - Brüel & Kjaer Model 4810
     - Voice Coil
@@ -37,7 +38,7 @@ image: /assets/tools/vibscoreeditor.png
 storage:
     - Custom XML
 connectivity:
-    - Device Template
+    - None
 ---
 VibScoreEditor applies uses music notation as a metaphor for vibrotactile editing.
 In this system, a "vibrotactile clef" determines the frequency and waveform assigned to each "pitch" occupying a position on the staff.

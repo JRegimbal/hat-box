@@ -21,6 +21,7 @@ body_position:
     - N/A
 driving_feature:
     - Time
+device_template: 'No'
 effect_localization: Location-aware
 media_support:
     - Audio

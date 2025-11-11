@@ -16,6 +16,7 @@ haptic_category:
 hardware_abstraction: Consumer
 device_names:
     - Pebble
+device_template: 'No'
 body_position:
     - Arm
 driving_feature:

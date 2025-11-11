@@ -18,6 +18,7 @@ license: Open Source (GPL 2)
 haptic_category:
     - Force Feedback
 hardware_abstraction: Class
+device_template: 'No'
 device_names:
     - Novint Falcon
     - FireFader

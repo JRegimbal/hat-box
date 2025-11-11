@@ -18,6 +18,7 @@ haptic_category:
 hardware_abstraction: Class
 device_names:
     - Voice Coil
+device_template: 'No'
 body_position:
     - N/A
 driving_feature:

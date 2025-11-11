@@ -19,6 +19,7 @@ device_names:
 driving_feature:
     - Time
 effect_localization: Device-centric
+device_template: 'No'
 body_position:
     - N/A
 media_support:

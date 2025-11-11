@@ -23,6 +23,7 @@ driving_feature:
     - Time
     - Action
 effect_localization: Target-centric
+device_template: 'No'
 media_support:
     - Audio
     - Visual

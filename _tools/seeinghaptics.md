@@ -19,6 +19,7 @@ body_position:
     - N/A
 device_names:
     - N/A
+device_template: 'No'
 driving_feature:
     - Action
 effect_localization: Target-centric

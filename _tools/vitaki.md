@@ -18,6 +18,7 @@ haptic_category:
 hardware_abstraction: Bespoke
 device_names:
     - VITAKI Controller
+device_template: 'No'
 body_position:
     - N/A
 driving_feature:

@@ -16,6 +16,7 @@ use_case:
 haptic_category:
     - Force Feedback
 hardware_abstraction: Consumer
+device_template: 'No'
 device_names:
     - Kinova Gen3
 driving_feature:

@@ -18,6 +18,7 @@ device_names:
     - Ultraleap STRATOS Explore
 body_position:
     - Hand
+device_template: 'Yes'
 driving_feature:
     - Time
 effect_localization: Location-aware
@@ -33,7 +34,7 @@ image: /assets/tools/dolphin.png
 storage:
     - CSV
 connectivity:
-    - Device Template
+    - None
 ---
 DOLPHIN is a framework with a design tool for creating ultrasound mid-air tactile renderings for perceptual studies.
 Users can create new classes to represent the geometries of shapes and the sampling strategies used to display them.

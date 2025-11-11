@@ -18,6 +18,7 @@ haptic_category:
 hardware_abstraction: Class
 device_names:
     - ERM
+device_template: 'No'
 driving_feature:
     - Time
 effect_localization: Device-centric

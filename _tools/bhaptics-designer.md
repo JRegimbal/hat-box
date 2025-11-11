@@ -17,6 +17,7 @@ use_case:
 hardware_abstraction: Consumer
 device_names:
     - bHaptics Devices
+device_template: 'No'
 body_position:
     - Torso
     - Arm

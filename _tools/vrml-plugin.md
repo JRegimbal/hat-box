@@ -14,6 +14,7 @@ license: Unknown
 haptic_category:
     - Force Feedback
 hardware_abstraction: Consumer
+device_template: 'No'
 device_names:
     - Phantom
 body_position:

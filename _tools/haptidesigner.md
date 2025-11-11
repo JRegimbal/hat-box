@@ -14,6 +14,7 @@ license: Unknown
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Bespoke
+device_template: 'No'
 device_names:
     - HaptiBoard
 body_position:

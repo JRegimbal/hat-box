@@ -21,6 +21,7 @@ body_position:
     - N/A
 driving_feature:
     - Action
+device_template: 'No'
 effect_localization: Device-centric
 media_support:
     - None

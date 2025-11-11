@@ -15,6 +15,7 @@ use_case:
 haptic_category:
     - Force Feedback
 hardware_abstraction: Consumer
+device_template: 'No'
 device_names:
     - Haply 2DIY
 body_position:

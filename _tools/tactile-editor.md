@@ -16,6 +16,7 @@ haptic_category:
 hardware_abstraction: Bespoke
 device_names:
     - Make Controller
+device_template: 'No'
 driving_feature:
     - Time
     - Action

@@ -15,6 +15,7 @@ haptic_category:
     - Vibrotactile
     - Temperature
 hardware_abstraction: Bespoke
+device_template: 'Yes'
 device_names:
     - TouchCon Device
 body_position:
@@ -34,7 +35,7 @@ image: /assets/tools/touchcon-tool.gif
 storage:
     - Custom XML
 connectivity:
-    - Device Template
+    - None
 ---
 The TouchCon Editor is meant to design tactile effects for use in instant messaging.
 Effects can be created using multiple supported output devices, each described to the system using an XML file, by arranging individual sensations along a timeline.

@@ -16,6 +16,7 @@ haptic_category:
     - Force Feedback
     - Vibrotactile
 hardware_abstraction: Consumer
+device_template: 'No'
 body_position:
     - Hand
 device_names:

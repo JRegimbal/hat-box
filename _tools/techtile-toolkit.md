@@ -16,6 +16,7 @@ venue:
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Bespoke
+device_template: 'No'
 device_names:
     - TECHTILE
 body_position:

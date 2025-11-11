@@ -16,6 +16,7 @@ haptic_category:
 hardware_abstraction: Consumer
 device_names:
     - C-2 Tactor
+device_template: 'No'
 driving_feature:
     - Time
 effect_localization: Location-aware

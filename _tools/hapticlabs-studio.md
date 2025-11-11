@@ -18,6 +18,7 @@ use_case:
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Class
+device_template: 'No'
 device_names:
     - iPhone
     - Android

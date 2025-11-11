@@ -18,6 +18,7 @@ body_position:
 use_case:
     - Hardware Control
 hardware_abstraction: Class
+device_template: 'No'
 device_names:
     - Shape-Memory Alloy
 driving_feature:

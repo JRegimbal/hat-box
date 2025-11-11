@@ -15,6 +15,7 @@ use_case:
 haptic_category:
     - Force Feedback
 hardware_abstraction: Bespoke
+device_template: 'No'
 device_names:
     - CuddleBit
 body_position:

@@ -17,6 +17,7 @@ hardware_abstraction: Class
 device_names:
     - EmotiChair
     - Voice Coil
+device_template: 'No'
 body_position:
     - N/A
 driving_feature:
@@ -32,6 +33,7 @@ design_approaches:
 interaction_metaphors:
     - Track
     - Keyframe
+    - Score
 image: /assets/tools/beadbox.jpg
 connectivity:
     - None

@@ -15,6 +15,7 @@ use_case:
     - Haptic Augmentation
 haptic_category:
     - Force Feedback
+device_template: 'No'
 hardware_abstraction: Consumer
 device_names:
     - Novint Falcon

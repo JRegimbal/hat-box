@@ -19,6 +19,7 @@ use_case:
 hardware_abstraction: Class
 device_names:
     - Brushless Motors
+device_template: 'No'
 driving_feature:
     - Time
     - Action

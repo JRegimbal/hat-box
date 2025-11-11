@@ -14,6 +14,7 @@ use_case:
 haptic_category:
     - Vibrotactile
 hardware_abstraction: Consumer
+device_template: 'No'
 device_names:
     - Android
 body_position:

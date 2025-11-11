@@ -19,6 +19,7 @@ use_case:
     - Collaboration
     - Haptic Augmentation
 hardware_abstraction: Consumer
+device_template: 'No'
 device_names:
     - Vybe Haptic Gaming Pad
 driving_feature:

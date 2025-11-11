@@ -15,6 +15,7 @@ use_case:
     - Prototyping
 haptic_category:
     - Vibrotactile
+device_template: 'No'
 hardware_abstraction: Class
 device_names:
     - Voice Coil

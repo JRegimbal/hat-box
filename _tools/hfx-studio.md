@@ -16,6 +16,7 @@ haptic_category:
     - Vibrotactile
     - Temperature
 hardware_abstraction: Consumer
+device_template: 'No'
 device_names:
     - Thalmic Myo
     - Subpack M2
