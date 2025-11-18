@@ -27,7 +27,7 @@ media_support:
     - None
 iterative_playback: 'Yes'
 design_approaches:
-    - Process
+    - Procedural
     - Library
 interaction_metaphors:
     - N/A

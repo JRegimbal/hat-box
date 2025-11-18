@@ -32,7 +32,7 @@ media_support:
     - None
 iterative_playback: 'Yes'
 design_approaches:
-    - DPC
+    - Direct
     - Library
 interaction_metaphors:
     - Demonstration

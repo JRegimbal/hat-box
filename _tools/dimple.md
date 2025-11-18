@@ -36,8 +36,8 @@ media_support:
     - Audio
 iterative_playback: 'N/A'
 design_approaches:
-    - DPC
-    - Process
+    - Direct
+    - Procedural
 interaction_metaphors:
     - N/A
 image: /assets/tools/dimple.jpg

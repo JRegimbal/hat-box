@@ -28,8 +28,8 @@ media_support:
     - None
 iterative_playback: 'N/A'
 design_approaches:
-    - DPC
-    - Process
+    - Direct
+    - Procedural
 interaction_metaphors:
     - 'N/A'
 connectivity:

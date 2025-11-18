@@ -28,12 +28,12 @@ media_support:
     - None
 iterative_playback: 'Yes'
 design_approaches:
-    - DPC
-    - Process
-    - Sequencing
+    - Direct
+    - Procedural
+    - Additive
 interaction_metaphors:
     - Keyframe
-    - Score
+    - Music Notation
 image: /assets/tools/vibscoreeditor.png
 storage:
     - Custom XML

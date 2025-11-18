@@ -27,13 +27,13 @@ media_support:
     - None
 iterative_playback: 'Yes'
 design_approaches:
-    - DPC
-    - Process
-    - Sequencing
+    - Direct
+    - Procedural
+    - Additive
 interaction_metaphors:
     - Track
     - Keyframe
-    - Score
+    - Music Notation
 image: /assets/tools/beadbox.jpg
 connectivity:
     - None

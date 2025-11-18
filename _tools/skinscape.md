@@ -28,8 +28,8 @@ media_support:
     - Audio
 iterative_playback: 'Yes'
 design_approaches:
-    - DPC
-    - Sequencing
+    - Direct
+    - Additive
 interaction_metaphors:
     - Track
     - Demonstration

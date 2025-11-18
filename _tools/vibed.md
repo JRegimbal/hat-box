@@ -30,8 +30,8 @@ media_support:
     - None
 iterative_playback: 'Yes'
 design_approaches:
-    - DPC
-    - Process
+    - Direct
+    - Procedural
 interaction_metaphors:
     - Keyframe
 image: /assets/tools/vibed.png

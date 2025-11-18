@@ -26,8 +26,8 @@ media_support:
     - None
 iterative_playback: 'Yes'
 design_approaches:
-    - DPC
-    - Sequencing
+    - Direct
+    - Additive
 interaction_metaphors:
     - Generic Menu
 image: /assets/tools/haptidesigner.jpg

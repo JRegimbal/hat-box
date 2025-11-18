@@ -31,7 +31,7 @@ media_support:
     - Audio
 iterative_playback: 'No'
 design_approaches:
-    - Process
+    - Procedural
 interaction_metaphors:
     - Dataflow
 image: /assets/tools/synth-a-modeler.jpg

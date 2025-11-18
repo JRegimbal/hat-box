@@ -28,8 +28,8 @@ media_support:
     - Audio
 iterative_playback: 'Yes'
 design_approaches:
-    - DPC
-    - Process
+    - Direct
+    - Procedural
     - Library
 interaction_metaphors:
     - Dataflow

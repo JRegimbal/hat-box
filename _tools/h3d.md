@@ -32,8 +32,8 @@ media_support:
     - Visual
 iterative_playback: 'N/A'
 design_approaches:
-    - DPC
-    - Process
+    - Direct
+    - Procedural
 interaction_metaphors:
     - N/A
 connectivity:

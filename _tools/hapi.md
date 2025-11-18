@@ -29,7 +29,7 @@ media_support:
     - None
 iterative_playback: 'N/A'
 design_approaches:
-    - DPC
+    - Direct
 interaction_metaphors:
     - N/A
 connectivity:

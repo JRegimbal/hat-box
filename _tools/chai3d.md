@@ -34,8 +34,8 @@ media_support:
     - Audio
 iterative_playback: 'N/A'
 design_approaches:
-    - DPC
-    - Process
+    - Direct
+    - Procedural
     - Library
 interaction_metaphors:
     - N/A

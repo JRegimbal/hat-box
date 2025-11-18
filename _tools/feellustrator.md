@@ -29,10 +29,10 @@ media_support:
     - Visual
 iterative_playback: 'Yes'
 design_approaches:
-    - DPC
-    - Process
+    - Direct
+    - Procedural
     - Library
-    - Sequencing
+    - Additive
 interaction_metaphors:
     - Track
     - Keyframe

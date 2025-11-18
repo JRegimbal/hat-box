@@ -27,9 +27,9 @@ iterativePlayback: <p>If haptic effects can be played back from the tool to aid 
 designApproaches: |
   <p>Broadly, the methods available to create a desired effect.</p>
   <ul>
-  <li>Direct parametric control (DPC): low-level parameters are directly modifiable.</li>
-  <li>Process: parameters are controllable by an abstract process.</li>
-  <li>Sequencing: reusable effects are ordered in time to create complex effects.</li>
+  <li>Direct: low-level parameters are directly modifiable.</li>
+  <li>Procedure: parameters are controllable by an abstract process.</li>
+  <li>Additive: reusable effects are ordered in time to create complex effects.</li>
   <li>Library: a library of pre-existing effects is available for use or re-use.</li>
   <li>Description: a natural language description of the experience is used to find an appropriate effect, often through searching a library.</li>
   </ul>
@@ -38,7 +38,7 @@ interactionMetaphors: |
   <ul>
   <li>Track: a timeline represents an interactive channel containing effects.</li>
   <li>Keyframe: key points of the effect are set and behavior between them is interpolated.</li>
-  <li>Score: an adaptation of a musical score or notation represents haptic effects.</li>
+  <li>Music Notation: an adaptation of a musical score or notation represents haptic effects.</li>
   <li>Dataflow: a dataflow programming model is used to control haptic output.</li>
   <li>Demonstration: physical actions or other data are mapped simply to effects or parameters.</li>
   <li>Generic Menu: typical GUI elements (e.g., sliders) are used to control effects with the absence of other metaphors.</li>

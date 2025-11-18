@@ -31,8 +31,8 @@ media_support:
     - None
 iterative_playback: 'Yes'
 design_approaches:
-    - DPC
-    - Process
+    - Direct
+    - Procedural
 interaction_metaphors:
     - Demonstration
 storage:

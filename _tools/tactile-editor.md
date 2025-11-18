@@ -27,8 +27,8 @@ media_support:
     - None
 iterative_playback: 'Yes'
 design_approaches:
-    - DPC
-    - Sequencing
+    - Direct
+    - Additive
 interaction_metaphors:
     - Track
 image: /assets/tools/tactile-editor.jpg

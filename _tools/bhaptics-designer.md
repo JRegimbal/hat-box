@@ -31,9 +31,9 @@ media_support:
     - None
 iterative_playback: 'Yes'
 design_approaches:
-    - DPC
-    - Process
-    - Sequencing
+    - Direct
+    - Procedural
+    - Additive
     - Library
 interaction_metaphors:
     - Track

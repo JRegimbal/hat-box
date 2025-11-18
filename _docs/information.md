@@ -55,15 +55,15 @@ This information includes:
 * <span id="media-support">**Non-Haptic Media**</span>: Support for non-haptic media. The bar for this is to load the media into the workspace, but not allow it to be modified or use it for any automatic process. Often this involves loading audio or visual media and allowing a file to be played back so haptic effects can be synchronized with it.
 * <span id="iterative-playback">**Iterative Playback\***</span>: Support for iteratively rendering effects within the tool's environment as part of testing and development.
 * <span id="design-approaches">**Design Approaches**</span>: Broadly, the methods available to create a desired effect.
-    * Direct parametric control (DPC) - the low-level parameters can be directly manipulated.
-    * Process - low-level parameters are controlled by some abstract process.
-    * Sequencing - reusable effects can be ordered in time to create larger effects.
+    * Direct - the low-level parameters can be directly manipulated.
+    * Procedure - low-level parameters are controlled by some abstract process.
+    * Additive - reusable effects can be ordered in time to create larger effects.
     * Library - a library of pre-existing effects is available for use or re-use. Users may be able to contribute to this library.
     * Description - a natural language description of the perceived experience can be transformed into an effect with those properties, either by searching through an indexed library of effects or creating a new one.
 * <span id="interaction-metaphors">**UI Metaphors\***</span>: Common UI metaphors that define how the user interacts with the tool. Note that Generic Menu is not listed if other metaphors are present.
     * Track - a timeline is used to represent an interactive channel containing effects, similar to those in audio or video editing.
     * Keyframe - key points for the effect are set and behavior between them is interpolated.
-    * Score - an adaptation of a musical score or other music notation is used to represent haptic effects.
+    * Music Notation - an adaptation of a musical score or other music notation is used to represent haptic effects.
     * Dataflow - a dataflow programming model is used to control haptic output.
     * Demonstration - physical actions or other input data are mapped to features or output effects. This mapping is able to be simply understood by the person using the tool. E.g., tapping a screen or button to indicate a pattern of vibration.
     * Generic Menu - the typical elements in a GUI, such as a dropdown menu, slider, or button. Since these are the default choice in graphical software, and may not even be possible to fully remove in certain environments, this is only mentioned when no other labelled metaphor was found.

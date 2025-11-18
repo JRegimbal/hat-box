@@ -29,7 +29,7 @@ media_support:
     - Audio
 iterative_playback: 'Yes'
 design_approaches:
-    - DPC
+    - Direct
 interaction_metaphors:
     - Track
 storage:

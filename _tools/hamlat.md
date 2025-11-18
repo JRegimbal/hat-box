@@ -26,7 +26,7 @@ media_support:
     - Visual
 iterative_playback: 'Yes'
 design_approaches:
-    - DPC
+    - Direct
 interaction_metaphors:
     - Generic Menu
 image: /assets/tools/hamlat.png
