@@ -60,13 +60,12 @@ This information includes:
     * Additive - reusable effects can be ordered in time to create larger effects.
     * Library - a library of pre-existing effects is available for use or re-use. Users may be able to contribute to this library.
     * Description - a natural language description of the perceived experience can be transformed into an effect with those properties, either by searching through an indexed library of effects or creating a new one.
-* <span id="interaction-metaphors">**UI Metaphors\***</span>: Common UI metaphors that define how the user interacts with the tool. Note that Generic Menu is not listed if other metaphors are present.
+* <span id="interaction-metaphors">**UI Metaphors\***</span>: Common UI metaphors that define how the user interacts with the tool.
     * Track - a timeline is used to represent an interactive channel containing effects, similar to those in audio or video editing.
     * Keyframe - key points for the effect are set and behavior between them is interpolated.
     * Music Notation - an adaptation of a musical score or other music notation is used to represent haptic effects.
     * Dataflow - a dataflow programming model is used to control haptic output.
     * Demonstration - physical actions or other input data are mapped to features or output effects. This mapping is able to be simply understood by the person using the tool. E.g., tapping a screen or button to indicate a pattern of vibration.
-    * Generic Menu - the typical elements in a GUI, such as a dropdown menu, slider, or button. Since these are the default choice in graphical software, and may not even be possible to fully remove in certain environments, this is only mentioned when no other labelled metaphor was found.
 * <span id="storage">**Storage**</span>: Storage formats that can be imported to or exported by the tool.
 In cases where effects are saved in a way where they are not provided to the user as a file (e.g., in a server), the label "Internal" is applied.
 If import/export functions are described, but no information on the format is provided, the label "Unknown" is applied.

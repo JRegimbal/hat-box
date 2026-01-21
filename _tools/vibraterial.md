@@ -31,7 +31,7 @@ design_approaches:
     - Procedural
     - Library
 interaction_metaphors:
-    - Generic Menu
+    - None
 image: /assets/tools/vibraterial.png
 connectivity:
     - None

@@ -29,7 +29,7 @@ design_approaches:
     - Direct
     - Procedural
 interaction_metaphors:
-    - Generic Menu
+    - None
 image: /assets/tools/cobity.png
 connectivity:
     - None

@@ -29,7 +29,7 @@ design_approaches:
     - Direct
     - Additive
 interaction_metaphors:
-    - Generic Menu
+    - None
 image: /assets/tools/tactiped.jpg
 connectivity:
     - None

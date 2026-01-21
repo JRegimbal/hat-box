@@ -30,7 +30,7 @@ design_approaches:
     - Additive
     - Library
 interaction_metaphors:
-    - Generic Menu
+    - None
 image: /assets/tools/feel-messenger.png
 storage:
     - Unknown

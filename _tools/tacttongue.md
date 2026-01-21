@@ -32,7 +32,7 @@ design_approaches:
     - Library
     - Description
 interaction_metaphors:
-    - Generic Menu
+    - None
 storage:
     - Custom JSON
 connectivity:

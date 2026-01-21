@@ -41,7 +41,6 @@ interactionMetaphors: |
   <li>Music Notation: an adaptation of a musical score or notation represents haptic effects.</li>
   <li>Dataflow: a dataflow programming model is used to control haptic output.</li>
   <li>Demonstration: physical actions or other data are mapped simply to effects or parameters.</li>
-  <li>Generic Menu: typical GUI elements (e.g., sliders) are used to control effects with the absence of other metaphors.</li>
   </ul>
 generalPurpose: <p>Meta-information about the tool.</p>
 hardwareControl: <p>Aspects of the tool related to supported haptic hardware.</p>

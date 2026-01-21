@@ -34,7 +34,7 @@ iterative_playback: 'Yes'
 design_approaches:
     - Direct
 interaction_metaphors:
-    - Generic Menu
+    - None
 storage:
     - MPEG-V
     - Collada

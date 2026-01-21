@@ -30,7 +30,7 @@ iterative_playback: 'Yes'
 design_approaches:
     - Direct
 interaction_metaphors:
-    - Generic Menu
+    - None
 image: /assets/tools/seeinghaptics.png
 storage:
     - Unknown

@@ -29,7 +29,7 @@ design_approaches:
     - Library
     - Description
 interaction_metaphors:
-    - Generic Menu
+    - None
 image: /assets/tools/vibviz.png
 connectivity:
     - None

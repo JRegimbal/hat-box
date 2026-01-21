@@ -29,7 +29,7 @@ iterative_playback: 'Yes'
 design_approaches:
     - Library
 interaction_metaphors:
-    - Generic Menu
+    - None
 storage:
     - None
 connectivity:

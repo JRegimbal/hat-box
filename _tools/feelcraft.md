@@ -33,7 +33,7 @@ design_approaches:
     - Library
     - Description
 interaction_metaphors:
-    - Generic Menu
+    - None
 image: /assets/tools/feelcraft.jpg
 connectivity:
     - API
