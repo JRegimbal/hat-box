@@ -45,6 +45,12 @@ Haptipedia is a similar project and an inspiration for this work. This project's
 While Haptipedia exclusively focuses on grounded force-feedback haptic devices, {{site.title}} is concerned with tools to create haptic effects and media.
 {{ site.title }} primarily focuses on the vibrotactile submodality, although tools supporting other submodalities are also included. This is often done when tools support multiple submodalities or are influenced by tools targeting a non-vibrotactile submodality.
 
+## How should I reference HAT Box in my work?
+
+Please use the following citation for HAT Box:
+
+> Juliette Regimbal, Cyan Kuo, and Jeremy R Cooperstock. 2026. Understanding Haptic Authoring Tools through a Taxonomy and Descriptive Analysis. In *Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI ’26), April 13–17, 2026, Barcelona, Spain*. ACM, New York, NY, USA, 17 pages. [https://doi.org/10.1145/3772318.3790575](https://doi.org/10.1145/3772318.3790575)
+
 ## I noticed something that's missing/incorrect! What should I do?
 
 Mistakes happen! If you see something that is wrong or can think of a way to improve HAT Box, please check out our
