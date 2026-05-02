@@ -17,6 +17,7 @@ More information about {{site.title}} and its goals can be found on the [FAQ pag
 
 To see the current list of entries, go to the [Tools page]({{ site.baseurl }}/tools/) or use the search bar.
 
-For more information about the taxonomy, please consult the [Tool Information page]({{ site.baseurl }}/docs/information.html).
+For more information about the taxonomy, please consult the [Tool Information page]({{ site.baseurl }}/docs/information.html) or read our paper:
+> Juliette Regimbal, Cyan Kuo, and Jeremy R Cooperstock. 2026. Understanding Haptic Authoring Tools through a Taxonomy and Descriptive Analysis. In Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI ’26), April 13–17, 2026, Barcelona, Spain. ACM, New York, NY, USA, 17 pages. [https://doi.org/10.1145/3772318.3790575](https://doi.org/10.1145/3772318.3790575)
 
 For information on how to provide feedback on {{ site.title }} or to add or modify an entry for a haptic authoring tool, please read [the project's contributor information page](https://github.com/JRegimbal/hat-box/blob/main/CONTRIBUTING.md).
